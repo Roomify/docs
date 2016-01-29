@@ -17,7 +17,7 @@ install:
     - pip install --user sphinx_rtd_theme
 
 script:
-    - travis-sphinx build -s . build
+    - travis-sphinx -s . build
 
 after_success:
     - travis-sphinx deploy
