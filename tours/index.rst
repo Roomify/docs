@@ -14,7 +14,6 @@ Contents:
    Introduction
    Tour Owners <owners>
       Creating new tours <new_tours>
-   Managing User Accounts <accounts>
 
 
 Indices and tables
