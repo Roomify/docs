@@ -13,7 +13,8 @@ Contents:
 
    Introduction
    Casa Owners <owners>
-      Creating new listings <new_listings>
+   Creating new listings <new_listings>
+   Casa Advanced/Casa Pro <casa_pro>
    Managing User Accounts <accounts>
 
 
