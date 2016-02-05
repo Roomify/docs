@@ -12,7 +12,4 @@ This is  where we provide information about our products and code that you can u
    :caption: Roomify Documentation
 
    Introduction
-   BAT - Booking and Availability Management Library <bat/index.rst>
-   BAT for Drupal <bat_drupal/index.rst>
    Rooms (1.9) <rooms/index.rst>
-   Casa <casa/index.rst>

@@ -1,7 +1,7 @@
-.. _rooms_installation:
+.. _installation:
 
 Installation
-**************
+************
 
 Install Drupal
 ===============
