@@ -6,7 +6,7 @@ Installation
 Install Drupal
 ===============
 
-Follow the instructions `here <http://drupal.org/documentation/install>`_ to install Drupal.
+Follow the `instructions <http://drupal.org/documentation/install>`_ to install Drupal.
 
 Download Modules
 ================
