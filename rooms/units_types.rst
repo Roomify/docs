@@ -17,10 +17,15 @@ Settings for Bookable Unit Types
 ================================
 
 * **Unit Type Name:** Bookable unit types have a name (e.g. Standard, Deluxe, etc). This is how they will be referred to and what guests looking to book them will see. 
+
 * **Unit Base Price:** This is the default price per night (or per person per night) for units of this type. If nothing else is defined via the Pricing calendar this option will be used. 
+
 * **Person sleeps:** The minimum and maximum number of people that can go in a unit of this type. 
-* **Children sleeps:**The minimum and maximum number of children that can go in a unit of this type. This is not in addition to the number above. The aim is to possibly limit children in a room if children are discounted
+
+* **Children sleeps:** The minimum and maximum number of children that can go in a unit of this type. This is not in addition to the number above. The aim is to possibly limit children in a room if children are discounted
+
 * **Options:** Options allow you to define add-ons to all units of this type: whether that is surcharge for a cot, di;count for a double room used as a single, special offers, etc. Options have a label that the guest will see, possible quantity, an operation (i.e. how should they modify the rooms cost) and the value by which they should modify it. 
+
 * **Select Unit Description Source:** This is relevant if you are showing group availability search results (i.e. users search for types of units and you want to have a single description for all standard rooms, all deluxe rooms, etc). The source is a node of type Unit Description which Rooms create. In the search results of rooms the Rooms Results Display view will be rendered. The idea here is to enable you to use the same description for say all Standard Rooms both on a standard node page that users visit as well as on availability search results simply by rendering a different view mode. Let us look at a couple of examples of how you could organize your Bookable Unit Types.
 
 Configuring Bookable Units for a Hotel
