@@ -1,10 +1,10 @@
 Casa Advanced and Casa Pro
-**********************
+***************************
 
 .. _new-account:
 
 Add a new Owner to your site
-======================
+=============================
 
 To create a new account, start by going to the "People" page and press the "Add user" button.
 
