@@ -1,25 +1,18 @@
-.. Roomify Agency documentation master file, created by
+.. Roomify documentation master file, created by
    sphinx-quickstart on Tue Oct 20 09:09:28 2015.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
 Welcome to Roomify documentation!
 ==========================================
-
-Contents:
+This is  where we provide information about our products and code that you can use.
 
 .. toctree::
    :maxdepth: 2
+   :caption: Roomify Documentation
 
    Introduction
+   BAT - Booking and Availability Management Library <bat/index.rst>
+   BAT for Drupal <bat_drupal/index.rst>
+   Rooms (1.9) <rooms/index.rst>
    Casa <casa/index.rst>
-   Tours <tours/index.rst>
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-

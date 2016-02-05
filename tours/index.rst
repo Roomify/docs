@@ -15,11 +15,3 @@ Contents:
    Tour Owners <owners>
       Creating new tours <new_tours>
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
