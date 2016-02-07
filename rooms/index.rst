@@ -18,4 +18,7 @@ Contents:
    Setup Quickstart <setup_quickstart>
    Units and Unit Types <units_types>
    Booking Settings <booking_settings.rst>
+   Bookings <bookings.rst>
+   Children Discounts <children_discounts.rst>
+   Rooms Terminology <rooms_terminology.rst>
 
