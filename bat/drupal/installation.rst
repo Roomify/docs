@@ -6,7 +6,7 @@ Assuming you have all the dependencies in place as described in :doc:`requiremen
 
 Activate Modules
 -----------------
-Visit ``admin\modules\`` and activate the following modules:
+Visit ``/admin/modules/`` and activate the following modules:
 
 * BAT - Booking and Availability Management Tools
 * BAT Event
@@ -14,9 +14,9 @@ Visit ``admin\modules\`` and activate the following modules:
 * BAT Fullcalendar
 * BAT Unit
 * Booking and Availability Tools API
-* Composer Manager (this needs to activated explicitly as it is not strictly a BAT dependecy)
+* Composer Manager (this needs to activated explicitly as it is not strictly a BAT dependency)
 
-Once you confirm installation Drupal will request all the dependencies to these modules. Provided that they are all already downloaded you can simply continue. If something is missing cancel the process, download the missing modules and then continue.
+Once you confirm installation, Drupal will request all the dependencies to these modules. Provided that they are all already downloaded you may simply continue. If something is missing cancel the process, download the missing modules and then continue.
 
 Install BAT PHP Library
 -----------------------
@@ -31,11 +31,11 @@ Install the FullCalendar Libraries
 
 jQuery Version
 ---------------
-Visit ``admin/config/development/jquery_update`` and ensure that the default jQuery version for your admin theme as well as the site overall is at least 1.10. 
+Visit ``admin/config/development/jquery_update`` and ensure that the default jQuery version for your admin theme as well as the site overall is at least 1.10.
 
 Verify Setup
 -------------
-Once setup is completed you should see in ``admin/report/status`` the following
+Once setup is completed you should see the following in ``admin/report/status``
 
 *  Composer Manager
 
@@ -43,11 +43,10 @@ Once setup is completed you should see in ``admin/report/status`` the following
 
 *   FullCalendar
 
-.. image:: images/fullcalendarok.png 
+.. image:: images/fullcalendarok.png
 
 *   Finally, in ``admin/bat`` you should have
 
 .. image:: images/batok.png
 
-We are now ready to get setup!
-
+We are now ready to get set up!
