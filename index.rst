@@ -5,13 +5,16 @@
 
 Welcome to Roomify documentation!
 ==========================================
-This is  where we provide information about our products and code that you can use.
+Welcome to Roomify documentation.
+
+Here you will find documentation on our open source projects and our products.
+
+Drop us a line for `commercial services or enterprise support <https://roomify.us/get-started/>`_.
 
 .. toctree::
    :maxdepth: 2
    :caption: Roomify Documentation
 
-   Introduction
    BAT - Booking and Availability Management Framework <bat/index.rst>
    Rooms (1.9) <rooms/index.rst>
 
