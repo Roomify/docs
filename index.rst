@@ -12,4 +12,6 @@ This is  where we provide information about our products and code that you can u
    :caption: Roomify Documentation
 
    Introduction
+   BAT - Booking and Availability Management Framework <bat/index.rst>
    Rooms (1.9) <rooms/index.rst>
+
