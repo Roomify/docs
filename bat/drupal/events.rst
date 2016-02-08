@@ -5,9 +5,9 @@ Events
 
 BAT Events are the events that our types of units can go through. Typically there will be two types of events, availability events and pricing events. BAT, however, makes no assumptions about this. Instead, it provides tools that enable you - the booking tool builder - to define the types of events that *happen* to your units.
 
-Events and Event Types are managed at ``admin\bat\events``.
+Events and Event Types are managed at ``admin/bat/events``.
 
-.. image:: images/events.png 
+.. image:: images/events.png
 
 
 Create an Event Type
@@ -20,13 +20,13 @@ We visit ``admin/bat/events/event-types/add`` and define an event called Meeting
 
 Event States
 -------------
-There are two possible types of Event States. Fixed or Open. 
+There are two possible types of Event States; Fixed or Open.
 
 Fixed Event States
 ^^^^^^^^^^^^^^^^^^
-Fixed event states can only have a pre-defined set of values associated with them. This allows us to define states such as "Available", "Booked" by associating numerical (integer) values to those labels. 
+Fixed event states can only have a pre-defined set of values associated with them. This allows us to define states such as "Available", "Booked" by associating numerical (integer) values to those labels.
 
-Furthermore, fixed event states can be blocking or not. Blocking states means that they cannot simply be overriden on the calendar by dragging over them and assigning a new state. They need to be dealt with explictly. A great example is a booking event. You need to either explicitly delete a booking but you cannot simply drag over it and delete it. Instead if you are simply making something available or unavaialble you can just drag and select the dates and change the state of the event for those dates.
+Furthermore, fixed event states can be blocking or not. Blocking states means that they cannot simply be overriden on the calendar by dragging over them and assigning a new state. They need to be dealt with explicitly. A great example is a booking event. You need to explicitly delete a booking but you cannot simply drag over it and delete it. Instead if you are simply making something available or unavaialble you can just drag and select the dates and change the state of the event for those dates.
 
 Open Event States
 ^^^^^^^^^^^^^^^^^
@@ -46,7 +46,7 @@ Fixed Event States
 
 For fixed event states this is a two step process.
 
-*  Define fixed state events. Visit ``admin/bat/events/event-types`` and click on **Manage States** for the event that you want to add states to. 
+*  Define fixed state events. Visit ``admin/bat/events/event-types`` and click on **Manage States** for the event that you want to add states to.
 
 .. image:: images/meeting-room-states.png
 
@@ -64,8 +64,6 @@ For arbitrary event states you simply add a field that will hold the event value
 
 .. image:: images/price_field.png
 
-* Then in ``admin/bat/events/event-types/manage/<my event type>`` we select that field as holding the event value. 
+* Then in ``admin/bat/events/event-types/manage/<my event type>`` we select that field as holding the event value.
 
 .. image:: images/set_price_field.png
-
-

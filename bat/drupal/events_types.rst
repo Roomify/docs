@@ -4,19 +4,19 @@
 Connect Types to Events
 ************************
 
-In BAT we try to have the least amount of things hard-coded. This allows us to create truly flexible booking systems. However, it also means that we need to *explain* to the framework all connections.
+In BAT we try to have the least possible amount of things hard-coded. This allows us to create truly flexible booking systems. However, it also means that we need to *explain* all these connections to the framework.
 
-In :doc:`type_bundles` we created a Meeting Room Type and in :doc:`events` we created two types of events for availability and pricing. We now have to connected the two. In other words, we need to let BAT know that our meeting rooms will have events of the type Meeting Room Available and Pricing *happen* to them.
+In :doc:`type_bundles` we created a Meeting Room Type and in :doc:`events` we created two types of events for availability and pricing. We now have to connect the two. In other words, we need to let BAT know that our meeting rooms will have events of the type Meeting Room Available and Pricing *happen* to them.
 
 Default event value fields
 ===========================
-To connect a Type Bundle to an Event you first have to add a default event value field. 
+To connect a Type Bundle to an Event you first have to add a default event value field.
 
-In ``bat/config/type-bundles`` click on the manage fields tab of the event type you are interested in and add fields to hold default event values.
+In ``admin/bat/config/type-bundles`` click on the manage fields tab of the event type you are interested in and add fields to hold default event values.
 
 Fixed State Events
 -------------------
-For fixed state events the type of field is always going to be BAT Event State Reference field. 
+For fixed state events the type of field is always going to be BAT Event State Reference field.
 
 .. image:: images/add_default_event_value_field.png
 
@@ -24,7 +24,7 @@ In the field settings you need to select the Event Type that this field will poi
 
 .. image:: images/select_event_type.png
 
-Now, with the field in place you can visit ``bat/config/type-bundles`` and click on the "edit" operation of the type bundle you are interested in. For every type of Event you will see a drop-down that allows you to connect a field of this Type Budle to an Event Type.
+Now, with the field in place you can visit ``bat/config/type-bundles`` and click on the "edit" operation of the type bundle you are interested in. For every type of Event you will see a drop-down that allows you to connect a field of this Type Bundle to an Event Type.
 
 .. image:: images/connect.png
 
