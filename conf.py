@@ -266,8 +266,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'Roomify', u'Roomify Documentation',
-   author, 'Roomify', 'One line description of project.',
+  (master_doc, 'Roomify Documentation', u'Roomify Documentation',
+   author, 'Roomify Documetation', 'Roomify Documentation',
    'Miscellaneous'),
 ]
 

@@ -4,8 +4,6 @@ BAT for Drupal
 ========================================================================
 BAT for Drupal is a set of modules that provides user interface and storage support to the BAT library.
 
-Contents:
-
 .. toctree::
    :maxdepth: 4
 
