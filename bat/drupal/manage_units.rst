@@ -15,3 +15,15 @@ you can now go ahead and actually manage your units!
 Visit `admin/bat/unit-management`.
 
 .. image:: images/unitmanagement.png
+
+
+Add or Remove Units
+====================
+
+For the type of units you are interested in click on "Units" and then "Add Units" to add units.
+
+.. image:: images/add_units.png
+
+BAT will automatically assign names based on the unit type which you can then go in and edit. 
+
+You can also delete units by selecting them and using the Views Bulk Operation action to delete them. 
