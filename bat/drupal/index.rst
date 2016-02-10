@@ -14,3 +14,4 @@ BAT for Drupal is a set of modules that provides user interface and storage supp
    Connect Type Bundles to Events <events_types.rst>
    Create Types <types.rst>
    Manage Units <manage_units.rst>
+   Display Availability <displaying_availability.rst>
