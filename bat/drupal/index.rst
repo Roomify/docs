@@ -16,3 +16,4 @@ BAT for Drupal is a set of modules that provides a user interface and storage su
    Manage Units <manage_units.rst>
    Display Availability <displaying_availability.rst>
    Search for Availability <search_availability.rst>
+   Taking Bookings <take_bookings.rst>
