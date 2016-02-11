@@ -2,7 +2,7 @@
 
 BAT for Drupal
 ========================================================================
-BAT for Drupal is a set of modules that provides user interface and storage support to the BAT library.
+BAT for Drupal is a set of modules that provides a user interface and storage support to the BAT library.
 
 .. toctree::
    :maxdepth: 4
@@ -15,3 +15,4 @@ BAT for Drupal is a set of modules that provides user interface and storage supp
    Create Types <types.rst>
    Manage Units <manage_units.rst>
    Display Availability <displaying_availability.rst>
+   Search for Availability <search_availability.rst>

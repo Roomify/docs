@@ -24,7 +24,7 @@ Provided that you are using Composer Manager, X Autoload and have Composer you s
 
 Now, visit ``/sites/default/files/composer`` on the command line and run ``composer install`` (this assumes that you have already setup Composer for your development environment - if not follow the `information here <https://www.drupal.org/project/composer_manager>`_)
 
-Install the FullCalendar Libraries
+Install FullCalendar Libraries
 ------------------------------------
 #. Download `Fullcalendar <https://github.com/arshaw/fullcalendar/releases/download/v2.6.0/fullcalendar-2.6.0.zip>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar/``.
 #. Download `Fullcalendar Scheduler <https://github.com/fullcalendar/fullcalendar-scheduler/releases/download/v1.2.0/fullcalendar-scheduler-1.2.0.zip>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar-scheduler/``.

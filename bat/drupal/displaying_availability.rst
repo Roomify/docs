@@ -30,3 +30,7 @@ Timeline View
 Agenda / Month View
 
 .. image:: images/month_view.png
+
+Interacting with Calendars
+--------------------------
+These calendars are currently display-only. You cannot interact with the events (that can only happen on the administration side of things). However, by changing the widgets at the code level you can easily make then interactive - Roomify is `available for commercial services or enterprise support around the use of BAT <https://roomify.us/get-started>`_ 

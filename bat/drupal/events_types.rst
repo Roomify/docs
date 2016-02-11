@@ -12,7 +12,7 @@ Default event value fields
 ===========================
 To connect a Type Bundle to an Event you first have to add a default event value field.
 
-In ``admin/bat/config/type-bundles`` click on the manage fields tab of the event type you are interested in and add fields to hold default event values.
+In ``admin/bat/config/type-bundles`` click on the "manage fields" operation of the type you are interested in and add fields to hold default event values.
 
 Fixed State Events
 -------------------
@@ -28,7 +28,7 @@ Now, with the field in place you can visit ``bat/config/type-bundles`` and click
 
 .. image:: images/connect.png
 
-This may seem like an extra step but you should keep in mind that BAT makes no assumptions. You may have multiple fixed state event fields pointing to multiple event types. As a result, there is a bit of extra setup to define everything.
+This may seem like an extra step but you should keep in mind that BAT makes no assumptions. You may have multiple Fixed State event fields pointing to multiple event types. As a result, there is a bit of extra setup to define everything.
 
 Arbitrary state events
 -----------------------
@@ -37,3 +37,21 @@ For arbitrary state events you can create a field out of the set of fields that 
 * Integer
 * Commerce Price
 * Text
+
+#. The first step is to create the field - in our example we will create an Integer field that will hold the cost.
+
+.. image:: images/integer-field.png
+
+#. We can now (under the Edit tab) link the Cost field to the Meeting Room Cost even type
+
+.. image:: images/link-cost-to-type.png
+
+As we mentioned before we can only handle a certain amount of fields for arbitrary values. 
+
+Now, at this point all that has happened is that BAT can:
+
+* Connect unit types to event types
+* Store the right information regarding availability and cost (because these are the event types we defined)
+
+You need to create types (see :doc:`types`) and then in :doc:`manage_units` we explain how these types can be manipulated and values changed over time.
+
