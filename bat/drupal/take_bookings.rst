@@ -7,7 +7,7 @@ Now that we can search for availability (:doc:`search_availability`) the next lo
 
 The simplest way to create a booking is to change the state of an event to the appropriate state as described in :doc:`manage_units`. This can either be achieved through the Event Management interface or programmatically. 
 
-However, more sophisticated applications may require different interaction modes. For exampl we may need to connect a Booking to an order / payment, collect additional user information and place it in the context of a checkout flow. While we could collect all that information within an Event we would be overcomplicating the Event entity and not separating concerns appropriately. Instead, we can opt to create a Booking entity that connects an Event to, for example, an Order or Customer Data.
+However, more sophisticated applications may require different interaction modes. For example we may need to connect a Booking to an order / payment, collect additional user information and place it in the context of a checkout flow. While we could collect all that information within an Event we would be overcomplicating the Event entity and not separating concerns appropriately. Instead, we can opt to create a Booking entity that connects an Event to, for example, an Order or Customer Data.
 
 This is actually the method we are using for our own BAT-based products and it is described here to help others consider the possibilities when using BAT Drupal. The code for this is really specific to an application (it depends on your Event Types, Event States and general application logic) so it is not included in the BAT Drupal module. Please `get in touch <a href="https://roomify.us/get-started">`_ if you are interested in commercial services in this direction. 
 
