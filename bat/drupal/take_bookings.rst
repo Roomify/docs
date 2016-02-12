@@ -3,7 +3,7 @@
 Taking Bookings
 ****************
 
-With the ability to search for availability (:doc:`search_availability`).
+Now that we can search for availability (:doc:`search_availability`) the next logical step is to provide support for taking bookings.
 
 The simplest way to create a booking is to change the state of an event to the appropriate state as described in :doc:`manage_units`. This can either be achieved through the Event Management interface or programmatically. 
 
