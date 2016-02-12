@@ -5,17 +5,17 @@ Taking Bookings
 
 With the ability to search for availability (:doc:`search_availability`).
 
-The simplest way to create a booking is to change the state of an event to booked as described in :doc:`manage_units`. This can either be achieved through the Event Management interface or programmatically. 
+The simplest way to create a booking is to change the state of an event to the appropriate state as described in :doc:`manage_units`. This can either be achieved through the Event Management interface or programmatically. 
 
-However, more sophisticated applications may require different interaction modes. One that allows us to connect a Booking to an order / payment, collect additional user information and place it in the context of a checkout flow. In this cases we need an additional degree of separation from Events.
+However, more sophisticated applications may require different interaction modes. For exampl we may need to connect a Booking to an order / payment, collect additional user information and place it in the context of a checkout flow. While we could collect all that information within an Event we would be overcomplicating the Event entity and not separating concerns appropriately. Instead, we can opt to create a Booking entity that connects an Event to, for example, an Order or Customer Data.
 
-This is the method we are using for our own products and it is described here to help others consider the possibilities when using BAT Drupal. The code for this is really specific to an application so it is not included in BAT Drupal. Please `get in touch <a href="https://roomify.us/get-started">`_ if you are interested in commercial services in this direction. 
+This is actually the method we are using for our own BAT-based products and it is described here to help others consider the possibilities when using BAT Drupal. The code for this is really specific to an application (it depends on your Event Types, Event States and general application logic) so it is not included in the BAT Drupal module. Please `get in touch <a href="https://roomify.us/get-started">`_ if you are interested in commercial services in this direction. 
 
 Booking Entity
 ---------------
 The first step is to create a Booking Entity. The purpose of this entity is to connect an Event to a Booking and any information that may be associated with that Booking (customer profile, order, etc).
 
-As with everything else in BAT we can have different booking types of different scenarios, etc.
+As with everything else in BAT we can have different booking types for different scenarios, etc.
 
 .. image:: images/bat-booking.png
 
