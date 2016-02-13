@@ -9,7 +9,9 @@ The simplest way to create a booking is to change the state of an event to the a
 
 However, more sophisticated applications may require different interaction modes. For example we may need to connect a Booking to an order / payment, collect additional user information and place it in the context of a checkout flow. While we could collect all that information within an Event we would be overcomplicating the Event entity and not separating concerns appropriately. Instead, we can opt to create a Booking entity that connects an Event to, for example, an Order or Customer Data.
 
-This is actually the method we are using for our own BAT-based products and it is described here to help others consider the possibilities when using BAT Drupal. The code for this is really specific to an application (it depends on your Event Types, Event States and general application logic) so it is not included in the BAT Drupal module. Please `get in touch <a href="https://roomify.us/get-started">`_ if you are interested in commercial services in this direction. 
+This is the method we are using for our own BAT-based products and it is described here to help others consider the possibilities when using BAT Drupal. 
+
+The code for this is specific to an application (it depends on your Event Types, Event States and general application logic) so it is not included in the BAT Drupal module. Please `get in touch <a href="https://roomify.us/get-started">`_ if you are interested in commercial services in this direction. 
 
 Booking Entity
 ---------------
@@ -19,6 +21,8 @@ As with everything else in BAT we can have different booking types for different
 
 .. image:: images/bat-booking.png
 
+The Booking Entity has an entity reference field to an Event. It is the state change at the Event that will actually modify the availability of a Unit. The Booking simply joins an Event to other information our application needs.
+
 Add Booking Link
 ----------------
 On our Meeting Room View we will add a Book Now link. The Book Now link will only appear following a search and takes into account the values entered in the facet filter. The link passes those on to a basic booking form.
@@ -27,7 +31,7 @@ On our Meeting Room View we will add a Book Now link. The Book Now link will onl
 
 Booking Form
 -------------
-The booking form can have any fields we may require - in this case we just add a "Confirm Booking" button that will:
+The booking form can have any fields our use case requires - in this case we just add a "Confirm Booking" button that will:
 
 #. Re-check availability 
 
