@@ -11,13 +11,13 @@ Follow the `instructions <http://drupal.org/documentation/install>`_ to install 
 Download Modules
 ================
 
-Then download the Rooms and all the dependencies as described :ref:`rooms_requirements` and place in the sites/all/modules directory of Drupal.
+Then download Rooms and all its dependencies as described in :ref:`rooms_requirements` and place them in the sites/all/modules directory of Drupal.
 
 Download necessary JS libraries
 ===============================
-To display administrative calendars, Rooms depends on the FullCalendar (http://fullcalendar.io) library. Within the Rooms module there is a rooms.make file which will download the library if using Drush or you can visit `here <a href="https://github.com/arshaw/fullcalendar/releases/download/v2.6.0/fullcalendar-2.6.0.zip">`_ to download it. 
+To display administrative calendars, Rooms depends on the FullCalendar (http://fullcalendar.io) library. Within the Rooms module there is a rooms.make file which will download the library if using Drush or you can visit `here <a href="https://github.com/arshaw/fullcalendar/releases/download/v2.6.0/fullcalendar-2.6.0.zip">`_ to download it.
 
-The FullCalendar library should be placed in sites/all/libraries so that you end up with the file located here: sites/all/libraries/fullcalendar/fullcalendar.js 
+The FullCalendar library should be placed in sites/all/libraries so that you end up with the file located here: sites/all/libraries/fullcalendar/fullcalendar.js
 
 Enable Rooms modules
 ====================
