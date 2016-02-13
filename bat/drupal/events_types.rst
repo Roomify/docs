@@ -6,17 +6,21 @@ Connect Types to Events
 
 In BAT we try to have the least possible amount of things hard-coded. This allows us to create truly flexible booking systems. However, it also means that we need to *explain* all these connections to the framework.
 
-In :doc:`type_bundles` we created a Meeting Room Type and in :doc:`events` we created two types of events for availability and pricing. We now have to connect the two. In other words, we need to let BAT know that our meeting rooms will have events of the type Meeting Room Available and Pricing *happen* to them.
+In :doc:`type_bundles` we created a Meeting Room Type and in :doc:`events` we created two types of events for availability and pricing. We now have to connect the two. In other words, we need to let BAT know that our meeting rooms types will have events of the type Meeting Room Available and Pricing associated with them.
 
 Default event value fields
 ===========================
-To connect a Type Bundle to an Event you first have to add a default event value field.
+You connect a Type Bundle to an Event you through a *default event value field*.
 
-In ``admin/bat/config/type-bundles`` click on the "manage fields" operation of the type you are interested in and add fields to hold default event values.
+A default value event field holds the value for a given type of event *before* any actual events are created. For the meeting room example these will hold the *default* values for Availability and Pricing. Events associated with the meeting rooms will modify and overwrite these default values.
+
+In order to understand the need for default value event fields consider what would happen if we did not have them: We would have to create events for every single point in time so as to have an availability and price value associated with the meeting rooms. Default value event fields simply indicate that if there is not explicit Event for a given period in time use the default value.
+
+To create default value event fields visit ``admin/bat/config/type-bundles`` and click on the "manage fields" operation of the type you are interested in and add fields to hold default event values.
 
 Fixed State Events
 -------------------
-For fixed state events the type of field is always going to be BAT Event State Reference field.
+For fixed state events the type of field to hold the default value is always going to be BAT Event State Reference field.
 
 .. image:: images/add_default_event_value_field.png
 
@@ -32,7 +36,9 @@ This may seem like an extra step but you should keep in mind that BAT makes no a
 
 Arbitrary state events
 -----------------------
-For arbitrary state events you can create a field out of the set of fields that BAT supports. Currently those are:
+Similarly to fixed state events, arbitrary state events require a default value event field. The different is that in this case it does not have to be the BAT Event State Reference field. It has to be a field, however, that holds an integer value or that we transform to an integer value. As a result, we only support a specific subset of fields. 
+
+Currently those are:
 
 * Integer
 * Commerce Price
