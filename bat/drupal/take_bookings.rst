@@ -49,6 +49,8 @@ We now have a Booking that is connected with the relevant event. We can use this
 
 .. image:: images/example-booking.png
 
+NB: We have not as yet dealt with calculating the price of the booking. Costs would be determined by referring to pricing events for the period of the Booking and using the Valuator class of the BAT PHP library to determine the cost over that period.
+
 
 
 
