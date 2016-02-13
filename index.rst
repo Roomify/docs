@@ -16,5 +16,5 @@ Drop us a line for `commercial services or enterprise support <https://roomify.u
    :caption: Roomify Documentation
 
    BAT - Booking and Availability Management Framework <bat/index.rst>
-   Rooms (1.9) <rooms/index.rst>
+   Rooms (1.10) <rooms/index.rst>
 
