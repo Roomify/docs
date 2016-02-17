@@ -1,4 +1,4 @@
-.. BAT documentation master file, 
+.. _BAT: documentation master file, 
 
 BAT 
 ====
