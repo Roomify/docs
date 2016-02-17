@@ -31,4 +31,5 @@ Drop us a line for `commercial services or enterprise support <https://roomify.u
    :caption: Rooms
    
    Rooms (1.10) <rooms/index.rst>
+   Roomify Extensions for Rooms <rooms-extensions/index.rst>
 
