@@ -7,4 +7,4 @@ Roomify has created a number of proprietory extenstions to Rooms that enhance fu
 .. toctree::
    :maxdepth: 2
 
-   Roomify Periodic Pricinng (Advanced Weekly/Monthly Pricing) <weekly_monthly_pricing.rst>
+   Roomify Periodic Pricing (Advanced Weekly/Monthly Pricing) <weekly_monthly_pricing.rst>
