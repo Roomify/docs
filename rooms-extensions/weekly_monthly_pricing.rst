@@ -26,9 +26,9 @@ Configuration & Usage
 
 .. image:: images/weekly-monthly-drag-select.png
 
-The Price Testter
+The Price Tester
 ----------------------
-To help with identifying what prices will be for a given booking period the price tester can be used. It will show prices for all different rates and indicate which one will be used give then date length selected.
+To help identifying what prices will be charged for a given booking period the price tester can be used. It will show prices for all different rates and indicate which one will be used given the dates selected.
 
 .. image:: images/price_tester.png
 
