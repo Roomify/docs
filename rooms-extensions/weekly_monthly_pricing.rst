@@ -1,10 +1,10 @@
 .. _weekly_monthly_pricing: Weekly/Monthly Pricing,
 
-Rooms Period Pricing
+Rooms Periodic Pricing
 ====================
-The Rooms Period Pricing module allows you to quickly define nightly, weekly and monthly rates that can change for any given date.
+The Roomify Periodic Pricing module allows you to quickly define nightly, weekly and monthly rates that can change for any given date.
 
-This is a replacement to the rooms_periodic_pricing module contained within Rooms. 
+*This is a replacement to the rooms_periodic_pricing module contained within Rooms. *
 
 Installation
 ------------
