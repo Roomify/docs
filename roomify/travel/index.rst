@@ -8,3 +8,5 @@ Coming Soon!
 
 .. toctree::
    :maxdepth: 2
+
+..   Casa <casa/index.rst>
