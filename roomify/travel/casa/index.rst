@@ -7,7 +7,7 @@ Roomify Casa
 .. toctree::
    :maxdepth: 2
 
-   Introduction to Casa <introduction_casa.rst>
+..   Introduction to Casa <introduction_casa.rst>
    Welcome <welcome/index.rst>
    Manage Content <content/index.rst>
    Manage Properties <properties/index.rst>
