@@ -45,5 +45,10 @@ The Bulk Pricing Management pages also cater for bulk availability management.
 
 .. image:: images/bulk_pricing_management.png
 
-If you are interested in this module please `get in touch <https://roomify.us/get-started>`_
-_
+Troubleshooting
+---------------
+Cannot see FullCalendar scheduler - Ensure that the library is installed. Check the Drupal Status report for messages. If you installed the library after enabling the module ensure that you clear Drupal caches and reload the status report. 
+
+Cannot see data on the FullCalendar schedulr - Ensure that you have BAT API 1.0 installed.
+
+If you would like to purchase this module please visit `our store <https://store.roomify.us/products/weeklymonthly-pricing-module-drupal-rooms>`_.

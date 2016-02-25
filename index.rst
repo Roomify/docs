@@ -30,6 +30,6 @@ Drop us a line for `commercial services or enterprise support <https://roomify.u
    :maxdepth: 2
    :caption: Rooms
    
-   Rooms (1.10) <rooms/index.rst>
+   Rooms (1.11) <rooms/index.rst>
    Roomify Extensions for Rooms <rooms-extensions/index.rst>
 
