@@ -10,7 +10,7 @@ Requirements
 ------------
 1. A site with the latest version of Rooms installed. Rooms is a free open-source module available for Drupal. Read the installation instructions `here <file:///Users/Ronald/dev/docs/_build/rooms/index.html>`_.
 
-2. The FullCalendar Scheduler JQuery library - download `here <https://github.com/fullcalendar/fullcalendar-scheduler/releases/download/v1.2.1/fullcalendar-scheduler-1.2.1.zip>`_. While FullCalendar Scheduler requires a license is required, if you purchased Roomify Periodic Pricing this license is included.
+2. The FullCalendar Scheduler JQuery library - `download here <https://github.com/fullcalendar/fullcalendar-scheduler/releases/download/v1.2.1/fullcalendar-scheduler-1.2.1.zip>`_. While FullCalendar Scheduler requires a license is required, if you purchased Roomify Periodic Pricing this license is included.
 
 Installation
 ------------
