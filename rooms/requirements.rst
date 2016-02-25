@@ -23,4 +23,4 @@ To install Rooms you need Drupal 7, with the following modules:
 
 If you are using Rooms 1.8 and newer you will need the standard FullCalendar library (we currently use `version 2.6.1 <https://github.com/arshaw/fullcalendar/releases/download/v2.6.1/fullcalendar-2.6.1.zip>`_)
 
-If you are using Rooms 1.7 and earlier you will need our custom fork of the FullCalendar JavaScript library from `here <https://github.com/Roomify/fullcalendar/archive/master.zip>`_.
+If you are using Rooms 1.7 and earlier you will need our custom fork of the FullCalendar JavaScript library from `Github <https://github.com/Roomify/fullcalendar/archive/master.zip>`_.
