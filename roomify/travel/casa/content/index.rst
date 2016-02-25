@@ -1,15 +1,15 @@
-.. _roomify_casa: Casa master file,
+.. _roomify_casa_content: Manage Casa Content,
 
-Roomify Casa
+Manage Content
 ==============
-*Roomify Casa* allows you to manage vacation rentals. Casa can be used for a single accommodation rental or many, all managed together.
+*Roomify Casa* sites are built on Drupal, a powerful CMS. (Content Management System) This allows you to create blogs posts, landing pages that can feature properties, locations, local attractions, and more, static content such as an about us page, all managed from within your Booking site.
 
 .. toctree::
    :maxdepth: 2
 
-   Introduction to Casa <introduction_casa.rst>
-   Welcome <welcome/index.rst>
-   Manage Content <content/index.rst>
-   Manage Properties <properties/index.rst>
-   Manage Configuration <configuration/index.rst>
-   Manage Travel  <travel/index.rst>
+   Manage Site Pages <pages.rst>
+   Add New Content <new-content.rst>
+   Manage Main Menu <main-menu.rst>
+   Manage Email Templates <email.rst>
+   Manage Contact Forms <contact.rst>
+   Manage Taxonomy <taxonomy.rst>

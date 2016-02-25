@@ -1,15 +1,13 @@
-.. _roomify_casa: Casa master file,
+.. _roomify_casa_properties: Casa Properties,
 
-Roomify Casa
+Properties
 ==============
-*Roomify Casa* allows you to manage vacation rentals. Casa can be used for a single accommodation rental or many, all managed together.
+*Casa* can manage from a single property in a Casa Simple site, to a Casa Pro site with hundreds of properties.
 
 .. toctree::
    :maxdepth: 2
 
-   Introduction to Casa <introduction_casa.rst>
-   Welcome <welcome/index.rst>
-   Manage Content <content/index.rst>
-   Manage Properties <properties/index.rst>
-   Manage Configuration <configuration/index.rst>
-   Manage Travel  <travel/index.rst>
+   Properties <properties.rst>
+   Bookings <bookings.rst>
+   Orders <orders.rst>
+   Enquiries <enquiries.rst>
