@@ -1,16 +1,23 @@
 .. _weekly_monthly_pricing: Weekly/Monthly Pricing,
 
-Rooms Periodic Pricing
-======================
+Roomify Periodic Pricing
+========================
 The Roomify Periodic Pricing module allows you to quickly define nightly, weekly and monthly rates that can change for any given date.
 
 This is a replacement to the rooms_periodic_pricing module contained within Rooms.
 
+Requirements
+------------
+1. A site with the latest version of Rooms installed. Rooms is a free open-source module available for Drupal. Read the installation instructions `here <file:///Users/Ronald/dev/docs/_build/rooms/index.html>`_.
+
+2. The FullCalendar Scheduler JQuery library - download `here <https://github.com/fullcalendar/fullcalendar-scheduler/releases/download/v1.2.1/fullcalendar-scheduler-1.2.1.zip>`_. While FullCalendar Scheduler requires a license is required, if you purchased Roomify Periodic Pricing this license is included.
+
 Installation
 ------------
-1. De-activate (if active) the rooms_periodic_pricing module.
+1. De-activate and uninstall (if active) the rooms_periodic_pricing module.
 2. Add the roomify_periodic_pricing module to your sites/all/modules directory (or any other location you are keeping your modules)
-3. Activate the module
+3. Unpack the FullCalendar Scheduler Library in your sites/all/libraries directory (if you use a different location we assume you know what you are doing and your Drupal site is configured appropriately). You should end up with sites/all/libraries/fullcalendar-scheduler
+4. Activate the module from the Drupal module activation page.
 
 Configuration & Usage
 ----------------------
