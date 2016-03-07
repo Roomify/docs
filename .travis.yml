@@ -3,8 +3,6 @@ language: python - "2.7"
 # before_install will simply setup a conda enviroment for installing python packages, if you
 # have project dependencies it's usually recommended to go this route.
 before_install:
-    - echo "'${TRAVIS_BRANCH}'"
-    - echo "'${TRAVIS_PULL_REQUEST}'"
     - wget http://repo.continuum.io/miniconda/Miniconda-latest-Linux-x86_64.sh -O miniconda.sh
     - chmod +x miniconda.sh
     - "./miniconda.sh -b"
@@ -16,7 +14,8 @@ before_install:
 install:
     - conda install --yes python="2.7" sphinx
     # - pip install --user travis-sphinx
-    - pip install --user git+https://github.com/Syntaf/travis-sphinx.git
+    # - pip install --user git+https://github.com/Syntaf/travis-sphinx.git
+    - pip install --user git+https://github.com/Roomify/travis-sphinx.git
     - pip install --user sphinx_rtd_theme
 
 script:
@@ -27,4 +26,4 @@ after_success:
     # overwrites the existing gh-pages branch.
     - echo 'docs.roomify.us' > ./target/doc/build/CNAME
     # Run the deploy process.
-    - travis-sphinx -b master deploy
+    - travis-sphinx deploy
