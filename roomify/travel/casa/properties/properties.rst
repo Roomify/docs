@@ -22,13 +22,13 @@ Create a Property
 Creating a property is done from within your dashboard.  If you have permission to add a property, you will see the 'add property' button, as shown in the screenshot below.
 
 .. image:: images/add_property.png
-   :width: 600 px
+   :width: 700 px
    :align: center
 
 Click on 'add property'. You will be asked for the name of the Property, and asked to select the type of property:
 
 .. image:: images/name_property.png
-   :width: 600 px
+   :width: 700 px
    :align: center
 
 + `Single Unit Property`_
@@ -45,7 +45,7 @@ Single Unit Property
 To create a single unit property, enter the name of the property, select 'Single Unit (Entire Home)', and click 'next'. You will then be asked to define the maximum number of occupants, and the default nightly rate:
 
 .. image:: images/single_unit_1.png
-   :width: 600 px
+   :width: 700 px
    :align: center
 
 Click on 'Create property and add details' - this will create your property and direct you to the property management interface: `Manage Properties`_
@@ -56,19 +56,19 @@ Multi Unit Property
 To create a multi unit property, enter the name of the property, select 'Multi-Unit (multiple rooms / types within a property)', and click 'next'.
 
 .. image:: images/multi_unit_1.png
-   :width: 600 px
+   :width: 700 px
    :align: center
 
 You will be asked to enter the type name, number of rooms, default price per night, and max occupancy, for each of your room types.  If you have a B&B, it will look something like this:
 
 .. image:: images/multi_bnb.png
-   :width: 600 px
+   :width: 700 px
    :align: center
 
 A hotel might look more like this:
 
 .. image:: images/multi_hotel.png
-   :width: 600 px
+   :width: 700 px
    :align: center
 
 When you have finished adding your room types (don't worry, you can always add more later), click on 'Create property and add details' - this will create your property and direct you to the property management interface: `Manage Properties`_
@@ -109,7 +109,7 @@ Basic Information
 ~~~~~~~~~~~~~~~~~
 
 .. image:: images/basic_info.png
-   :width: 600 px
+   :width: 700 px
    :align: center
 
 *Owner*
@@ -130,7 +130,7 @@ Image Gallery
 ~~~~~~~~~~~~~~~
 
 .. image:: images/image_gallery.png
-   :width: 600 px
+   :width: 700 px
    :align: center
 
 Each image in your gallery can have an optional title and caption, both will overlay the bottom portion of the image.
@@ -147,7 +147,7 @@ Policies
 ~~~~~~~~
 
 .. image:: images/policies.png
-   :width: 600 px
+   :width: 700 px
    :align: center
 
 Any information about policies or rules should be specified here.  This will be displayed in the tab 'Policies', at the bottom of your property page.  If this field is left empty, the tab will not be displayed.
@@ -156,7 +156,7 @@ Amenities
 ~~~~~~~~~
 
 .. image:: images/amenities.png
-   :width: 600 px
+   :width: 700 px
    :align: center
 
 Amenities can be added by clicking in the field and selecting an amenity. You can select additional amenities by clicking again, next to the previously selected item.  If the amenity you are looking for is not in the list, type the name (such as 'High Speed Internet'). A box will appear with the text: 'The term 'High Speed Internet' will be added', click on the box to create the amenity and add it to your property.
@@ -165,7 +165,7 @@ Location
 ~~~~~~~~
 
 .. image:: images/location.png
-   :width: 600 px
+   :width: 700 px
    :align: center
 
 *Area*
@@ -181,7 +181,7 @@ Highlight
 ~~~~~~~~~
 
 .. image:: images/highlight.png
-   :width: 600 px
+   :width: 700 px
    :align: center
 
 Highlights are used to showcase features of your property.  This could be rooms in your vacation rental or B & B, or special features of your Hotel, such as a swimming pool.
