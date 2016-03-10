@@ -3,4 +3,4 @@
 Create New Content
 ******************
 
-Click on this link to logout of your Roomify Casa site!
+Coming Soon!
