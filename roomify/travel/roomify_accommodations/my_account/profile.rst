@@ -1,4 +1,4 @@
-.. _roomify_casa_welcome_profile: Welcome - My Profile
+.. _roomify_accommodations_welcome_profile: Welcome - My Profile
 
 
 My Profile

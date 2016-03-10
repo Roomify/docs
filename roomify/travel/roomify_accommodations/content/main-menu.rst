@@ -1,4 +1,4 @@
-.. _roomify_casa_content_menu:
+.. _roomify_accommodations_content_menu:
 
 Manage Main Menu
 ****************

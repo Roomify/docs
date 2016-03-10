@@ -1,4 +1,4 @@
-.. _roomify_casa_content_new:
+.. _roomify_accommodations_content_new:
 
 Create New Content
 ******************

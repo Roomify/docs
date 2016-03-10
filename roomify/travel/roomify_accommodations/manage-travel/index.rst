@@ -1,4 +1,4 @@
-.. _roomify_casa_manage_travel: Manage Travel,
+.. _roomify_accommodations_manage_travel: Manage Travel,
 
 Manage Travel
 =============

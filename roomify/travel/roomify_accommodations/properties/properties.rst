@@ -1,4 +1,4 @@
-.. _roomify_casa_properties_properties:
+.. _roomify_accommodations_properties_properties:
 
 **********
 Properties

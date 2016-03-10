@@ -1,4 +1,4 @@
-.. _roomify_casa_content_pages:
+.. _roomify_accommodations_content_pages:
 
 Manage Site Content
 *******************

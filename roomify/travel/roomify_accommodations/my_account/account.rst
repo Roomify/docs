@@ -1,4 +1,4 @@
-.. _roomify_casa_welcome_account: Welcome - My Account
+.. _roomify_accommodations_welcome_account: Welcome - My Account
 
 
 My Account

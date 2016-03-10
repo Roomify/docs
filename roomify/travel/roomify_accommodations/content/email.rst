@@ -1,4 +1,4 @@
-.. _roomify_casa_content_email:
+.. _roomify_accommodations_content_email:
 
 Manage Email Templates
 **********************

@@ -1,4 +1,4 @@
-.. _roomify_casa_content_taxonomy:
+.. _roomify_accommodations_content_taxonomy:
 
 Manage Taxonomy
 ***************
