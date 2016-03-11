@@ -197,9 +197,18 @@ To manage the availability of your property, click on the 'Manage Availability' 
    :width: 700 px
    :align: center
 
+A single unit property has only one unit to manage.
+
 .. image:: images/locanda_avail.png
    :width: 700 px
    :align: center
+
+Multi unit properties show all units in the same place.
+
+The default status of a unit is indicated by the background color. A light red indicates the unit is unavailable by default, whereas a light green background indicates the the unit is available.  To change the default availability for a type and its unit(s), see `Default Availability`_.
+
+To override the default availability, select a date or range of dates for the unit. (To select a range of dates click and drag the dates you wish to update.) You will be given three choices: Make Available, Make Unavailable, and Create Booking.
+
 
 Manage Pricing
 --------------
