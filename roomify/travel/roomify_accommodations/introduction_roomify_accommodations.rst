@@ -1,7 +1,7 @@
 .. _roomify_accommodations_introduction: Roomify for Accommodations Introduction
 
 Roomify for Accommodations Introduction
-*****************
+***************************************
 
 Roomify for Accommodations is the Roomify Travel product that is built to manage accommodation properties.
 

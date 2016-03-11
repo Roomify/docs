@@ -190,6 +190,17 @@ Highlights are used to showcase features of your property.  This could be rooms 
 
 Manage Availability
 -------------------
+
+To manage the availability of your property, click on the 'Manage Availability' tab.  This page will look much the same for a single unit property and a multi unit property, but both are managed the same way.
+
+.. image:: images/casa_avail.png
+   :width: 700 px
+   :align: center
+
+.. image:: images/locanda_avail.png
+   :width: 700 px
+   :align: center
+
 Manage Pricing
 --------------
 
