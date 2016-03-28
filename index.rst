@@ -13,12 +13,13 @@ Drop us a line for `commercial services or enterprise support <https://roomify.u
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
    :caption: Roomify Platform
 
    Introduction<roomify/index.rst>
-   Roomify for Accommodations<roomify/roomify_accommodations/index.rst>
-  
+   Roomify for Accommodations <roomify_accommodations/index.rst>
+   Roomify for Accommodations - Self-Hosted  <accommodations_selfhost/index.rst>
+
 
 .. toctree::
    :maxdepth: 3
@@ -30,7 +31,7 @@ Drop us a line for `commercial services or enterprise support <https://roomify.u
 .. toctree::
    :maxdepth: 2
    :caption: Rooms
-   
+
    Rooms (1.11) <rooms/index.rst>
    Roomify Extensions for Rooms <rooms-extensions/index.rst>
 

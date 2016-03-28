@@ -9,4 +9,4 @@ The Roomify Platform allows users to manage availability, pricing and booking, w
 Our first product is Roomify for Accommodations - it can scale from a single vacation rental website with channel management to full multi-property / multi-owner for vacation rentals, hotels and B&Bs. It is available as cloud hosting or self-hosted - `get pricing details and access to demo here <https://roomify.us/travel-booking-solutions>`_.
 
 .. toctree::
-   :maxdepth: 0
+   :maxdepth: 3

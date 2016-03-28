@@ -159,7 +159,7 @@ Amenities...
    :width: 700 px
    :align: center
 
-Amenities can be added by clicking in the field and selecting an amenity. You can select additional amenities by clicking again, next to the previously selected item.  If the amenity you are looking for is not in the list, type the name (such as 'High Speed Internet'). A box will appear with the text: 'The term 'High Speed Internet' will be added', click on the box to create the amenity and add it to your property.
+Property amenities describe amenities available to a single unit property, or amenities that are available to all rooms of a multi unit property (such as a pool). These can be added by clicking in the field and selecting an amenity. You can select additional amenities by clicking again, next to the previously selected item.  If the amenity you are looking for is not in the list, type the name (such as 'High Speed Internet'). A box will appear with the text: 'The term 'High Speed Internet' will be added', click on the box to create the amenity and add it to your property.
 
 Location
 ~~~~~~~~
@@ -349,5 +349,5 @@ Amenities
    :width: 700 px
    :align: center
 
-Amenities can be added by clicking in the field and selecting an amenity. You can select additional amenities by clicking again, next to the previously selected item.  If the amenity you are looking for is not in the list, type the name (such as 'High Speed Internet'). A box will appear with the text: 'The term 'High Speed Internet' will be added', click on the box to create the amenity and add it to your property.
+Room amenities are amenities that are specific to a certain room or room type. These are not used for single unit properties, and should be left blank. Add room amenities by clicking in the field and selecting an amenity. You can select additional amenities by clicking again, next to the previously selected item.  If the amenity you are looking for is not in the list, type the name (such as 'High Speed Internet'). A box will appear with the text: 'The term 'High Speed Internet' will be added', click on the box to create the amenity and add it to your property.
 
