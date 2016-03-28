@@ -13,10 +13,11 @@ Drop us a line for `commercial services or enterprise support <https://roomify.u
 
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Roomify Platform - Coming Soon!
+   :maxdepth: 1
+   :caption: Roomify Platform
 
    Introduction<roomify/index.rst>
+   Roomify for Accommodations<roomify/roomify_accommodations/index.rst>
   
 
 .. toctree::

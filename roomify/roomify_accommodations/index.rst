@@ -3,7 +3,7 @@
 Roomify for Accommodations
 ==========================
 
-*Roomify for Accommodations* allows you to manage vacation rentals. Roomify for Accommodations can be used for a single accommodation rental or many, all managed in the same place.
+*Roomify for Accommodations* can scale from a single vacation rental website with channel management to full multi-property / multi-owner for vacation rentals, hotels and B&Bs. It is available as cloud hosting or self-hosted - `get pricing details and access to demo here <https://roomify.us/travel-booking-solutions>`_.
 
 .. toctree::
    :maxdepth: 2
