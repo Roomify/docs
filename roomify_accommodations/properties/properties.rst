@@ -126,6 +126,12 @@ Basic Information
 *Search/Featured Image*
    This image is used in search results, and anywhere your property is featured on the site.  It will *not* appear in the image gallery.  After uploading an image, click on 'manage image crops' (next to the 'Remove' button), and select a crop area for each image style.
 
+*Property type*
+    Some Roomify for Accommodations site may have property categories, if so, you may select the property type that best describes your property.
+
+*Allow instant bookings*
+    If the site on which your property is listed allows instant bookings, this switch will allow you to turn off instant bookings for your individual property, and only take bookings via Enquiries.  This setting will be overridden by the 'Allow instant bookings' setting on the House or Room, and will have no effect at all if instant bookings have been disabled site-wide.
+
 Image Gallery
 ~~~~~~~~~~~~~~~
 
