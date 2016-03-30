@@ -259,7 +259,7 @@ Edit Room/House
 2. `Add-Ons`_
 3. `Default Availability`_
 4. `Image`_
-5. `Amenities`_
+5. `Type Amenities`_
 
 Type Description
 ~~~~~~~~~~~~~~~~
@@ -351,8 +351,8 @@ Image
 
 This image is displayed on the property.  Choose a good one!
 
-Amenities
-~~~~~~~~~
+Type Amenities
+~~~~~~~~~~~~~~
 
 .. image:: images/type_amenities.png
    :width: 700 px
