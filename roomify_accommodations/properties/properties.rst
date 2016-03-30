@@ -100,7 +100,7 @@ A Property has several categories of information associated with it:
 1. `Basic Information`_
 2. `Image Gallery`_
 3. `Policies`_
-4. `Amenities...`_
+4. `Amenities`_
 5. `Location`_
 6. `Highlight`_
 
@@ -158,8 +158,8 @@ Policies
 
 Any information about policies or rules should be specified here.  This will be displayed in the tab 'Policies', at the bottom of your property page.  If this field is left empty, the tab will not be displayed.
 
-Amenities...
-~~~~~~~~~~~~
+Amenities
+~~~~~~~~~
 
 .. image:: images/amenities.png
    :width: 700 px
@@ -180,8 +180,11 @@ Location
 *Area Type*
    The area type is another way of categorizing a property, and is generally used on large sites with many different properties. An example of an area type is 'Beachfront'. Area types can be added by clicking in the field and selecting an area type. You can select additional area types by clicking again, next to the previously selected item.  If the area type you are looking for is not in the list, type the name (such as 'Lakefront'). A box will appear with the text: 'The term 'Lakefront' will be added', click on the box to create the area type and add it to your property.
 
-.. *Location*
+*Location*
+  The address is optional.  If you fill this in, it will be shown in a tooltip when the marker is clicked on.  To set the marker location, use the Map Coordinates.  The coordinates can be set in two ways:
 
+  #. Enter an address in the 'Geocode Address' field.  Click on 'Find marker' (under the map). Once the marker position has been moved, click on 'Place marker here' and confirm.
+  #. Drag the marker to the correct location on the map. Click on 'Find marker' (under the map). Once the marker position has been moved, click on 'Place marker here' and confirm.
 
 Highlight
 ~~~~~~~~~

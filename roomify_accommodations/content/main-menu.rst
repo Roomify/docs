@@ -20,6 +20,7 @@ Re-ordering menu items is a simple as dragging and dropping.
 
 Click on the gray arrows next to a menu link, and drag it to a new position.  Click 'Save'.
 
+NB: Roomify for Accommodations does not currently support multi-level menu items in the main menu, but this feature is in the works!
 
 Create new menu items
 =====================
