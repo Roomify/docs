@@ -127,8 +127,42 @@ To add a blog post to your site menu, click on 'Provide a menu link'.  Edit the 
 Landing Page
 ============
 
-Coming soon!
+Landing pages are an extremely flexible way to highlight content on your site.  Because they are so flexible, they can be a bit daunting at first glance, so we will step through a few examples. Begin by creating a new landing page: Dashboard -> Manage Content -> Add new content -> Landing Page
 
+Give your landing page a title. The 'Is edge to edge' option determines whether the content is padded on the sides or not.  Experiment with this to see which way you like it better!
+
+.. image:: images/landing_page.png
+   :width: 600 px
+   :align: center
+
+Now we will add some content to our page.  You will have the option to add a 1, 2, 3, or 4 column Row, or the 'Latest Blog Posts' widget. A row is a horizontal section of the page.  The number of columns in the row determines how many elements can be added to the row. You will see examples of this as we add content to our page.
+
++ `Featured Properties`_
++ `Featured Area`_
++ `Featured Area Type`_
+
+
+Featured Properties
++++++++++++++++++++
+
+In this example, we will feature two properties on our site. One called 'Locanda Vivaldi', and one called 'Casa Azzurra'. Because we will have two properties, we will select a 2 column row, each property will go in a column. 
+1. Click on 'Add 2-Column Row'
+2. Click on 'Edit 2-Column Row'
+3. Row Title - If you want this row to have a title, add one, otherwise you can leave it blank. For our example, this row is titled 'Featured Properties'
+4. Row View - Again, you can decide if you want the content to be edge to edge.  If you are using a background, you will probably want edge to edge.
+5. Row Background - You can select a color, or add an image.  For this row, the background has been left blank.
+6. First Element - Each column will contain an element. To feature a property, select 'Property' from the drop down list, and click 'Add new element'
+7. Start typing the name of the property you wish to feature, and select it from the autocomplete - the first property in our example is 'Casa Azzurra'
+8. Second Element - click on the 'second element' tab, and repeat the steps - select 'Property', click 'Add new element', and type in the name of the second property you wish to feature (in this case, 'Locanda Vivaldi')
+9. Click 'Save and Close' - the modal window will close
+10. IMPORTANT! - Click on the green 'Save' button at the bottom of the page, you should now see your new landing page, with two featured properties!
+
+
+Featured Area
++++++++++++++
+
+Featured Area Type
+++++++++++++++++++
 
 Location
 ========
