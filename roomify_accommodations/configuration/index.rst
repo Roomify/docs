@@ -8,3 +8,5 @@ Coming Soon!
 .. toctree::
    :maxdepth: 2
 
+   Quick Setup <quicksetup.rst>
+..   Logout <logout.rst>

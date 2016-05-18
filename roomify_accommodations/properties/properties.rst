@@ -4,6 +4,8 @@
 Properties
 **********
 
+Working on the Quickstart?  Get back to Step 2 here: :ref:`roomify_accommodations_setup_properties`.
+
 Your dashboard Properties view provides a central place to manage property or properties.  Use this view to:
 
 #. `Create a Property`_

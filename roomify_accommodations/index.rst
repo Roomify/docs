@@ -9,6 +9,7 @@ Roomify for Accommodations
    :maxdepth: 3
 
    Introduction to Roomify for Accommodations <introduction_roomify_accommodations.rst>
+   Quickstart <start/index.rst>
    Manage Content <content/index.rst>
    Manage Properties <properties/index.rst>
    Manage Configuration <configuration/index.rst>
