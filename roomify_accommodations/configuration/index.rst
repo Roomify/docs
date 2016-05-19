@@ -9,4 +9,4 @@ Coming Soon!
    :maxdepth: 2
 
    Quick Setup <quicksetup.rst>
-..   Logout <logout.rst>
+   Global Booking Settings <global_booking.rst>
