@@ -3,5 +3,6 @@
 Booking Settings
 ****************
 
-Your Roomify for Accommodations site offers several ways to customize how you take bookings.
-If you want to start out simple, go to here - :ref:`roomify_accommodations_content_menu` and jump to the 'Delete menu items' section.  You will want to remove the 'Things to do', 'Blog', and 'Location' menu items. 
+Your Roomify for Accommodations site offers several ways to customize how you take bookings. Detailed descriptions are here - :ref:`roomify_accommodations_global_booking`.
+
+The configuration that is of most importance is whether or not you wish to allow instant bookings!

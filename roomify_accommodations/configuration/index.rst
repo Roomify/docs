@@ -10,3 +10,4 @@ Coming Soon!
 
    Quick Setup <quicksetup.rst>
    Global Booking Settings <global_booking.rst>
+   Payment Methods <payment_methods.rst>
