@@ -54,7 +54,7 @@ Paypal
 Docs coming soon!
 
 Authorize.net
-============
+=============
 
 Docs coming soon!
 
