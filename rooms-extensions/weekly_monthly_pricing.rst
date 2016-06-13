@@ -47,8 +47,11 @@ The Bulk Pricing Management pages also cater for bulk availability management.
 
 Troubleshooting
 ---------------
-Cannot see FullCalendar scheduler - Ensure that the library is installed. Check the Drupal Status report for messages. If you installed the library after enabling the module ensure that you clear Drupal caches and reload the status report. 
+Cannot see FullCalendar scheduler - Ensure that the library is installed. Check the Drupal Status report for messages. If you installed the library after enabling the module ensure that you clear Drupal caches and reload the status report.
 
 Cannot see data on the FullCalendar schedulr - Ensure that you have BAT API 1.0 installed.
+
+Error in Site Status report: "FullCalendar Scheduler	Could not load the FullCalendar Scheduler Library." - Ensure that you have jQuery update installed, and you are running jquery version 1.9 or later.
+
 
 If you would like to purchase this module please visit `our store <https://store.roomify.us/products/weeklymonthly-pricing-module-drupal-rooms>`_.
