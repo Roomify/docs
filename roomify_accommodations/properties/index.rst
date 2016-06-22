@@ -10,5 +10,4 @@ Properties
 
    Properties <properties.rst>
    Bookings <bookings.rst>
-   Orders <orders.rst>
    Enquiries <enquiries.rst>
