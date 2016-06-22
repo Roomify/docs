@@ -3,8 +3,6 @@
 Manage Configuration
 ====================
 
-Coming Soon!
-
 .. toctree::
    :maxdepth: 2
 
