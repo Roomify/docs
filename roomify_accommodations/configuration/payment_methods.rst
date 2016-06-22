@@ -14,7 +14,7 @@ Roomify for Accommodations currently supports three payment gateways and offline
 There are four options:
 #. `Stripe`_
 #. `Paypal`_
-#. `Authorize.net`_
+#. `Authorize`_
 #. `Offline Payments`_
 
 Stripe
@@ -53,8 +53,8 @@ Paypal
 
 Docs coming soon!
 
-Authorize.net
-=============
+Authorize
+=========
 
 Docs coming soon!
 
