@@ -12,6 +12,7 @@ The text of the emails sent by your site can be customized by Roomify Managers. 
 #. `Title`_
 #. `Subject`_
 #. `Body`_
+#. `Additional Options`_
 
 Title
 =====
@@ -33,3 +34,17 @@ An example of how a token works:
 Your sites' url is "mysite.roomify.me".  You would like the subject line of the order confirmation email to read "Thank you for making a booking at mysite.roomify.me"
 
 The Subject field in the template should be: Thank you for making a booking at [site:url]
+
+Additional Options
+==================
+
+From Override:
+	The from override allows you to customize the email address that is used as the Sender email.  By default, all email templates will use the site e-mail address. If you would like a particular template to use something different, you can specify that here.
+
+CC Default:
+	If you would like to cc an email address or addresses when a system email is sent, enter them here.
+
+BCC Default:
+	As with the cc default, If you would like to bcc an email address or addresses when a system email is sent, enter them here.
+
+Be sure you click 'Save'!
