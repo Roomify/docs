@@ -3,6 +3,7 @@
 Manage Main Menu
 ****************
 
+Working on the Quickstart?  Get back to Step 5 here: :ref:`roomify_accommodations_setup_content`.
 
 The main menu of your site is the primary navigation tool for your users. You can :
 
@@ -21,7 +22,11 @@ Re-ordering menu items is a simple as dragging and dropping.
 
 Click on the gray arrows next to a menu link, and drag it to a new position.  Click 'Save'.
 
-NB: Roomify for Accommodations does not currently support multi-level menu items in the main menu, but this feature is in the works!
+Roomify for Accommodations supports two levels in the main menu.  To make a menu into a sub-item, click on the gray arrow, and position it below, and to the right of the top menu item, as shown here:
+
+.. image:: images/sub_menu_item.png
+   :width: 600 px
+   :align: center
 
 Create new menu items
 =====================
