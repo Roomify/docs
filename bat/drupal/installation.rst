@@ -26,8 +26,8 @@ Now, visit ``/sites/default/files/composer`` on the command line and run ``compo
 
 Install FullCalendar Libraries
 ------------------------------------
-#. Download `Fullcalendar <https://github.com/arshaw/fullcalendar/releases/download/v2.6.0/fullcalendar-2.6.0.zip>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar/``.
-#. Download `Fullcalendar Scheduler <https://github.com/fullcalendar/fullcalendar-scheduler/releases/download/v1.2.0/fullcalendar-scheduler-1.2.0.zip>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar-scheduler/``.
+#. Download `Fullcalendar <https://github.com/arshaw/fullcalendar/releases/download/v2.8.0/fullcalendar-2.8.0.zip>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar/``.
+#. Download `Fullcalendar Scheduler <https://github.com/fullcalendar/fullcalendar-scheduler/releases/download/v1.3.2/fullcalendar-scheduler-1.3.2.zip>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar-scheduler/``.
 
 jQuery Version
 ---------------
