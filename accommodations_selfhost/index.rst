@@ -42,7 +42,7 @@ Keep in mind this is just like setting up any Drupal site. The only difference t
 Updating
 ----------
 
-We provide updates to Roomify for Accommodations on a weekly basis - if your license is current, you will have access via the Files tab on your account on `cloud.roomify.us <https://cloud.roomify.us/user>`.
+We provide updates to Roomify for Accommodations on a weekly basis - if your license is current, you will have access via the Files tab on your account on `cloud.roomify.us <https://cloud.roomify.us/user>`_.
 
 Instructions given here are generalized, and *must* be adapted to your particular situation and deployment process.
 
@@ -58,11 +58,11 @@ If you have not customized any code or functionality (e.g. modifying views or ot
 
 4. Remove the new sites/default directory and copy the sites/default directory from the older installation.
 
-5. Run `database updates <https://www.drupal.org/upgrade/running-update-php>`
+5. Run `database updates <https://www.drupal.org/upgrade/running-update-php>`_
 
-6. Revert all features - the quickest way to do this is to use `drush <http://drush.ws>` and use the command features-revert-all. You may find more information on reverting features `here <https://www.drupal.org/node/582680>`.
+6. Revert all features - the quickest way to do this is to use `drush <http://drush.ws>`_ and use the command features-revert-all. You may find more information on reverting features `here <https://www.drupal.org/node/582680>`_.
 
-7. `Clear all caches <https://www.drupal.org/documentation/clearing-rebuilding-cache>` - it's possible that all features may not fully revert until you have cleared caches and reverted features twice or three times. This is known behavior with Drupal and not particular to Roomify for Accommodations.
+7. `Clear all caches <https://www.drupal.org/documentation/clearing-rebuilding-cache>`_ - it's possible that all features may not fully revert until you have cleared caches and reverted features twice or three times. This is known behavior with Drupal and not particular to Roomify for Accommodations.
 
 8. If any settings that you have modified are reverted by following this process, you should restore your database backup and manually revert features, only reverting functionality that you have not modified. Please see the section on customization for more information.
 
@@ -75,9 +75,9 @@ When making customizations, your goal should be to avoid directly modifying sour
 
 1. Place any custom modules you create or download under sites/default/modules - This will allow you to follow the update process provided above without any additions or modifications.
 
-2. Use `hooks <https://www.drupal.org/node/292>` in a custom module wherever possible to modify functionality.
+2. Use `hooks <https://www.drupal.org/node/292>`_ in a custom module wherever possible to modify functionality.
 
-3. The `Features Override <https://www.drupal.org/project/features_override>` module may be useful to customize functionality provided by Roomify features.
+3. The `Features Override <https://www.drupal.org/project/features_override>`_ module may be useful to customize functionality provided by Roomify features.
 
 .. toctree::
    :maxdepth: 3
