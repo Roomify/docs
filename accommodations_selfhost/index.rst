@@ -8,7 +8,7 @@ Installation
 
 Installing a self-hosted Roomify for Accommodations site is very simple.
 
-Keep in mind that Roomify for Accommodations is a pre-configured Drupal site. Once you `purchase the solution <https://store.roomify.us/roomify-accommodations-self-hosted>`_ you will receive a ZIP file.
+Keep in mind that Roomify for Accommodations is a pre-configured Drupal site. Once you `purchase the solution <https://store.roomify.us/roomify-accommodations-self-hosted>`__ you will receive a ZIP file.
 
 Within that file you will find a MySQL database dump and the *entire* Drupal site including all source code, Javascript libraries and PHP libraries that are used.
 
@@ -24,7 +24,7 @@ Here is what you need to do.
 
 5. Edit the *existing* sites/default/settings.php file and adjust database settings to point to the database you imported in Step 4.
 
-6. Set the appropriate permissions for the files directory (`Here <https://www.drupal.org/node/244924/>`_ is an excellent guide.)
+6. Set the appropriate permissions for the files directory (`Here <https://www.drupal.org/node/244924/>`__ is an excellent guide.)
 
 7. Ensure that the PHP memory limit (the memory_limit setting in your web server's php.ini file) is at least 160M.
 
@@ -60,9 +60,9 @@ If you have not customized any code or functionality (e.g. modifying views or ot
 
 5. Run `database updates <https://www.drupal.org/upgrade/running-update-php>`_
 
-6. Revert all features - the quickest way to do this is to use `drush <http://drush.ws>`_ and use the command features-revert-all. You may find more information on reverting features `here <https://www.drupal.org/node/582680>`_.
+6. Revert all features - the quickest way to do this is to use `drush <http://drush.ws>`__ and use the command features-revert-all. You may find more information on reverting features `here <https://www.drupal.org/node/582680>`_.
 
-7. `Clear all caches <https://www.drupal.org/documentation/clearing-rebuilding-cache>`_ - it's possible that all features may not fully revert until you have cleared caches and reverted features twice or three times. This is known behavior with Drupal and not particular to Roomify for Accommodations.
+7. `Clear all caches <https://www.drupal.org/documentation/clearing-rebuilding-cache>`__ - it's possible that all features may not fully revert until you have cleared caches and reverted features twice or three times. This is known behavior with Drupal and not particular to Roomify for Accommodations.
 
 8. If any settings that you have modified are reverted by following this process, you should restore your database backup and manually revert features, only reverting functionality that you have not modified. Please see the section on customization for more information.
 
@@ -75,9 +75,9 @@ When making customizations, your goal should be to avoid directly modifying sour
 
 1. Place any custom modules you create or download under sites/default/modules - This will allow you to follow the update process provided above without any additions or modifications.
 
-2. Use `hooks <https://www.drupal.org/node/292>`_ in a custom module wherever possible to modify functionality.
+2. Use `hooks <https://www.drupal.org/node/292>`__ in a custom module wherever possible to modify functionality.
 
-3. The `Features Override <https://www.drupal.org/project/features_override>`_ module may be useful to customize functionality provided by Roomify features.
+3. The `Features Override <https://www.drupal.org/project/features_override>`__ module may be useful to customize functionality provided by Roomify features.
 
 .. toctree::
    :maxdepth: 3
