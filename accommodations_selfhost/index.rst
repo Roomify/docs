@@ -16,7 +16,7 @@ Here is what you need to do.
 
 1. Unzip the file provided.
 
-2. Place that file in the appropriate location in either your local development environemnt or your webserver.
+2. Place that file in the appropriate location in either your local development environment or your webserver.
 
 3. Configure your web server to point to that location.
 
@@ -52,13 +52,13 @@ If you have not customized any code or functionality (e.g. modifying views or ot
 
 1. Move your entire codebase to a backup location outside the web server's document root.
 
-2. Do *not* import the include .sql file.
+2. Do *not* import the included .sql file.
 
 3. Unzip the new file you have updated into your web server's document root.
 
 4. Remove the new sites/default directory and copy the sites/default directory from the older installation.
 
-5. Run `database updates <https://www.drupal.org/upgrade/running-update-php>`_
+5. Run `database updates <https://www.drupal.org/upgrade/running-update-php>`__.
 
 6. Revert all features - the quickest way to do this is to use `drush <http://drush.ws>`__ and use the command features-revert-all. You may find more information on reverting features `here <https://www.drupal.org/node/582680>`_.
 
