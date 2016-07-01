@@ -11,7 +11,7 @@ However, more sophisticated applications may require different interaction modes
 
 This is the method we are using for our own BAT-based products and it is described here to help others consider the possibilities when using BAT Drupal. 
 
-The code for this is specific to an application (it depends on your Event Types, Event States and general application logic) so it is not included in the BAT Drupal module. Please `get in touch <a href="https://roomify.us/get-started">`_ if you are interested in commercial services in this direction. 
+The code for this is specific to an application (it depends on your Event Types, Event States and general application logic) so it is not included in the BAT Drupal module. Please `get in touch <https://roomify.us/get-started>`_ if you are interested in commercial services in this direction. 
 
 Booking Entity
 ---------------
