@@ -81,3 +81,8 @@ When making customizations, your goal should be to avoid directly modifying sour
 
 .. toctree::
    :maxdepth: 3
+
+Channel Management
+----------------------------------------------
+
+Roomify offers channel management for self-hosted sites as an optional subscription service. Please see `Channel Management by Roomify <https://cloud.roomify.us/channel-management-roomify>`__ to view pricing and sign up.
