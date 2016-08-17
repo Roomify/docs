@@ -79,6 +79,8 @@ When making customizations, your goal should be to avoid directly modifying sour
 
 3. The `Features Override <https://www.drupal.org/project/features_override>`__ module may be useful to customize functionality provided by Roomify features.
 
+4. If you wish to customize the Roomify-provided permissions for roles on the site, you will need to disable the Roomify Rights module. This module enforces correct permissions for Roomify functionality, so as a result, you will need to track permission changes manually. The simplest way to do this is to keep your site in version control and look for changes to invocations of hook_roomify_rights after installing an update.
+
 .. toctree::
    :maxdepth: 3
 
