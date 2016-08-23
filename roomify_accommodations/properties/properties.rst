@@ -274,7 +274,7 @@ This tab contains the basic information about the house or room type.  Specify t
 
 The Description field allows you to describe this room type, and will be displayed in a tooltip on the property page.
 
-NB: *The description field is used for Multi Unit Properties only*
+.. note:: The description field is used for Multi Unit Properties only
 
 Add-Ons
 ~~~~~~~
