@@ -3,7 +3,7 @@
 Roomify Accommodations - My Account
 ===================================
 
-The *My Account* area of your dashboard is where personal information can be managed.
+The **My Account** area of your dashboard is where personal information can be managed.
 
 .. toctree::
    :maxdepth: 2

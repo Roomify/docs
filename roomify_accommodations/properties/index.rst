@@ -3,7 +3,7 @@
 Properties
 ==========
 
-*Roomify Accommodations* can manage anything from a single property to a site with hundreds of properties.
+Roomify for Accommodations can manage anything from a single property to a site with hundreds of properties.
 
 .. toctree::
    :maxdepth: 2

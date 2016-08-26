@@ -5,4 +5,4 @@ Booking Settings
 
 Your Roomify for Accommodations site offers several ways to customize how you take bookings. Detailed descriptions are here - :ref:`roomify_accommodations_global_booking`.
 
-The configuration that is of most importance is whether or not you wish to allow instant bookings!
+The most important configuration is whether or not you wish to allow instant bookings!

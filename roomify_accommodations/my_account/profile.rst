@@ -4,38 +4,34 @@
 My Profile
 **********
 
-Guest Profile
-=============
-
-Your Guest profile contains all of the information about you that is displayed to users of the site when leaving a review on a property.
-
-Name
-----
-To change your name's display, type it into the *Name* field as you want it to be shown, and click *Save*.
-
-Image
------
-Your image will be displayed  and click *Save*
-
-Bio
----
-Your account's email address is used for all communication sent from the Roomify site.  To change this, type a valid email address into the *E-mail address* field, and click *Save*.
 
 Property Owner Profile
 ======================
 
-Your Property Owner profile is very important, as this contains all of the information about you that is displayed to users of the site when they are viewing the owner information on a property.
+Your Property Owner profile is very important, as this contains all of the information about you that is displayed to users of the site when they are viewing the owner information on a property. To set up your user profile with a picture and bio, go to the Manage Content tab of your dashboard and click on **Manage User Profiles**. This will list all the profiles associated with your site. From here you can choose **edit profile**.
+
 
 Name
 ----
-To change your name's display, type it into the *Name* field as you want it to be shown, and click *Save*.
+Complete this field with your full name.
 
 Image
 -----
-Your image will be displayed  and click *Save*
+Upload an image that you like and select a crop.
 
 Bio
 ---
-Your account's email address is used for all communication sent from the Roomify site.  To change this, type a valid email address into the *E-mail address* field, and click *Save*.
+This field allows you to tell users a little about yourself.
 
+Short Info
+----------
+This text will be shown on the property page. You may use it to define a telephone number or a short description.
+
+Mailing Address
+---------------
+Filling this field out is important because it ensures that the proper tax rate is charged to guests.
+
+Social Pages
+------------
+These fields allow you to link any relavent social media accounts with your website. Users will then be able to follow these accounts, or gather further information from them.
 

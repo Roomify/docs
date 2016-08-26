@@ -3,7 +3,7 @@
 Manage Email Templates
 **********************
 
-The text of the emails sent by your site can be customized by Roomify Managers.  In the 'Manage Content' tab of your dashboard, click on 'Manage Email Templates'.  Find the template you wish to update, and click 'edit'.
+The text of the emails sent by your site can be customized by Roomify Managers.  In the **Manage Content** tab of your dashboard, click on **Manage Email Templates**.  Find the template you wish to update, and click **Edit**.
 
 .. image:: images/email_templates.png
    :width: 600 px
@@ -39,7 +39,7 @@ Additional Options
 ==================
 
 From Override:
-	The from override allows you to customize the email address that is used as the Sender email.  By default, all email templates will use the site e-mail address. If you would like a particular template to use something different, you can specify that here.
+	The **From Override** allows you to customize the email address that is used as the Sender email.  By default, all email templates will use the site e-mail address. If you would like a particular template to use something different, you can specify that here.
 
 CC Default:
 	If you would like to cc an email address or addresses when a system email is sent, enter them here.
@@ -47,4 +47,7 @@ CC Default:
 BCC Default:
 	As with the cc default, If you would like to bcc an email address or addresses when a system email is sent, enter them here.
 
-Be sure you click 'Save'!
+Recipient callback:
+	Coming Soon!
+
+Be sure you click **Save**!
