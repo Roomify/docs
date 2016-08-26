@@ -3,7 +3,7 @@
 Manage Main Menu
 ****************
 
-Working on the Quickstart?  Get back to Step 5 here: :ref:`roomify_accommodations_setup_content`.
+Working on the Quickstart?  Get back to Step 5 here: :doc:`../start/setup_content`.
 
 The main menu of your site is the primary navigation tool for your users. You can :
 
