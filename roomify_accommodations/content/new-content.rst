@@ -98,7 +98,7 @@ In this example, we will feature two properties on our site. One called "Locanda
 9. Click **Save and Close** - the modal window will close
 10. IMPORTANT! - Click on the green **Save** button at the bottom of the page, you should now see your new landing page, with two featured properties!
 
-Featured Location Map
+Featured Loacation Map
 ++++++++++++++++++++++
 
 Featured Activity

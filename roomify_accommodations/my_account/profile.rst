@@ -25,7 +25,7 @@ This field allows you to tell users a little about yourself.
 
 Short Info
 ----------
-This text will be shown on the property page. You may use it to define a telephone number or a short description.
+This text will be shown on the property page. You may use it to define a telephone number or a short description. If this field is left blank, the summary of the property description will appear below your name on the property page.
 
 Mailing Address
 ---------------
@@ -33,5 +33,6 @@ Filling this field out is important because it ensures that the proper tax rate 
 
 Social Pages
 ------------
-These fields allow you to link any relavent social media accounts with your website. Users will then be able to follow these accounts, or gather further information from them.
+These fields allow you to link any relevant social media accounts with your profile and property. The social media icons will appear below your name and Short Info on all property homepages that you are listed as Owner of.
+
 
