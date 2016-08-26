@@ -2,7 +2,7 @@
 
 Channel Management
 ******************
-The Roomify Channel Management service allows you to connect one or more listings and sync with:
+The Roomify Channel Management service allows you to connect one or more properties and sync with:
 
 + booking.com - 2-way full
 + airbnb.com - iCal-based
@@ -34,10 +34,10 @@ After clicking the **Activate** button, you should see the following message, wh
 If you have any issues connecting, please contact: support@roomify.us
  
 
-Connecting a Listing
+Connecting a Property
 =====================
 
-Once your site is connected, you can visit the channel management tabs of individual listings to manage their connection.
+Once your site is connected, you can visit the channel management tabs of individual properties to manage their connection.
 
 From your dashboard, under Manage Listing(s) click on **Edit**, then click on the Channel Management tab.
 
@@ -47,7 +47,7 @@ From your dashboard, under Manage Listing(s) click on **Edit**, then click on th
    :width: 700 px
    :align: center
 
-To connect with booking.com, you have to first connect to the listing on booking.com with Roomify, LLC as your channel management. Please see associated guide from booking.com on how to set Roomify, LLC as your channel manager.
+To connect with booking.com, you have to first connect to the property on booking.com with Roomify, LLC as your channel management. Please see associated guide from booking.com on how to set Roomify, LLC as your channel manager.
 
 Once you are set up with Roomify, LLC as your channel manager, you will be able to enter your booking.com Hotel ID in the form above and click **Connect**.
 

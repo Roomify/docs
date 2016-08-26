@@ -1,9 +1,9 @@
-.. _roomify_accommodations_listings_enquiries:
+.. _roomify_accommodations_properties_enquiries:
 
 Enquiries
 *********
 
-A user enquiry is generated when the **Request to book** field it utilized on your listing's homepage.
+A user enquiry is generated when the **Request to book** field it utilized on your property's homepage.
 
 .. image:: images/booking_request.png
    :width: 600 px

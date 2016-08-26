@@ -3,7 +3,7 @@
 Create New Content
 ******************
 
-Your Roomify site is built on top of a powerful CMS called Drupal.  This means that in addition to being able to list listings and take bookings, you also have the ability to create an extensive blog, add local attractions (activities), create Locations, and create Landing Pages to feature components of your site. To add new content, open the **Manage Content** tab of your dashboard, click on **Add new content**, and select one of the following types of content to add:
+Your Roomify site is built on top of a powerful CMS called Drupal.  This means that in addition to being able to list properties and take bookings, you also have the ability to create an extensive blog, add local attractions (activities), create Locations, and create Landing Pages to feature components of your site. To add new content, open the **Manage Content** tab of your dashboard, click on **Add new content**, and select one of the following types of content to add:
 
 #. `Blog Post`_
 #. `Landing Page`_
@@ -72,7 +72,7 @@ Give your landing page a title. The **Is edge to edge** option determines whethe
 
 Now we will add some content to our page.  You will have the option to add a 1, 2, 3, or 4 column Row, or the **Latest Blog Posts** widget. A row is a horizontal section of the page.  The number of columns in the row determines how many elements can be added to the row. You will see examples of this as we add content to our page.
 
-+ `Featured Listings`_
++ `Featured Properties`_
 + `Featured Location Map`_
 + `Featured Activity`_
 + `Featured Blog Post`_
@@ -82,21 +82,21 @@ Now we will add some content to our page.  You will have the option to add a 1, 
 + `Featured Block`_
 + `Featured Area`_
 
-Featured Listings
+Featured Properties
 +++++++++++++++++++
 
-In this example, we will feature two listings on our site. One called "Locanda Vivaldi", and one called "Casa Azzurra". Because we will have two listings, we will select a 2-column row, each listing will go in a column:
+In this example, we will feature two properties on our site. One called "Locanda Vivaldi", and one called "Casa Azzurra". Because we will have two properties, we will select a 2-column row, each property will go in a column:
  
 1. Click on **Add 2-Column Row**
 2. Click on **Edit 2-Column Row**
-3. Row Title - If you want this row to have a title, add one, otherwise you can leave it blank. For our example, this row is titled **Featured Listings**
+3. Row Title - If you want this row to have a title, add one, otherwise you can leave it blank. For our example, this row is titled **Featured Properties**
 4. Row View - Again, you can decide if you want the content to be edge to edge.  If you are using a background, you will probably want edge to edge.
 5. Row Background - You can select a color, or add an image.  For this row, the background has been left blank.
-6. First Element - Each column will contain an element. To feature a listing, select **Listing** from the drop down list, and click **Add new element**
-7. Start typing the name of the listing you wish to feature, and select it from the autocomplete - the first listing in our example is "Casa Azzurra"
-8. Second Element - click on the **second element** tab, and repeat the steps - select **Listing**, click **Add new element**, and type in the name of the second listing you wish to feature (in this case, 'Locanda Vivaldi')
+6. First Element - Each column will contain an element. To feature a property, select **Property** from the drop down list, and click **Add new element**
+7. Start typing the name of the property you wish to feature, and select it from the autocomplete - the first property in our example is "Casa Azzurra"
+8. Second Element - click on the **second element** tab, and repeat the steps - select **Property**, click **Add new element**, and type in the name of the second property you wish to feature (in this case, 'Locanda Vivaldi')
 9. Click **Save and Close** - the modal window will close
-10. IMPORTANT! - Click on the green **Save** button at the bottom of the page, you should now see your new landing page, with two featured listings!
+10. IMPORTANT! - Click on the green **Save** button at the bottom of the page, you should now see your new landing page, with two featured properties!
 
 Featured Location Map
 ++++++++++++++++++++++
@@ -135,7 +135,7 @@ Adding a location to your site is an easy process and will allow you to highligh
 To add a location, use the following steps:
 
 1. Add the title of the location.
-2. If the location you are adding is one of the site listings, check the **Listing** box.
+2. If the location you are adding is one of the site properties, check the **Property** box.
 3. Fill out the description field to identify the location.
 4. In the second tab, add the location point to the map. This can be done by either inputting the address and selecting **Get location** or manually locating the point on the map.
 5. The last tab allows you to position your location where you desire on the site menu.
@@ -156,7 +156,7 @@ Add the title of your page, then fill out the body field with your content. At t
 Things to do
 ============
 
-Create activities to describe to guests what they can do in and around your listing. Activities can also show up on the map if you give them an address and co-ordinates. This is a great way to help guests imagine how great a stay at your listing could be.
+Create activities to describe to guests what they can do in and around your property. Activities can also show up on the map if you give them an address and co-ordinates. This is a great way to help guests imagine how great a stay at your property could be.
 
 All of your activities will be displayed on a page that is accessed by the **Activities** link in your menu.  If you will not be using this feature, and wish to disable the link, do this by updating the menu (:ref:`roomify_accommodations_content_menu`).  Activities can be filtered by type, and clicked on to view more information.
 
