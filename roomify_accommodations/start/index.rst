@@ -9,7 +9,7 @@ Congratulations on your new Roomify site! You've watched the wrenches turn, and 
    :maxdepth: 2
 
    Step One: Log In <login.rst>
-   Step Two: Properties <setup_properties.rst>
+   Step Two: Listings <setup_listings.rst>
    Step Three: Booking Settings <setup_bookings.rst>
    Step Four: Commerce Settings <setup_commerce.rst>
    Step Five: Content <setup_content.rst>

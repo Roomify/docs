@@ -1,11 +1,11 @@
-.. _roomify_accommodations_properties_bookings:
+.. _roomify_accommodations_listings_bookings:
 
 Bookings
 ********
 
 Bookings are made in one of three ways:
 
-1. User requests to book and you have allowed instant bookings. With instant bookings enabled, users can confirm booking and proceed to checkout. Once the checkout process is complete, the booking will show up on the property's calendar. You will also receive email notifications.
+1. User requests to book and you have allowed instant bookings. With instant bookings enabled, users can confirm booking and proceed to checkout. Once the checkout process is complete, the booking will show up on the listing's calendar. You will also receive email notifications.
 
 
 .. image:: images/making_book_casa.png
@@ -29,7 +29,7 @@ This enquiry will appear on your dashboard. You will then be able to respond to 
    :align: center
 
 
-The user will then accept you offer, and the booking will automatically appear in the property's calendar.
+The user will then accept you offer, and the booking will automatically appear in the listing's calendar.
 
 
 .. image:: images/manage_availability.png
@@ -37,7 +37,7 @@ The user will then accept you offer, and the booking will automatically appear i
    :align: center
 
 
-3. The final way bookings can be made is manually. If you access the Availability menu, listed under the property you are wishing to book in the Manage Listing(s) tab (see image above), you can manually select the dates and when the pop-up window appears, choose **Create booking**.
+3. The final way bookings can be made is manually. If you access the Availability menu, listed under the listing you are wishing to book in the Manage Listing(s) tab (see image above), you can manually select the dates and when the pop-up window appears, choose **Create booking**.
 
 
 .. image:: images/create_booking.png

@@ -3,7 +3,7 @@
 Manage Site Content
 *******************
 
-The Manage Site Pages link in the Manage Content tab of your Roomify for Accommodations dashboard takes you to an overview of all of your site's content pages.  You will not see properties, conversations, or bookings here, instead you will see any blog posts, static pages (for example, an **About Us** page), landing pages, and so forth.  You can both filter and sort this view.
+The Manage Site Pages link in the Manage Content tab of your Roomify for Accommodations dashboard takes you to an overview of all of your site's content pages.  You will not see listings, conversations, or bookings here, instead you will see any blog posts, static pages (for example, an **About Us** page), landing pages, and so forth.  You can both filter and sort this view.
 
 Filtering the content view:
 	Say you have 300 blog posts on your site, and you want to edit one of your five static pages.  Instead of scrolling though every page of content on your site, simply select type: **Page**, and click **Filter**. This will show you only static page content.  To remove the filtering, simply click on **Undo** (will remove the bottom filter applied, if there are multiple filters), or **Reset** (will remove all filters).
