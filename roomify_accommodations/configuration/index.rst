@@ -16,4 +16,4 @@ Manage Configuration
    Commerce Settings <commerce_settings.rst>
    Global Site Settings <global_site.rst>
    Configure Channel Management <channel_management.rst>
-..   Translations <translations.rst>
+   Translations <translations.rst>
