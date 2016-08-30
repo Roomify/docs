@@ -57,35 +57,22 @@ Categories and Placement Tab
 Menu Settings
 +++++++++++++
 
-To add a blog post to your site menu, click on **Provide a menu link**.  Edit the Menu link title, if you wish to, and select <main menu> as the parent item.  Multi level menus are not supported, but this feature is in the works!
+To add a blog post to your site menu, click on **Provide a menu link**.  Edit the Menu link title, if you wish to, and select <main menu> as the parent item.  Multi-level menus are not supported, but this feature is in the works!
 
 Landing Page
 ============
 
-Landing pages are an extremely flexible way to highlight content on your site.  Because they are so flexible, they can be a bit daunting at first glance, so we will step through a few examples. Begin by creating a new landing page: Dashboard > Manage Content > Add new content > Landing Page
+Landing pages are an extremely flexible way to highlight content on your site. They allow you to populate a single webpage (most commonly a homepage) with a wide selection of your content and with certain widgets. Because they are so flexible, they can be a bit daunting at first glance, so we will step through an example. Begin by creating a new landing page: Dashboard > Manage Content > Add new content > Landing Page
 
-Give your landing page a title. The **Is edge to edge** option determines whether the content is padded on the sides or not.  Experiment with this to see which way you like it better!
+Give your landing page a title to identify its application. The **Is edge to edge** option determines whether the content is padded on the sides or not.  Experiment with this to see which way you like it better!
 
 .. image:: images/landing_page.png
    :width: 700 px
    :align: center
 
-Now we will add some content to our page.  You will have the option to add a 1, 2, 3, or 4 column Row, or the **Latest Blog Posts** widget. A row is a horizontal section of the page.  The number of columns in the row determines how many elements can be added to the row. You will see examples of this as we add content to our page.
+Now we will add some content to our page.  You will have the option to add a 1, 2, 3, or 4 column Row, or the **Latest Blog Posts** widget. A row is a horizontal section of the page.  The number of columns in the row determines how many elements can be added to the row. The number of rows you add will depend on how many elements you want to include on your Landing page. You will see examples of this as we add content to our page.
 
-+ `Featured Properties`_
-+ `Featured Location Map`_
-+ `Featured Activity`_
-+ `Featured Blog Post`_
-+ `Featured Slideshow`_
-+ `Featured Text`_
-+ `Featured Image With Text`_
-+ `Featured Block`_
-+ `Featured Area`_
-
-Featured Properties
-+++++++++++++++++++
-
-In this example, we will feature two properties on our site. One called "Locanda Vivaldi", and one called "Casa Azzurra". Because we will have two properties, we will select a 2-column row, each property will go in a column:
+In this example, we will feature two properties on our site. One called "Locanda Vivaldi," and one called "Casa Azzurra." Because we will have two properties, we will select a 2-column row and one property will go in each column:
  
 1. Click on **Add 2-Column Row**
 2. Click on **Edit 2-Column Row**
@@ -95,50 +82,29 @@ In this example, we will feature two properties on our site. One called "Locanda
 6. First Element - Each column will contain an element. To feature a property, select **Property** from the drop down list, and click **Add new element**
 7. Start typing the name of the property you wish to feature, and select it from the autocomplete - the first property in our example is "Casa Azzurra"
 8. Second Element - click on the **second element** tab, and repeat the steps - select **Property**, click **Add new element**, and type in the name of the second property you wish to feature (in this case, 'Locanda Vivaldi')
-9. Click **Save and Close** - the modal window will close
-10. IMPORTANT! - Click on the green **Save** button at the bottom of the page, you should now see your new landing page, with two featured properties!
+9. The last setting to pay attention to is whether or not you want to link your new landing page to the menu. You will also be able to select where on the menu your page will appear.
+10. Click **Save and Close** - the modal window will close
+11. IMPORTANT! - Click on the green **Save** button at the bottom of the page, you should now see your new landing page, with two featured properties!
 
-Featured Location Map
-++++++++++++++++++++++
-
-Featured Activity
-+++++++++++++++++
-
-Featured Blog Post
-++++++++++++++++++
-
-Featured Slideshow
-++++++++++++++++++
-
-Featured Text
-+++++++++++++
-
-Featured Image With Text
-++++++++++++++++++++++++
-
-Featured Block
-++++++++++++++
-
-Featured Area
-+++++++++++++
+Because the purpose of landing pages is to give you the ability to customize as much as desired, there are many different types of content that can be added to the columns in each row you choose to add. In the example above, you now have a row with two properties on display. If you want further elements, you can add another row and select a different element type. We encourage experimenting with the landing pages until you find a combination of elements that suits your needs.
 
 
 Location
 ========
 
-Adding a location to your site is an easy process and will allow you to highlight some of the points of interest in a specific area.
+Adding a location to your site is an easy process and will allow you to highlight some of the points of interest in a specific area, mark the closest points of departure .
 
 .. image:: images/add_location.png
    :width: 700 px
    :align: center
 
-To add a location, use the following steps:
+You will also notice in the above image, the check-box **Property**. Adding your property locations to the map will allow guests to see which activities are close to each of your properties. To add a location, use the following steps:
 
 1. Add the title of the location.
 2. If the location you are adding is one of the site properties, check the **Property** box.
 3. Fill out the description field to identify the location.
 4. In the second tab, add the location point to the map. This can be done by either inputting the address and selecting **Get location** or manually locating the point on the map.
-5. The last tab allows you to position your location where you desire on the site menu.
+5. The last tab allows you to provide a link from the main menu directly to your location. For most locations, no menu link will be necessary. Your location will still show up on the **Locations** map. Choosing to add a link from the menu could be used when the location you added is very well known and deserves extra attention.
 6. Don't forget to save!
 
 
