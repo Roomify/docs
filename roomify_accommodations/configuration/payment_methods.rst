@@ -16,7 +16,7 @@ There are four options:
 #. `Stripe`_
 #. `Paypal`_
 #. `Authorize`_
-#. `Offline Payments`_
+#. `Custom Offline Payments`_
 
 Stripe
 ======
@@ -53,7 +53,14 @@ You can now make test bookings on your site without having to use a real card, o
 Paypal
 ======
 
-To enable Paypal as your payment processor, first you will need a Paypal account.  If you do not already have one, you can sign up here:  https://www.paypal.com/home.  Go through the registration process and then come back to your site. We will point you to everything you need to see in Paypal. Complete the setup using the following steps:
+To enable Paypal as your payment processor, first you will need a Paypal account.  If you do not already have one, you can sign up here:  https://www.paypal.com/home.  Go through the registration process and then come back to your site. 
+
+.. image:: images/paypal.PNG
+   :width: 700 px
+   :align: center
+ 
+
+We will point you to everything you need to see in Paypal. Complete the setup using the following steps:
 
 1. Check **Enabled** in the Paypal tab.
 2. Enter the email address associated with your Paypal account.
@@ -67,9 +74,28 @@ To enable Paypal as your payment processor, first you will need a Paypal account
 Authorize
 =========
 
-Docs coming soon!
+The first step to using Authorize.net as your payment method is setting up an account here: commerceguys.com/authorize-net-reseller. Once your account has been set up, access your download here: https://www.drupal.org/project/commerce_authnet and unzip the Commerce Authorize.Net module on your machine. 
 
-Offline Payments
-================
+Once you have Authorize.net downloaded, go to the **Configure Payment Methods** tab on the Manage Configuration tab of your dashboard and click on the **Authorize.net settings**:
 
-Docs coming soon!
+1. To begin, click the **Enabled** check box on the Authorized.net tab.
+2. Enter the API Login ID and Transaction Key obtained after you created your Authorize.net account.
+3. During the initial setup process, check the **Test transactions in a live account** box. This will enable you to run tests before making live transactions. Once your account is ready to go live, check the **Live transactions in live account** box.
+4. Two transaction types are available, one is **Authorization and capture** the other is **Authorization only**. The first option is the one you will likely desire to use. The second one would be used in instances where the card would not be charged until the product shipped, or similar circumstances where the charge was delayed after checkout.
+5. The check boxes allow you to select which cards are supported with your merchant account. If no boxes are checked, any credit card type will be accepted.  
+6. The final check box allows an automatic receipt email to be sent based on your account settings.
+7. Don't forget to click **Save configuration** at the bottom of the page. 
+
+
+Custom Offline Payments
+=======================
+
+When you enable custom offline payments, this means that no amount will be billed to the customer through your site. 
+
+.. image:: images/offline_payments.PNG
+   :width: 700 px
+   :align: center
+
+If you are desiring to go with the offline payment method, first check the **Enabled** box. This will make Offline Payment the default method. Enter the title and information into their respective fields and click **Save Configuration**. This method allows you to accept cash, checks, or other forms of offline payment. Keep in mind when using this method, however, that the full responsibility for collecting payment now resides with you. The customer will not be billed any amount during the booking process.
+
+
