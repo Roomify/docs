@@ -37,8 +37,8 @@ Drupal Modules
 
 jQuery Libraries
 ----------------
-#. `FullCalendar library <https://github.com/arshaw/fullcalendar/releases/download/v2.6.0/fullcalendar-2.6.0.zip>`_
-#. `FullCalendar Scheduler extension <https://github.com/fullcalendar/fullcalendar-scheduler/releases/download/v1.2.0/fullcalendar-scheduler-1.2.0.zip>`_. Please note that scheduler is a premium add-on to FullCalendar, and you must purchase a license if you intend to use it in a commercial project. See `Scheduler License Information <http://fullcalendar.io/scheduler/license/>`_ (Scheduler is not developed by Roomify)
+#. `FullCalendar library <https://github.com/fullcalendar/fullcalendar/releases/download/v3.0.0/fullcalendar-3.0.0.zip>`_
+#. `FullCalendar Scheduler extension <https://github.com/fullcalendar/fullcalendar-scheduler/releases/download/v1.4.0/fullcalendar-scheduler-1.4.0.zip>`_. Please note that scheduler is a premium add-on to FullCalendar, and you must purchase a license if you intend to use it in a commercial project. See `Scheduler License Information <http://fullcalendar.io/scheduler/license/>`_ (Scheduler is not developed by Roomify)
 #. `Timepicker <https://fgelinas.com/code/timepicker/releases/jquery-ui-timepicker-0.3.3.zip>`_ - This is not a strict requirement - it simply makes the creation of hour-based events easier.
 
 Drush-based Setup
