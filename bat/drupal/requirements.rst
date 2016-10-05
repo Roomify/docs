@@ -7,9 +7,9 @@ Introduction
 ============
 BAT for Drupal uses four components that are all required to get the full range of funcitonality.
 
-#.  The `BAT PHP Library <https://github.com/roomify/bat>`_  - this provides the core booking functionality and the best way to install and manage it on your Drupal site is through `Composer and Composer Manager for Drupal <https://www.drupal.org/project/composer_manager>`_
+#.  The `BAT PHP Library <https://github.com/roomify/bat>`_  - this provides the core booking functionality. The best way to install and manage it on your Drupal site is through `Composer and Composer Manager for Drupal <https://www.drupal.org/project/composer_manager>`_
 #.  The `BAT <https://drupal.org/project/bat>`_ module is a wrapper around the library providing Entity, Views, Rules and Event Management via calendars.
-#.  The `BAT API 2.x <https://drupal.org/project/bat_api>`_ provides REST access to event data and event manipulation. It powers functionality such as the dragging and dropiing of events on the calendar UI.
+#.  The `BAT API 2.x <https://drupal.org/project/bat_api>`_ provides REST access to event data and event manipulation. It powers functionality, such as, the dragging and dropping of events on the calendar UI.
 #.  The `FullCalendar jQuery library <http://fullcalendar.io>`_ as a UI to events.
 
 
@@ -43,7 +43,7 @@ jQuery Libraries
 
 Drush-based Setup
 ------------------
-If you are familiar with Drush and Drush make then you can use the bat.make file in the BAT module repository to get all the modules required (in versions we have tested BAT with) and the FullCalendar Library. From your Drupal root directory run
+If you are familiar with Drush and Drush make, then you can use the bat.make file in the BAT module repository to get all the modules required (in versions we have tested BAT with) and the FullCalendar Library. From your Drupal root directory run:
 
 ``drush make --no-core sites/all/modules/bat/bat.make``
 

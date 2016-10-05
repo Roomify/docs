@@ -3,22 +3,22 @@
 Displaying Availability
 ************************
 
-To display availability on the front-end of your Drupal site there are two fields you can use which are provided by the BAT Calendar Reference module included in the BAT project.
+To display availability on the front-end of your Drupal site, there are two fields you can use which are provided by the BAT Calendar Reference module included in the BAT project.
 
 BAT Calendar Unit Reference
 ----------------------------
-Allows you to reference one or more units, for a certain Type and Event Type
+BAT Calendar unit reference allows you to reference one or more units, for a certain type and event type.
 
 .. image:: images/unit_reference_field.png
 
 BAT Calendar Unit Type Reference
 ---------------------------------
-Allows you to reference on or more Types for a certain event type
+BAT Calendar unit type reference allows you to reference one or more types for a certain event type.
 
 .. image:: images/unit_type_reference_field.png
 
 
-The fields allow you to display either a Scheduler-style timeline or a calendar view by editing 
+These fields allow you to display either a scheduler-style timeline or a calendar view. 
 
 
 Timeline View
@@ -33,4 +33,4 @@ Agenda / Month View
 
 Interacting with Calendars
 --------------------------
-These calendars are currently display-only. You cannot interact with the events (that can only happen on the administration side of things). However, by changing the widgets at the code level you can easily make then interactive - Roomify is `available for commercial services or enterprise support around the use of BAT <https://roomify.us/get-started>`_ 
+These calendars are currently display-only. You cannot interact with the events (that can only happen on the administration side of things); however, by changing the widgets at the code level you can easily make then interactive - Roomify is `available for commercial services or enterprise support around the use of BAT <https://roomify.us/get-started>`_ 

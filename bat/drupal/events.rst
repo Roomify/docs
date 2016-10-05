@@ -12,53 +12,53 @@ Events and Event Types are managed at ``admin/bat/events``.
 
 Create an Event Type
 ====================
-As an example we will create an Availability Event Type to manage the availability of meeting rooms.
+As an example, we will create an Availability Event Type to manage the availability of meeting rooms.
 
-We visit ``admin/bat/events/event-types/add`` and define an event called Meeting Room Availability
+We visit ``admin/bat/events/event-types/add`` and define an event called "Meeting Room Availability."
 
 .. image:: images/hourly_availability.png
 
 Event States
 -------------
-There are two possible types of Event States; Fixed or Open.
+There are two possible types of event states: fixed or open.
 
 Fixed Event States
 ^^^^^^^^^^^^^^^^^^
-Fixed event states can only have a pre-defined set of values associated with them. This allows us to define states such as "Available", "Booked" by associating numerical (integer) values to those labels.
+Fixed event states can only have a pre-defined set of values associated with them. This allows us to define states such as "Available" and "Booked" by associating numerical (integer) values to those labels.
 
-Furthermore, fixed event states can be blocking or not. Blocking states means that they cannot simply be overriden on the calendar by dragging over them and assigning a new state. They need to be dealt with explicitly. A great example is a booking event. You need to explicitly delete a booking but you cannot simply drag over it and delete it. Instead if you are simply making something available or unavaialble you can just drag and select the dates and change the state of the event for those dates.
+Furthermore, fixed event states can be blocking or not. Blocking states means that they cannot simply be overriden on the calendar by dragging over them and assigning a new state. They need to be dealt with explicitly. A great example is a booking event. You need to explicitly delete a booking, you cannot simply drag over it and delete it. Instead, if you are simply making something available or unavaialble, you can just drag and select the dates and change the state of the event for those dates.
 
 Open Event States
 ^^^^^^^^^^^^^^^^^
-Open event states can have any integer value associated with them. This is great for managing pricing over time. A pricing event can have a value assigned to it that represents the price of booking our unit over that time period.
+Open event states can have any integer value associated with them. This is great for managing pricing over time. A pricing event can have a value assigned to it that represents the price of booking a unit over that time period.
 
 Event Granularity
 ------------------
-Events can either be of hourly granularity or daily granularity. This setting simply influences how BAT presentes the interface to a user since all events are saved with down to the minute granularity in the database.
+Events can either be of hourly or daily granularity. This setting simply influences how BAT presents the interface to a user, since all events are saved down to the minute granularity in the database.
 
 
 Define Event States
 ====================
-Once the event type is created we can add fields to it that will contain the event value over a time period. 
+Once the event type is created, we can add fields to it that will contain the event value over a time period. 
 
 Fixed Event States
 -------------------
 
-For fixed event states this is a two step process.
+For fixed event states there is a two step process:
 
 *  Define fixed state events. Visit ``admin/bat/events/event-types`` and click on **Manage States** for the event that you want to add states to.
 
 .. image:: images/meeting-room-states.png
 
-For each state you can provide a label, pick a color that will be used on calendar views and a label that will be used on the calendar. Finally, you can also define the state as blocking or non-blocking.
+For each state, you can provide a label and pick a color that will be used on calendar views. Finally, you can also define the state as blocking or non-blocking.
 
-*  Add a a field that points to possible state values. With the states defined you actually still need a way for your event to hold the value of a state. So as not to hard-code this as a property of the Event entity it is added via a field that BAT introduces, the *BAT Event State Reference* field. This field is added programmatically by BAT to fixed event state event types so if you visit ``admin/bat/events/event-types/manage/<your event type name>/fields`` you will find it listed.
+*  Add a field that points to possible state values. With the states defined, you actually still need a way for your event to hold the value of a state. To avoid hard-coding this as a property of the Event entity, add it via a field that BAT introduces, the *BAT Event State Reference* field. This field is added programmatically by BAT to fixed state event types so if you visit: ``admin/bat/events/event-types/manage/<your event type name>/fields`` you will find it listed.
 
 .. image:: images/fields-fixed-state-events.png
 
 Arbitrary Event States
 ----------------------
-For arbitrary event states you simply add a field that will hold the event value and then indicate what field that is so BAT can use it. For example for a pricing type event we would:
+For arbitrary event states, you simply add a field that will hold the event value and then indicate what field that is so BAT can use it. For example, for a pricing type event we would:
 
 * Add an integer (or commerce price) field to hold the cost
 

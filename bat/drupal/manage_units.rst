@@ -20,18 +20,18 @@ Visit `admin/bat/unit-management`.
 Add or Remove Units
 ===================
 
-For the type of units you are interested in click on "Units" and then "Add Units" to add units.
+To add the type of units you are interested in, click on "Units" and then "Add Units."
 
 .. image:: images/add_units.png
 
-BAT will automatically assign names based on the unit type which you can then go in and edit.
+BAT will automatically assign names, based on the unit type, which you can then go in and edit.
 
-You can also delete units by selecting them and using the Views Bulk Operation action to delete them.
+You can also delete units by selecting them and using the **Views Bulk Operation** action to delete them.
 
 
 Manage Unit Events
 ==================
 
-The links under the Calendars section to manage events will only appear if type bundles and event types are connected. Clicking on them will take you to a default Event Unit Management view to manage your events.
+The links to manage events under the **Calendars** section will only appear if type bundles and event types are connected. Clicking on them will take you to a default **Event Unit Management** view which allows you to manage your events.
 
 .. image:: images/view_event_data.png
