@@ -5,9 +5,9 @@ Manage Users
 
 To manage the user profiles associated with your site, go to your dashboard, and under the Manage Configuration tab, select **Manage Users**. 
 
-This screen lists all the profiles associated with your site, whether guests, property owners, or sight managers.
+This screen lists all the profiles associated with your site, whether guests, property owners, or site managers.
 
-The drop-downs at the top of the screen allow you to filter the users by any of the three categories.
+The drop-downs at the top of the screen allow you to filter the users by any of the three categories: role, permission, and status.
 
 .. image:: images/manage_users_permission.png
    :width: 700 px

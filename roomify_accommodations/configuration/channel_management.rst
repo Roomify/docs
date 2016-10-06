@@ -23,7 +23,7 @@ Once the proper information has been obtained, access this configuration option 
    :width: 700 px
    :align: center
 
-The following URL should be entered into the last field: hXps://cm.roomify.us/.
+The following URL should be entered into the last field: https://cm.roomify.us/.
 
 After clicking the **Activate** button, you should see the following message, which indicates a successful connection.
 

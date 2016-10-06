@@ -2,7 +2,7 @@
 
 Manage Content
 ==============
-Roomify Accommodations sites are built on Drupal, a powerful CMS (Content Management System). This allows you to create blogs posts, landing pages, locations, local attractions, and more static content such as an About Us page, all managed from within your Booking site.
+Roomify for Accommodations sites are built on Drupal, a powerful CMS (Content Management System). This allows you to create blogs posts, landing pages, locations, local attractions, and more static content such as an About Us page, all managed from within your Booking site.
 
 .. toctree::
    :maxdepth: 2

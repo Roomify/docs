@@ -14,7 +14,7 @@ The main menu of your site is the primary navigation tool for your users. You ca
 Re-order Menu items
 ===================
 
-Re-ordering menu items is a simple as dragging and dropping.
+Re-ordering menu items is as simple as dragging and dropping.
 
 .. image:: images/main_menu.png
    :width: 600 px
@@ -39,7 +39,7 @@ Creating a new menu item is easy!  Type in the name of your new link in the box,
 
 There are several choices available when creating a new menu link:
 
-+ `Url`_
++ `URL`_
 + `Placeholder`_
 + `New Blog Post/Location/Page/Things to do`_
 + `Existing Content`_
@@ -47,7 +47,7 @@ There are several choices available when creating a new menu link:
 URL
 ---
 
-A URL menu link can be used to link to any internal or external page. Fill in the **Path** field with an internal, relative link (for example, **contact**), or an external link, with the full url (for example, 'https://roomify.us').
+A URL menu link can be used to link to any internal or external page. Fill in the **Path** field with an internal, relative link (for example, **contact**), or an external link, with the full URL (for example, 'https://roomify.us').
 
 .. image:: images/menu_new_url.png
    :width: 600 px

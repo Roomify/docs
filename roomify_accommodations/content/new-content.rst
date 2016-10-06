@@ -57,7 +57,7 @@ Categories and Placement Tab
 Menu Settings
 +++++++++++++
 
-To add a blog post to your site menu, click on **Provide a menu link**.  Edit the Menu link title, if you wish to, and select <main menu> as the parent item.  Multi-level menus are not supported, but this feature is in the works!
+To add a blog post to your site menu, click on **Provide a menu link**.  Edit the Menu link title, if you wish to, and select either the main menu or a parent item to determine where the post will appear.
 
 Landing Page
 ============
@@ -92,7 +92,7 @@ Because the purpose of landing pages is to give you the ability to customize as 
 Location
 ========
 
-Adding a location to your site is an easy process and will allow you to highlight some of the points of interest in a specific area, mark the closest points of departure .
+Adding a location to your site is an easy process and will allow you to highlight some of the points of interest in a specific area and mark the closest points of departure.
 
 .. image:: images/add_location.png
    :width: 700 px
@@ -122,7 +122,7 @@ Add the title of your page, then fill out the body field with your content. At t
 Things to do
 ============
 
-Create activities to describe to guests what they can do in and around your property. Activities can also show up on the map if you give them an address and co-ordinates. This is a great way to help guests imagine how great a stay at your property could be.
+Create activities to describe to guests what they can do in and around your property. Activities can also show up on the map if you give them an address and coordinates. This is a great way to help guests imagine how great a stay at your property could be.
 
 All of your activities will be displayed on a page that is accessed by the **Activities** link in your menu.  If you will not be using this feature, and wish to disable the link, do this by updating the menu (:ref:`roomify_accommodations_content_menu`).  Activities can be filtered by type, and clicked on to view more information.
 

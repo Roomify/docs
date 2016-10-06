@@ -33,10 +33,10 @@ Booking Page Settings
 
 .. note:: These settings only apply to sites that have **deposit based** payments enabled. You can use them to choose what labels you show to your guests during checkout.
 
-	Deposit label - If you use %deposit% in this label, it will be replaced with the value set in the **Payment deposit Settings**.  This labels the percentage of the booking that will be charged to the guest on checkout.
++ Deposit label - If you use %deposit% in this label, it will be replaced with the value set in the **Payment deposit Settings**.  This labels the percentage of the booking that will be charged to the guest on checkout.
 
-	Payable now label - This labels the amount that is due on checkout.
++ Payable now label - This labels the amount that is due on checkout.
 
-	Remainder label - This labels the amount that will be due when the guest checks in at their destination.
++ Remainder label - This labels the amount that will be due when the guest checks in at their destination.
 
-	Total cost label - This labels the full amount a guest will pay for the stay.
++ Total cost label - This labels the full amount a guest will pay for the stay.

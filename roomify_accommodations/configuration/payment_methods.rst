@@ -48,14 +48,14 @@ Stripe also offers the ability to test payments on your site.  To set up your si
 
 You can now make test bookings on your site without having to use a real card, or refund payments.  When Stripe is in test mode, any billing address and expiration date will work with this number: 4111 1111 1111 1111
 
-.. note:: If you use stripe in test mode, ensure that you switch it to LIVE before you start taking bookings!
+.. note:: If you use Stripe in test mode, ensure that you switch it to LIVE before you start taking bookings!
 
 Paypal
 ======
 
 To enable Paypal as your payment processor, first you will need a Paypal account.  If you do not already have one, you can sign up here:  https://www.paypal.com/home.  Go through the registration process and then come back to your site. 
 
-.. image:: images/paypal.png
+.. image:: images/paypal.PNG
    :width: 700 px
    :align: center
  
@@ -74,7 +74,7 @@ We will point you to everything you need to see in Paypal. Complete the setup us
 Authorize
 =========
 
-The first step to using Authorize.net as your payment method is setting up an account here: commerceguys.com/authorize-net-reseller. Once your account has been set up, access your download here: https://www.drupal.org/project/commerce_authnet and unzip the Commerce Authorize.Net module on your machine. 
+The first step to using Authorize.net as your payment method is setting up an account here: https://commerceguys.com/authorize-net-reseller. Once your account has been set up, access your download here: https://www.drupal.org/project/commerce_authnet and unzip the Commerce Authorize.Net module on your machine. 
 
 Once you have Authorize.net downloaded, go to the **Configure Payment Methods** tab on the Manage Configuration tab of your dashboard and click on the **Authorize.net settings**:
 
@@ -92,7 +92,7 @@ Custom Offline Payments
 
 When you enable custom offline payments, this means that no amount will be billed to the customer through your site. 
 
-.. image:: images/offline_payments.png
+.. image:: images/offline_payments.PNG
    :width: 700 px
    :align: center
 

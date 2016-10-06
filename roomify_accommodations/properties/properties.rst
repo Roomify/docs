@@ -219,7 +219,7 @@ This tab simply allows you to choose whether or not taxes will be enabled on thi
 Ownership
 ~~~~~~~~~
 
-The ownership tab determines whether or not the name and image on the Property Owner Profile appear on your property listing. To display this information, enter your (or the appropriate owner's) user id in the Owner profile field. If you are the single owner/manager for your property, your user profile name will go into the Owner profile field and the Manager field. This means that in addition to your profile appearing on the property listing as the owner, you will also be the manager of the property, giving you access to all property management settings. Begin typing your name and select it from the drop down. If you simply type it out, it will not reference your profile correctly.
+The ownership tab determines whether or not the name and image on the Property Owner Profile appear on your property listing. To display this information, enter your (or the appropriate owner's) user ID in the Owner profile field. If you are the single owner/manager for your property, your user profile name will go into the Owner profile field and the Manager field. This means that in addition to your profile appearing on the property listing as the owner, you will also be the manager of the property, giving you access to all property management settings. Begin typing your name and select it from the drop down. If you simply type it out, it will not reference your profile correctly.
 
 .. image:: images/property_ownership.png
    :width: 600 px
@@ -290,7 +290,7 @@ Manage House
 
 A Property will either have a House (single-unit property) or multiple Rooms (multi-unit property) associated with it.  To manage the House of your single-unit property, click on the **House** tab.
 
-Next, click on **edit**, next to your house name. (Should generally be the same as the name of your property, but this is not required).
+Next, click on **Edit**, next to your house name. (Should generally be the same as the name of your property, but this is not required).
 
 .. image:: images/house_edit.png
    :width: 700 px
@@ -298,7 +298,7 @@ Next, click on **edit**, next to your house name. (Should generally be the same 
 
 Booking Constraints
 ~~~~~~~~~~~~~~~~~~~
-At the top of page are the configurable Booking Constraints. These allow you to set up how far in advance you will accept bookings, and how short of notice you will accept.
+At the top of the Edit page are the configurable Booking Constraints. These allow you to set up how far in advance you will accept bookings, and how short of notice you will accept.
 
 Edit Room/House
 ~~~~~~~~~~~~~~~

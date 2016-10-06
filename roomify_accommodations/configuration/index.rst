@@ -13,6 +13,8 @@ Manage Configuration
    Payment Methods <payment_methods.rst>
    Configure Terms and Conditions <configure_terms.rst>
    Global Booking Settings <global_booking.rst>
+   Manage Offers <manage_offers.rst>
+   Booking Notifications <booking_notifications.rst>
    Commerce Settings <commerce_settings.rst>
    Global Site Settings <global_site.rst>
    Configure Channel Management <channel_management.rst>

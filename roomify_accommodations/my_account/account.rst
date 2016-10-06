@@ -8,7 +8,7 @@ The My Account Link takes you to your Drupal account page.  This account is wher
 
 Username
 --------
-Your username is the id that you log into the roomify site with.  To change this value, simply type in a new username, and click **Save**.  If the username you have chosen is not available, an error message will be shown, asking you to choose another name.
+Your username is the ID that you log into the roomify site with.  To change this value, simply type in a new username, and click **Save**.  If the username you have chosen is not available, an error message will be shown, asking you to choose another name.
 
 Password
 --------
