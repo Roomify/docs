@@ -55,7 +55,7 @@ Paypal
 
 To enable Paypal as your payment processor, first you will need a Paypal account.  If you do not already have one, you can sign up here:  https://www.paypal.com/home.  Go through the registration process and then come back to your site. 
 
-.. image:: images/paypal.PNG
+.. image:: images/paypal.png
    :width: 700 px
    :align: center
  
@@ -92,7 +92,7 @@ Custom Offline Payments
 
 When you enable custom offline payments, this means that no amount will be billed to the customer through your site. 
 
-.. image:: images/offline_payments.PNG
+.. image:: images/offline_payments.png
    :width: 700 px
    :align: center
 

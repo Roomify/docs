@@ -3,7 +3,7 @@
 Manage Users
 ************
 
-To manage the user profiles associated with your site, go to your dashboard, and under the Manage Configuration tab, select **Manage Users**. 
+To manage the user profiles associated with your site, go to your dashboard, and under the Manage Configuration tab, select **Manage Users**.
 
 This screen lists all the profiles associated with your site, whether guests, property owners, or site managers.
 

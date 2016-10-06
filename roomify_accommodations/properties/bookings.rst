@@ -46,5 +46,4 @@ The user will then accept your offer, and the booking will automatically appear 
 
 
 This allows you to work with customers over the phone if necessary. This view will also allow you to manually change bookings that have already been made.
- 
 

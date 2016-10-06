@@ -5,7 +5,7 @@ Booking Notifications
 
 The **Booking Notifications** tab of your dashboard takes you to a menu that allows you to customize reminder notifications to be sent out periodically prior to a booked date.
 
-.. image:: images/booking_notifications.PNG
+.. image:: images/booking_notifications.png
    :width: 700 px
    :align: center
 
