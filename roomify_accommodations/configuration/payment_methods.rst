@@ -23,22 +23,22 @@ Stripe
 
 To enable Stripe as your payment processor, first you will need a Stripe account.  If you do not already have one, you can sign up here:  https://dashboard.stripe.com/register.  Go through the registration process and then come back to your site. We will point you to everything you need to see in Stripe. Complete the setup using the following steps:
 
-1. Check **Enabled** in the Stripe tab.
-2. Select your currency - Current options are CAD - EUR - GBP - USD - AUD - CHF.
-3. In Stripe, ensure that your account switch is set to **Live** (See screenshot below).
-4. Enter your Secret Key from Stripe: https://support.stripe.com/questions/where-do-i-find-my-api-keys.
-5. Enter your Publishable Key from Stripe: Ensure that both the Secret Key and the publishable key have no spaces before or after.
-6. Click **Save configuration**.
+#. Check **Enabled** in the Stripe tab.
+#. Select your currency - Current options are CAD - EUR - GBP - USD - AUD - CHF.
+#. In Stripe, ensure that your account switch is set to **Live** (See screenshot below).
+#. Enter your Secret Key from Stripe: https://support.stripe.com/questions/where-do-i-find-my-api-keys.
+#. Enter your Publishable Key from Stripe: Ensure that both the Secret Key and the publishable key have no spaces before or after.
+#. Click **Save configuration**.
 
 Done!
 
 Stripe also offers the ability to test payments on your site.  To set up your site to test payments, follow these steps:
 
-1. Check **Enabled** in the Stripe tab.
-2. Select your currency - Current options are CAD - EUR - GBP - USD - AUD - CHF.
-4. Enter your TEST Secret Key from Stripe: https://support.stripe.com/questions/where-do-i-find-my-api-keys.
-5. Enter your TEST Publishable Key from Stripe: Ensure that both the Secret Key and the publishable key have no spaces before or after.
-6. Click **Save configuration**.
+#. Check **Enabled** in the Stripe tab.
+#. Select your currency - Current options are CAD - EUR - GBP - USD - AUD - CHF.
+#. Enter your TEST Secret Key from Stripe: https://support.stripe.com/questions/where-do-i-find-my-api-keys.
+#. Enter your TEST Publishable Key from Stripe: Ensure that both the Secret Key and the publishable key have no spaces before or after.
+#. Click **Save configuration**.
 
 You can now make test bookings on your site without having to use a real card, or refund payments.  While using Stripe with the test keys, any billing address and expiration date will work with this number: 4111 1111 1111 1111
 
