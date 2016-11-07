@@ -30,25 +30,25 @@ To enable Stripe as your payment processor, first you will need a Stripe account
 5. Enter your Publishable Key from Stripe: Ensure that both the Secret Key and the publishable key have no spaces before or after.
 6. Click **Save configuration**.
 
-
-.. image:: images/stripe_live.png
-   :width: 700 px
-   :align: center
-
 Done!
 
 Stripe also offers the ability to test payments on your site.  To set up your site to test payments, follow these steps:
 
 1. Check **Enabled** in the Stripe tab.
 2. Select your currency - Current options are CAD - EUR - GBP - USD - AUD - CHF.
-3. In Stripe, ensure that your account switch is set to **Test**
 4. Enter your TEST Secret Key from Stripe: https://support.stripe.com/questions/where-do-i-find-my-api-keys.
 5. Enter your TEST Publishable Key from Stripe: Ensure that both the Secret Key and the publishable key have no spaces before or after.
 6. Click **Save configuration**.
 
-You can now make test bookings on your site without having to use a real card, or refund payments.  When Stripe is in test mode, any billing address and expiration date will work with this number: 4111 1111 1111 1111
+You can now make test bookings on your site without having to use a real card, or refund payments.  While using Stripe with the test keys, any billing address and expiration date will work with this number: 4111 1111 1111 1111
 
-.. note:: If you use Stripe in test mode, ensure that you switch it to LIVE before you start taking bookings!
+.. image:: images/stripe_live.png
+   :width: 700 px
+   :align: center
+
+To view your test payments, log into your Stripe account and change the toggle in the top left corner from LIVE to TEST. Stripe can accept live or test payments from your site at any time. The keys you use control whether Stripe attempts to process a payment or not.
+
+.. note:: If you use Stripe with the test keys, ensure that you switch to the live keys before you start taking bookings!
 
 Paypal
 ======
