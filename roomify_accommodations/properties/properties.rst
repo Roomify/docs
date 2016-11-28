@@ -405,6 +405,7 @@ Pricing and Availability
 
 *Allow instant bookings*
     If the site on which your property is listed allows instant bookings, this switch will allow you to turn off instant bookings for House or Room, and only take bookings via Enquiries. This setting will override the **Allow instant bookings** setting on the House or Room's Property, and will have no effect at all if instant bookings have been disabled site-wide.
+
 Image
 ~~~~~
 
