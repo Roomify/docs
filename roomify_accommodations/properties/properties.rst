@@ -383,13 +383,28 @@ Type: On Request - the add-on's price will be displayed, but not added to the to
 Pricing and Availability
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-The default availability field allows you to quickly make all units of a room type not available, by changing the field value to **Not Available**.  Conversely, if you have made a type not available, and want to change it back to available again, change the field value to **Available**.  You will see these changes reflected in the **Manage Availability** tab of your property.
-
 .. image:: images/type_avail.png
    :width: 700 px
    :align: center
 
+*Default Cost*
+    The default cost field determines the initial cost per night when a new rate set is generated. Once a rate set has been created, changes to the default cost field will have no effect, and the default is managed from within the 'Manage Pricing' tab of your Property.
 
+*Default Availability*
+    The default availability field allows you to quickly make all units of a room type not available, by changing the field value to **Not Available**.  Conversely, if you have made a type not available, and want to change it back to available again, change the field value to **Available**.  You will see these changes reflected in the **Manage Availability** tab of your property.
+
+*Vary rates based on number of people*
+    This setting enables pricing for your Room or House to be calculated based on the number of people that are staying in the Room/House.  For example, if your House has a mazimum capacity of 10 people, and you wish to charge 100/night for 5 to 10 people, and only 85/night for less than five, you would check the box, and then:
+
+    1. In the **Rates ranges** section, fill in Min people = 1 and Max people = 4
+    2. Click on 'add another item'
+    3. In the new fields, fill in Min people = 5 and Max people = 10
+    4. Click on 'Save Type', at the bottom of the page
+
+    This will create a new set of rates (daily/weekly/monthly) for each of the two ranges of people, that can be managed in the 'Manage Pricing' tab of your property.  Person range rates can be created and edited at any point, and until the 'Vary rates based on number of people' box is checked, they will not affect the rates seen by guests making bookings.  Once you have set up your rates to your satisfaction, check the box, and bookings will be priced for that House/Room according to the number of people that will be staying.
+
+*Allow instant bookings*
+    If the site on which your property is listed allows instant bookings, this switch will allow you to turn off instant bookings for House or Room, and only take bookings via Enquiries. This setting will override the **Allow instant bookings** setting on the House or Room's Property, and will have no effect at all if instant bookings have been disabled site-wide.
 Image
 ~~~~~
 
