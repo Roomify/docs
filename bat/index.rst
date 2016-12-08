@@ -1,6 +1,6 @@
-.. _BAT: documentation master file, 
+.. _BAT:
 
-BAT 
+BAT
 ====
 Booking and Availability Management Tools Documentation
 
@@ -10,6 +10,6 @@ This documentation refers to the `BAT PHP library <a href="https://github.com/ro
 .. toctree::
    :maxdepth: 2
 
-   Introduction to BAT <introduction.rst> 
+   Introduction to BAT <introduction.rst>
    BAT for Drupal <drupal/index.rst>
 
