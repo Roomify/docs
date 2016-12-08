@@ -8,7 +8,7 @@ Installation
 
 Installing a self-hosted Roomify for Accommodations site is very simple.
 
-Keep in mind that Roomify for Accommodations is a pre-configured Drupal site. Once you `purchase the solution <https://store.roomify.us/roomify-accommodations-self-hosted>`__ you will receive a ZIP file.
+Keep in mind that Roomify for Accommodations is a pre-configured Drupal site. You may download a packaged zip file from `the releases page <https://github.com/Roomify/RfA/releases>`__.
 
 Within that file you will find a MySQL database dump and the *entire* Drupal site including all source code, Javascript libraries and PHP libraries that are used.
 
@@ -28,7 +28,7 @@ Here is what you need to do.
 
 7. Ensure that the PHP memory limit (the memory_limit setting in your web server's php.ini file) is at least 160M.
 
-8. Ensure you are using at least PHP5.4 although PHP5.6 is preferred.
+8. Ensure you are using at least PHP5.4 although PHP7.0 is preferred.
 
 In order to login to the Drupal site you can reset the password using Drush or login with:
 
@@ -42,7 +42,7 @@ Keep in mind this is just like setting up any Drupal site. The only difference t
 Updating
 ----------
 
-We provide updates to Roomify for Accommodations on a weekly basis - if your license is current, you will have access via the Files tab on your account on `cloud.roomify.us <https://cloud.roomify.us/user>`_.
+We provide updates to Roomify for Accommodations on a regular basis - just go to `the releases page <https://github.com/Roomify/RfA/releases>`__ to download the latest release.
 
 Instructions given here are generalized, and *must* be adapted to your particular situation and deployment process.
 
