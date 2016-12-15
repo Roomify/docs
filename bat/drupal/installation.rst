@@ -27,8 +27,8 @@ Now, visit ``/sites/default/files/composer`` on the command line and run ``compo
 
 Install FullCalendar Libraries
 ------------------------------------
-#. Download `Fullcalendar <https://github.com/fullcalendar/fullcalendar/releases/download/v3.0.0/fullcalendar-3.0.0.zip>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar/``.
-#. Download `Fullcalendar Scheduler <https://github.com/fullcalendar/fullcalendar-scheduler/releases/download/v1.4.0/fullcalendar-scheduler-1.4.0.zip>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar-scheduler/``.
+#. Download `Fullcalendar <https://github.com/fullcalendar/fullcalendar/releases/download/v3.1.0/fullcalendar-3.1.0.zip>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar/``.
+#. Download `Fullcalendar Scheduler <https://github.com/fullcalendar/fullcalendar-scheduler/releases/download/v1.5.0/fullcalendar-scheduler-1.5.0.zip>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar-scheduler/``.
 
 jQuery Version
 ---------------
