@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .. _bat_drupal_installation:
 
 Installation
