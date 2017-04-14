@@ -24,6 +24,9 @@ Here is what you need to do.
 
 5. Edit the *existing* sites/default/settings.php file and adjust database settings to point to the database you imported in Step 4.
 
+.. tip:: Subdirectory Installations
+   If your RfA installation will be placed in a subfolder of your server, (i.e. http://your.server/folder/RfA/) you must set the `$base_url <https://api.drupal.org/api/drupal/developer!globals.php/global/base_url/7.x>`__ variable to your site's URL (without a trailing "/") in settings.php.
+
 6. Set the appropriate permissions for the files directory (`Here <https://www.drupal.org/node/244924/>`__ is an excellent guide.)
 
 7. Ensure that the PHP memory limit (the memory_limit setting in your web server's php.ini file) is at least 160M.
