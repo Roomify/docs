@@ -26,8 +26,8 @@ Now, visit ``/sites/default/files/composer`` on the command line and run ``compo
 
 Install FullCalendar Libraries
 ------------------------------------
-#. Download the correct FullCalendar version (`Check here for the current compatible version <http://cgit.drupalcode.org/bat/tree/bat.make#n28>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar/``.
-#. Download the correct Fullcalendar Scheduler version (`Check here for the current compatible version <http://cgit.drupalcode.org/bat/tree/bat.make#n36>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar-scheduler/``.
+#. Download the correct FullCalendar version (`Check here for the current compatible version of FullCalendar <http://cgit.drupalcode.org/bat/tree/bat.make#n28>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar/``.
+#. Download the correct Fullcalendar Scheduler version (`Check here for the current compatible version of FullCalendar Scheduler <http://cgit.drupalcode.org/bat/tree/bat.make#n36>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar-scheduler/``.
 
 jQuery Version
 ---------------
