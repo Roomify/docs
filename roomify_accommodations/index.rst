@@ -13,5 +13,4 @@ Roomify for Accommodations can scale from a single vacation rental website with 
    Manage Properties <properties/index.rst>
    Manage Content <content/index.rst>
    Manage Configuration <configuration/index.rst>
-   Manage Travel  <manage-travel/index.rst>
-   My Account <my_account/index.rst>
+   Manage Accounts <my_account/index.rst>

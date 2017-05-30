@@ -133,6 +133,9 @@ Basic Information
 *Allow instant bookings*
     If the site on which your property is listed allows instant bookings, this switch will allow you to turn off instant bookings for your individual property, and only take bookings via Enquiries.  This setting will be overridden by the **Allow instant bookings** setting on the House or Room, and will have no effect at all if instant bookings have been disabled site-wide.
 
+*Enable Reviews for this Property*
+    This will enable reviews for the property. Guests will find a "Review" button and they will be able to write a review with a rate. Property owners will be notified and will be able to publish/unpublish reviews.
+
 Image Gallery
 ~~~~~~~~~~~~~~~
 
