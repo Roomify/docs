@@ -12,6 +12,11 @@ The other social sharing platform, the one located on your dashboard under the M
    :width: 700 px
    :align: center
 
+Configure > Social Sharing Buttons
+To set up in which pages social media links will appear. 
+
+.. image:: images/addtoany.png
+
 Single-Property Sites
 =====================
 

@@ -11,3 +11,4 @@ Roomify for Accommodations can manage anything from a single property to a site 
    Properties <properties.rst>
    Bookings <bookings.rst>
    Enquiries <enquiries.rst>
+   Global Calendar <global_calendar.rst>

@@ -27,9 +27,19 @@ The second step is setting up the pricing described in your offer on the calenda
    :width: 700 px
    :align: center
 
-The final step is determining which properties the offer will be applied to. This is done under the **Edit** menu on the individual properties. This allows individual property owners to go into their property dashboard and either choose to participate, or not participate in any special offers that the site manager has created.
+The third step is determining which properties the offer will be applied to. This is done under the **Edit** menu on the individual properties. This allows individual property owners to go into their property dashboard and either choose to participate, or not participate in any special offers that the site manager has created.
 
 .. image:: images/manage_offers_tab.png
    :width: 700 px
    :align: center
 
+The final step is create the offer page to be selected on the main menu.
+This page will show description, duration and property that participate ad the offer with the possibility to enter in each property page and make a booking.
+
+.. image:: images/create_offer.png
+
+.. image:: images/offer_page.png
+
+Then you may add this to the homepage and the offer will be shown on the homepage to a greater visibility. Even in this case you can set your offer, your favorite picture and a short description. When you create this page you have to insert the node and the link of the offers page of the main menu.
+
+.. image:: images/offer_homepage.png
