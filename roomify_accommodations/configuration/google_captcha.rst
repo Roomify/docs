@@ -1,7 +1,7 @@
 .. _roomify_accommodations_google_captcha:
 
 Google Captcha
-************
+**************
 
 To set reCaptcha, the free service that protects your site from spam and abuse, click on your sidebar menu “Google reCAPTCHA” under Configuration
 

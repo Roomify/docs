@@ -23,7 +23,7 @@ Drop us a line for `commercial services or enterprise support <https://roomify.u
 
 .. toctree::
    :maxdepth: 3
-   :caption: BAT
+   :caption: Booking & Availability tools
 
    BAT - Booking and Availability Management Framework <bat/index.rst>
 
