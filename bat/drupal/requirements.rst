@@ -19,21 +19,37 @@ Dependencies
 Drupal Modules
 ---------------
 
-* `BAT API <http://drupal.org/project/bat_api>`_ > version 2.x
-* `X Autoload <https://drupal.org/project/xautoload>`_ - provides support for PSR-4 style name spaces
-* `Composer Manager <https://www.drupal.org/project/composer_manager>`_ - to get the BAT PHP library
-* `Date <http://drupal.org/project/date>`_
-* `Entity <http://drupal.org/project/entity>`_
-* `Entity Reference <http://drupal.org/project/entityreference>`_
-* `Ctools <http://drupal.org/project/ctools>`_
-* `JQuery Update <http://drupal.org/project/jquery_update>`_
-* `Libraries <http://drupal.org/project/libraries>`_
-* `Views <http://drupal.org/project/views>`_
-* `Views Megarow <https://www.drupal.org/project/views_megarow>`_
-* `Views Bulk Operations <https://www.drupal.org/project/views_bulk_operations>`_
-* `Search API <https://www.drupal.org/project/search_api>`_
-* `Facet API <https://www.drupal.org/project/facetapi>`_
-* `Services <http://drupal.org/project/services>`_ (a dependency of BAT API)
+.. tabs::
+
+    .. tab:: 8.x
+
+        * `BAT API <http://drupal.org/project/bat_api>`_ > version 1.x
+        * `Ctools <http://drupal.org/project/ctools>`_
+        * `Views <http://drupal.org/project/views>`_
+        * `Views Megarow <https://www.drupal.org/project/views_megarow>`_
+        * `Views Bulk Operations <https://www.drupal.org/project/views_bulk_operations>`_
+        * `Search API <https://www.drupal.org/project/search_api>`_
+        * `Facet API <https://www.drupal.org/project/facetapi>`_
+        * `Services <http://drupal.org/project/services>`_ (a dependency of BAT API, also `this patch <https://www.drupal.org/node/2920007>`_ is currently required)
+
+    .. tab:: 7.x
+
+        * `BAT API <http://drupal.org/project/bat_api>`_ > version 2.x
+        * `X Autoload <https://drupal.org/project/xautoload>`_ - provides support for PSR-4 style name spaces
+        * `Composer Manager <https://www.drupal.org/project/composer_manager>`_ - to get the BAT PHP library
+        * `Date <http://drupal.org/project/date>`_
+        * `Entity <http://drupal.org/project/entity>`_
+        * `Entity Reference <http://drupal.org/project/entityreference>`_
+        * `Ctools <http://drupal.org/project/ctools>`_
+        * `JQuery Update <http://drupal.org/project/jquery_update>`_
+        * `Libraries <http://drupal.org/project/libraries>`_
+        * `Views <http://drupal.org/project/views>`_
+        * `Views Megarow <https://www.drupal.org/project/views_megarow>`_
+        * `Views Bulk Operations <https://www.drupal.org/project/views_bulk_operations>`_
+        * `Search API <https://www.drupal.org/project/search_api>`_
+        * `Facet API <https://www.drupal.org/project/facetapi>`_
+        * `Services <http://drupal.org/project/services>`_ (a dependency of BAT API)
+
 
 jQuery Libraries
 ----------------
