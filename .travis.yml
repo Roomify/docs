@@ -19,7 +19,7 @@ install:
     - pip install --user sphinx_tabs
 
 script:
-    - travis-sphinx --source=. build
+    - travis-sphinx build -s .
 
 after_success:
     # Add our CNAME file as the deploy tool completely
