@@ -18,7 +18,7 @@ BAT Calendar unit type reference allows you to reference one or more types for a
 .. image:: images/unit_type_reference_field.png
 
 
-These fields allow you to display either a scheduler-style timeline or a calendar view. 
+These fields allow you to display either a scheduler-style timeline or a calendar view.
 
 
 Timeline View
@@ -33,4 +33,5 @@ Agenda / Month View
 
 Interacting with Calendars
 --------------------------
-These calendars are currently display-only. You cannot interact with the events (that can only happen on the administration side of things); however, by changing the widgets at the code level you can easily make then interactive - Roomify is `available for commercial services or enterprise support around the use of BAT <https://roomify.us/get-started>`_ 
+These calendars are currently display-only. You cannot interact with the events (that can only happen on the administration side of things); however, by changing the widgets at the code level you can easily make them interactive - Roomify is `available for commercial services or enterprise support around the use of BAT <https://roomify.us/get-started>`_
+
