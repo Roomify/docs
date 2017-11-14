@@ -43,10 +43,6 @@ Fixed State Events
 
         This may seem like an extra step but you should keep in mind that BAT makes no assumptions. You may have multiple Fixed State event fields pointing to multiple event types. As a result, there is a bit of extra setup to define everything.
 
-        Finally, edit your Type and select a default state.
-
-        .. image:: images/select_default_state_d8.png
-
     .. group-tab:: 7.x
 
         For fixed state events, the type of field to hold the default value is always going to be BAT Event State Reference field.
