@@ -10,7 +10,7 @@ In :doc:`type_bundles` we created a Meeting Room Type and in :doc:`events` we cr
 
 Default event value fields
 ===========================
-You connect a Type Bundle to an event through a **default event value field**.
+You connect Type Bundles to event types through a **default event value field**.
 
 A default value event field holds the value for a given type of event *before* any actual events are created. For the meeting room example, these will hold the default values for Availability and Pricing. Events associated with the meeting rooms will modify and overwrite these default values.
 
@@ -20,23 +20,53 @@ To create default value event fields visit ``admin/bat/config/type-bundles`` and
 
 Fixed State Events
 -------------------
-For fixed state events, the type of field to hold the default value is always going to be BAT Event State Reference field.
 
-.. image:: images/add_default_event_value_field.png
+.. tabs::
 
-In the field settings you need to select the event type that this field will point to (it will only show event types that have fixed states).
+    .. group-tab:: 8.x
 
-.. image:: images/select_event_type.png
+        For fixed state events, add an entity reference field to your Type Bundle. It will reference an event state.
 
-Now, with the field in place you can visit ``bat/config/type-bundles`` and click on the **edit** operation of the type bundle you are interested in. For every type of event, you will see a drop-down that allows you to connect a field of this type bundle to an event type.
+        .. image:: images/add_default_event_value_field_d8.png
 
-.. image:: images/connect.png
+        When creating the entity reference field, choose the "State" entity type.
 
-This may seem like an extra step but you should keep in mind that BAT makes no assumptions. You may have multiple Fixed State event fields pointing to multiple event types. As a result, there is a bit of extra setup to define everything.
+        .. image:: images/select_entity_type_d8.png
+
+        In the field settings, mark the field as required.
+
+        .. image:: images/select_event_type_d8.png
+
+        Now, with the field in place you can visit ``bat/config/type-bundles`` and click on the **edit** operation of the type bundle you are interested in. For every type of event, you will see a drop-down that allows you to connect a field of this type bundle to an event type.
+
+        .. image:: images/connect.png
+
+        This may seem like an extra step but you should keep in mind that BAT makes no assumptions. You may have multiple Fixed State event fields pointing to multiple event types. As a result, there is a bit of extra setup to define everything.
+
+        Finally, edit your Type and select a default state.
+
+        .. image:: images/select_default_state_d8.png
+
+    .. group-tab:: 7.x
+
+        For fixed state events, the type of field to hold the default value is always going to be BAT Event State Reference field.
+
+        .. image:: images/add_default_event_value_field.png
+
+        In the field settings you need to select the event type that this field will point to (it will only show event types that have fixed states).
+
+        .. image:: images/select_event_type.png
+
+        Now, with the field in place you can visit ``bat/config/type-bundles`` and click on the **edit** operation of the type bundle you are interested in. For every type of event, you will see a drop-down that allows you to connect a field of this type bundle to an event type.
+
+        .. image:: images/connect.png
+
+        This may seem like an extra step but you should keep in mind that BAT makes no assumptions. You may have multiple Fixed State event fields pointing to multiple event types. As a result, there is a bit of extra setup to define everything.
+
 
 Arbitrary state events
 -----------------------
-Similarly to fixed state events, arbitrary state events require a default value event field. The difference is, in this case it does not have to be in the BAT Event State Reference field. It has to be in a field, however, that holds an integer value or that we transform to an integer value. As a result, we only support a specific subset of fields. 
+Similarly to fixed state events, arbitrary state events require a default value event field. The difference is, in this case it does not have to be in the BAT Event State Reference field. It has to be in a field, however, that holds an integer value or that we transform to an integer value. As a result, we only support a specific subset of fields.
 
 Currently those are:
 
