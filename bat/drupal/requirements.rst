@@ -5,11 +5,11 @@ Requirements
 
 Introduction
 ============
-BAT for Drupal uses four components that are all required to get the full range of funcitonality.
+BAT for Drupal uses four components that are all required to get the full range of functionality.
 
 #.  The `BAT PHP Library <https://github.com/roomify/bat>`_  - this provides the core booking functionality. The best way to install and manage it on your Drupal site is through `Composer and Composer Manager for Drupal <https://www.drupal.org/project/composer_manager>`_
 #.  The `BAT <https://drupal.org/project/bat>`_ module is a wrapper around the library providing Entity, Views, Rules and Event Management via calendars.
-#.  The `BAT API 2.x <https://drupal.org/project/bat_api>`_ provides REST access to event data and event manipulation. It powers functionality, such as, the dragging and dropping of events on the calendar UI.
+#.  The `BAT API module <https://drupal.org/project/bat_api>`_ provides REST access to event data and event manipulation. It powers functionality, such as, the dragging and dropping of events on the calendar UI.
 #.  The `FullCalendar jQuery library <http://fullcalendar.io>`_ as a UI to events.
 
 
@@ -21,7 +21,7 @@ Drupal Modules
 
 .. tabs::
 
-    .. tab:: 8.x
+    .. group-tab:: 8.x
 
         * `BAT API <http://drupal.org/project/bat_api>`_ > version 1.x
         * `Ctools <http://drupal.org/project/ctools>`_
@@ -32,7 +32,7 @@ Drupal Modules
         * `Facet API <https://www.drupal.org/project/facetapi>`_
         * `Services <http://drupal.org/project/services>`_ (a dependency of BAT API, also `this patch <https://www.drupal.org/node/2920007>`_ is currently required)
 
-    .. tab:: 7.x
+    .. group-tab:: 7.x
 
         * `BAT API <http://drupal.org/project/bat_api>`_ > version 2.x
         * `X Autoload <https://drupal.org/project/xautoload>`_ - provides support for PSR-4 style name spaces
@@ -53,19 +53,50 @@ Drupal Modules
 
 jQuery Libraries
 ----------------
-#. `FullCalendar library <https://fullcalendar.io/download/>`_ (check bat.make in the module directory for the correct version to download)
-#. `FullCalendar Scheduler extension <https://fullcalendar.io/scheduler/download/>`_. Please note that scheduler is a premium add-on to FullCalendar, and you must purchase a license if you intend to use it in a commercial project. See `Scheduler License Information <http://fullcalendar.io/scheduler/license/>`_ (Scheduler is not developed by Roomify) (check bat.make in the module directory for the correct version to download)
-#. `Timepicker <https://fgelinas.com/code/timepicker/releases/jquery-ui-timepicker-0.3.3.zip>`_ - This is not a strict requirement - it simply makes the creation of hour-based events easier.
+
+.. tabs::
+
+    .. group-tab:: 8.x
+
+        #. `FullCalendar library <https://fullcalendar.io/download/>`_ (check bat.make in the module directory for the correct version to download)
+        #. `FullCalendar Scheduler extension <https://fullcalendar.io/scheduler/download/>`_. Please note that scheduler is a premium add-on to FullCalendar, and you must purchase a license if you intend to use it in a commercial project. See `Scheduler License Information <http://fullcalendar.io/scheduler/license/>`_ (Scheduler is not developed by Roomify) (check bat.make in the module directory for the correct version to download)
+
+    .. group-tab:: 7.x
+
+        #. `FullCalendar library <https://fullcalendar.io/download/>`_ (check bat.make in the module directory for the correct version to download)
+        #. `FullCalendar Scheduler extension <https://fullcalendar.io/scheduler/download/>`_. Please note that scheduler is a premium add-on to FullCalendar, and you must purchase a license if you intend to use it in a commercial project. See `Scheduler License Information <http://fullcalendar.io/scheduler/license/>`_ (Scheduler is not developed by Roomify) (check bat.make in the module directory for the correct version to download)
+        #. `Timepicker <https://fgelinas.com/code/timepicker/releases/jquery-ui-timepicker-0.3.3.zip>`_ - This is not a strict requirement - it simply makes the creation of hour-based events easier.
+
 
 Drush-based Setup
 ------------------
-If you are familiar with Drush and Drush make, then you can use the bat.make file in the BAT module repository to get all the modules required (in versions we have tested BAT with) and the FullCalendar Library. From your Drupal root directory run:
 
-``drush make --no-core sites/all/modules/bat/bat.make``
+.. tabs::
+
+    .. group-tab:: 8.x
+
+        If you are familiar with Drush and Drush make, then you can use the project.make file in the BAT module repository to get all the modules required (in versions we have tested BAT with) and the FullCalendar Library. From your Drupal root directory run:
+
+        ``drush make --no-core sites/all/modules/bat/test/project.make``
+
+    .. group-tab:: 7.x
+
+        If you are familiar with Drush and Drush make, then you can use the bat.make file in the BAT module repository to get all the modules required (in versions we have tested BAT with) and the FullCalendar Library. From your Drupal root directory run:
+
+        ``drush make --no-core sites/all/modules/bat/bat.make``
 
 
 Composer
 ---------
-You will need to install Composer if you don't have that already (a great idea since it will be needed for Drupal 8).
 
-Follow the instructions from the `Composer Manager module <https://www.drupal.org/project/composer_manager>`_ to get set up.
+.. tabs::
+
+    .. group-tab:: 8.x
+
+        When installing the BAT module via composer, the BAT library will automatically be installed.
+
+    .. group-tab:: 7.x
+
+        You will need to install Composer if you don't have that already (a great idea since it will be needed for Drupal 8).
+
+        Follow the instructions from the `Composer Manager module <https://www.drupal.org/project/composer_manager>`_ to get set up.
