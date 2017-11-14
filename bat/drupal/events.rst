@@ -5,9 +5,19 @@ Events
 
 BAT Events are the events that our types of units can go through. Typically there will be two types of events, availability events and pricing events. BAT, however, makes no assumptions about this. Instead, it provides tools that enable you - the booking tool builder - to define the types of events that *happen* to your units.
 
-Events and Event Types are managed at ``admin/bat/events``.
+.. tabs::
 
-.. image:: images/events.png
+    .. group-tab:: 8.x
+
+        Events and Event Types are managed at ``/admin/bat/events/event``.
+
+        .. image:: images/events_d8.png
+
+    .. group-tab:: 7.x
+
+        Events and Event Types are managed at ``admin/bat/events``.
+
+        .. image:: images/events.png
 
 
 Create an Event Type
@@ -39,22 +49,41 @@ Events can either be of hourly or daily granularity. This setting simply influen
 
 Define Event States
 ====================
-Once the event type is created, we can add fields to it that will contain the event value over a time period. 
+Once the event type is created, we can add fields to it that will contain the event value over a time period.
 
 Fixed Event States
 -------------------
 
-For fixed event states there is a two step process:
+.. tabs::
 
-*  Define fixed state events. Visit ``admin/bat/events/event-types`` and click on **Manage States** for the event that you want to add states to.
+    .. group-tab:: 8.x
 
-.. image:: images/meeting-room-states.png
+        For fixed event states there is a two step process:
 
-For each state, you can provide a label and pick a color that will be used on calendar views. Finally, you can also define the state as blocking or non-blocking.
+        *  Define fixed states. Visit ``/admin/bat/events/state`` and click Add State. You will need to select the Event Type you wish to associate this state with, simply start typing its name.
 
-*  Add a field that points to possible state values. With the states defined, you actually still need a way for your event to hold the value of a state. To avoid hard-coding this as a property of the Event entity, add it via a field that BAT introduces, the *BAT Event State Reference* field. This field is added programmatically by BAT to fixed state event types so if you visit: ``admin/bat/events/event-types/manage/<your event type name>/fields`` you will find it listed.
+        .. image:: images/meeting-room-states-d8.png
 
-.. image:: images/fields-fixed-state-events.png
+        For each state, you can provide a label and pick a color that will be used on calendar views. Finally, you can also define the state as blocking or non-blocking.
+
+        *  Add a field that points to possible state values. With the states defined, you actually still need a way for your event to hold the value of a state. To avoid hard-coding this as a property of the Event entity, add it via a field that BAT introduces, the *BAT Event State Reference* field. This field is added programmatically by BAT to fixed state event types so if you visit: ``admin/bat/events/event-types/manage/<your event type name>/fields`` you will find it listed.
+
+        .. image:: images/fields-fixed-state-events.png
+
+
+    .. group-tab:: 7.x
+
+        For fixed event states there is a two step process:
+
+        *  Define fixed state events. Visit ``admin/bat/events/event-types`` and click on **Manage States** for the event that you want to add states to.
+
+        .. image:: images/meeting-room-states.png
+
+        For each state, you can provide a label and pick a color that will be used on calendar views. Finally, you can also define the state as blocking or non-blocking.
+
+        *  Add a field that points to possible state values. With the states defined, you actually still need a way for your event to hold the value of a state. To avoid hard-coding this as a property of the Event entity, add it via a field that BAT introduces, the *BAT Event State Reference* field. This field is added programmatically by BAT to fixed state event types so if you visit: ``admin/bat/events/event-types/manage/<your event type name>/fields`` you will find it listed.
+
+        .. image:: images/fields-fixed-state-events.png
 
 Arbitrary Event States
 ----------------------
