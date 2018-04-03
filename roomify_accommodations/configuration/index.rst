@@ -17,6 +17,5 @@ Manage Configuration
    Booking Notifications <booking_notifications.rst>
    Commerce Settings <commerce_settings.rst>
    Global Site Settings <global_site.rst>
-   Configure Channel Management <channel_management.rst>
    Google Captcha <google_captcha.rst>
    Translations <translations.rst>
