@@ -35,8 +35,8 @@ Here is what you need to do.
 
 In order to login to the Drupal site you can reset the password using Drush or login with:
 
-user: admin
-pass: admin
+| user: admin
+| pass: admin
 
 *Please change your password immediately!*
 
