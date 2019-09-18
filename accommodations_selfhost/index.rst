@@ -42,8 +42,12 @@ pass: admin
 
 Keep in mind this is just like setting up any Drupal site. The only difference that you don't need to go through the installation process of Drupal itself. The database we provide is preconfigured. Our packaging tool makes a clean installation of Roomify for Accommodations and adds the exported database to the package.
 
+Using alternative payment gateways
+----------------------------------
+Any payment module that works with `Commerce 1 for Drupal 7 <https://www.drupal.org/project/commerce>`__ will work with RfA. Install, enable and configure it according to the module maintainer's instructions. Be sure to enable the Commerce Payment UI module to allow configuration of additional payment gateways.
+
 Updating
-----------
+--------
 
 We provide updates to Roomify for Accommodations on a regular basis - just go to `the releases page <https://github.com/Roomify/RfA/releases>`__ to download the latest release.
 
