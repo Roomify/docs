@@ -1,0 +1,375 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Events &mdash; Roomify  documentation - Booking Systems with Drupal</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/segment.min.css" type="text/css" />
+  
+    <link rel="stylesheet" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/menu.min.css" type="text/css" />
+  
+    <link rel="stylesheet" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/tab.min.css" type="text/css" />
+  
+    <link rel="stylesheet" href="../../_static/sphinx_tabs/tabs.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="Roomify  documentation" href="../../index.html"/>
+        <link rel="up" title="BAT for Drupal" href="index.html"/>
+        <link rel="next" title="Connect Types to Events" href="events_types.html"/>
+        <link rel="prev" title="Type Bundles" href="type_bundles.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://roomify.us"> back to roomify.us </a><br/>
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Roomify
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Roomify Platform</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../roomify/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../roomify_accommodations/index.html">Roomify for Accommodations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../accommodations_selfhost/index.html">Roomify for Accommodations - Self-Hosted</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Booking &amp; Availability tools</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">BAT - Booking and Availability Management Framework</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction to BAT</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">BAT for Drupal</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="requirements.html">Requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="type_bundles.html">Create Type Bundles</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Create Events</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#create-an-event-type">Create an Event Type</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#define-event-states">Define Event States</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="events_types.html">Connect Type Bundles to Events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="types.html">Create Types</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manage_units.html">Manage Units</a></li>
+<li class="toctree-l3"><a class="reference internal" href="displaying_availability.html">Display Availability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_availability.html">Search for Availability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="take_bookings.html">Taking Bookings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Rooms</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms/index.html">Rooms (1.11)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms-extensions/index.html">Roomify Extensions for Rooms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">Roomify</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">BAT</a> &raquo;</li>
+        
+          <li><a href="index.html">BAT for Drupal</a> &raquo;</li>
+        
+      <li>Events</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="events">
+<span id="bat-drupal-events"></span><h1>Events<a class="headerlink" href="#events" title="Permalink to this headline">¶</a></h1>
+<p>BAT Events are the events that our types of units can go through. Typically there will be two types of events, availability events and pricing events. BAT, however, makes no assumptions about this. Instead, it provides tools that enable you - the booking tool builder - to define the types of events that <em>happen</em> to your units.</p>
+<div class="sphinx-tabs docutils container">
+<div class="ui top attached tabular menu sphinx-menu docutils container">
+<div class="active item sphinx-data-tab-OC54 docutils container">
+<div class="docutils container">
+8.x</div>
+</div>
+<div class="item sphinx-data-tab-Ny54 docutils container">
+<div class="docutils container">
+7.x</div>
+</div>
+</div>
+<div class="ui bottom attached sphinx-tab tab segment sphinx-data-tab-OC54 active docutils container">
+<p>Events and Event Types are managed at <code class="docutils literal notranslate"><span class="pre">/admin/bat/events/event</span></code>.</p>
+<img alt="../../_images/events_d8.png" src="../../_images/events_d8.png" />
+</div>
+<div class="ui bottom attached sphinx-tab tab segment sphinx-data-tab-Ny54 docutils container">
+<p>Events and Event Types are managed at <code class="docutils literal notranslate"><span class="pre">admin/bat/events</span></code>.</p>
+<img alt="../../_images/events.png" src="../../_images/events.png" />
+</div>
+</div>
+<div class="section" id="create-an-event-type">
+<h2>Create an Event Type<a class="headerlink" href="#create-an-event-type" title="Permalink to this headline">¶</a></h2>
+<p>As an example, we will create an Availability Event Type to manage the availability of meeting rooms.</p>
+<p>We visit <code class="docutils literal notranslate"><span class="pre">admin/bat/events/event-types/add</span></code> and define an event called “Meeting Room Availability.”</p>
+<img alt="../../_images/hourly_availability.png" src="../../_images/hourly_availability.png" />
+<div class="section" id="event-states">
+<h3>Event States<a class="headerlink" href="#event-states" title="Permalink to this headline">¶</a></h3>
+<p>There are two possible types of event states: fixed or open.</p>
+<div class="section" id="fixed-event-states">
+<h4>Fixed Event States<a class="headerlink" href="#fixed-event-states" title="Permalink to this headline">¶</a></h4>
+<p>Fixed event states can only have a pre-defined set of values associated with them. This allows us to define states such as “Available” and “Booked” by associating numerical (integer) values to those labels.</p>
+<p>Furthermore, fixed event states can be blocking or not. Blocking states means that they cannot simply be overriden on the calendar by dragging over them and assigning a new state. They need to be dealt with explicitly. A great example is a booking event. You need to explicitly delete a booking, you cannot simply drag over it and delete it. Instead, if you are simply making something available or unavaialble, you can just drag and select the dates and change the state of the event for those dates.</p>
+</div>
+<div class="section" id="open-event-states">
+<h4>Open Event States<a class="headerlink" href="#open-event-states" title="Permalink to this headline">¶</a></h4>
+<p>Open event states can have any integer value associated with them. This is great for managing pricing over time. A pricing event can have a value assigned to it that represents the price of booking a unit over that time period.</p>
+</div>
+</div>
+<div class="section" id="event-granularity">
+<h3>Event Granularity<a class="headerlink" href="#event-granularity" title="Permalink to this headline">¶</a></h3>
+<p>Events can either be of hourly or daily granularity. This setting simply influences how BAT presents the interface to a user, since all events are saved down to the minute granularity in the database.</p>
+</div>
+</div>
+<div class="section" id="define-event-states">
+<h2>Define Event States<a class="headerlink" href="#define-event-states" title="Permalink to this headline">¶</a></h2>
+<p>Once the event type is created, we can add fields to it that will contain the event value over a time period.</p>
+<div class="section" id="id1">
+<h3>Fixed Event States<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<div class="sphinx-tabs docutils container">
+<div class="ui top attached tabular menu sphinx-menu docutils container">
+<div class="active item sphinx-data-tab-OC54 docutils container">
+<div class="docutils container">
+8.x</div>
+</div>
+<div class="item sphinx-data-tab-Ny54 docutils container">
+<div class="docutils container">
+7.x</div>
+</div>
+</div>
+<div class="ui bottom attached sphinx-tab tab segment sphinx-data-tab-OC54 active docutils container">
+<p>For fixed event states there is a two step process:</p>
+<ul class="simple">
+<li>Define fixed states. Visit <code class="docutils literal notranslate"><span class="pre">/admin/bat/events/state</span></code> and click Add State. You will need to select the Event Type you wish to associate this state with, simply start typing its name.</li>
+</ul>
+<img alt="../../_images/meeting-room-states-d8.png" src="../../_images/meeting-room-states-d8.png" />
+<p>For each state, you can provide a label and pick a color that will be used on calendar views. Finally, you can also define the state as blocking or non-blocking.</p>
+<ul class="simple">
+<li>Add a field that points to possible state values. With the states defined, you actually still need a way for your event to hold the value of a state. To avoid hard-coding this as a property of the Event entity, add it via a field that BAT introduces, the <em>BAT Event State Reference</em> field. This field is added programmatically by BAT to fixed state event types so if you visit: <code class="docutils literal notranslate"><span class="pre">admin/bat/events/event-types/manage/&lt;your</span> <span class="pre">event</span> <span class="pre">type</span> <span class="pre">name&gt;/fields</span></code> you will find it listed.</li>
+</ul>
+<img alt="../../_images/fields-fixed-state-events.png" src="../../_images/fields-fixed-state-events.png" />
+</div>
+<div class="ui bottom attached sphinx-tab tab segment sphinx-data-tab-Ny54 docutils container">
+<p>For fixed event states there is a two step process:</p>
+<ul class="simple">
+<li>Define fixed state events. Visit <code class="docutils literal notranslate"><span class="pre">admin/bat/events/event-types</span></code> and click on <strong>Manage States</strong> for the event that you want to add states to.</li>
+</ul>
+<img alt="../../_images/meeting-room-states.png" src="../../_images/meeting-room-states.png" />
+<p>For each state, you can provide a label and pick a color that will be used on calendar views. Finally, you can also define the state as blocking or non-blocking.</p>
+<ul class="simple">
+<li>Add a field that points to possible state values. With the states defined, you actually still need a way for your event to hold the value of a state. To avoid hard-coding this as a property of the Event entity, add it via a field that BAT introduces, the <em>BAT Event State Reference</em> field. This field is added programmatically by BAT to fixed state event types so if you visit: <code class="docutils literal notranslate"><span class="pre">admin/bat/events/event-types/manage/&lt;your</span> <span class="pre">event</span> <span class="pre">type</span> <span class="pre">name&gt;/fields</span></code> you will find it listed.</li>
+</ul>
+<img alt="../../_images/fields-fixed-state-events.png" src="../../_images/fields-fixed-state-events.png" />
+</div>
+</div>
+</div>
+<div class="section" id="arbitrary-event-states">
+<h3>Arbitrary Event States<a class="headerlink" href="#arbitrary-event-states" title="Permalink to this headline">¶</a></h3>
+<p>For arbitrary event states, you simply add a field that will hold the event value and then indicate what field that is so BAT can use it. For example, for a pricing type event we would:</p>
+<ul class="simple">
+<li>Add an integer (or commerce price) field to hold the cost</li>
+</ul>
+<img alt="../../_images/price_field.png" src="../../_images/price_field.png" />
+<ul class="simple">
+<li>Then in <code class="docutils literal notranslate"><span class="pre">admin/bat/events/event-types/manage/&lt;my</span> <span class="pre">event</span> <span class="pre">type&gt;</span></code> we select that field as holding the event value.</li>
+</ul>
+<img alt="../../_images/set_price_field.png" src="../../_images/set_price_field.png" />
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="events_types.html" class="btn btn-neutral float-right" title="Connect Types to Events" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="type_bundles.html" class="btn btn-neutral float-left" title="Type Bundles" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, roomify.us
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+      <script type="text/javascript" src="../../_static/language_data.js"></script>
+      <script type="text/javascript" src="../../_static/sphinx_tabs/semantic-ui-2.4.1/tab.min.js"></script>
+      <script type="text/javascript" src="../../_static/sphinx_tabs/tabs.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

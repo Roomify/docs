@@ -1,0 +1,288 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Manage Units &mdash; Roomify  documentation - Booking Systems with Drupal</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="Roomify  documentation" href="../../index.html"/>
+        <link rel="up" title="BAT for Drupal" href="index.html"/>
+        <link rel="next" title="Displaying Availability" href="displaying_availability.html"/>
+        <link rel="prev" title="Types" href="types.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://roomify.us"> back to roomify.us </a><br/>
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Roomify
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Roomify Platform</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../roomify/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../roomify_accommodations/index.html">Roomify for Accommodations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../accommodations_selfhost/index.html">Roomify for Accommodations - Self-Hosted</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Booking &amp; Availability tools</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">BAT - Booking and Availability Management Framework</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction to BAT</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">BAT for Drupal</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="requirements.html">Requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="type_bundles.html">Create Type Bundles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="events.html">Create Events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="events_types.html">Connect Type Bundles to Events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="types.html">Create Types</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Manage Units</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#add-or-remove-units">Add or Remove Units</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#manage-unit-events">Manage Unit Events</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="displaying_availability.html">Display Availability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_availability.html">Search for Availability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="take_bookings.html">Taking Bookings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Rooms</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms/index.html">Rooms (1.11)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms-extensions/index.html">Roomify Extensions for Rooms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">Roomify</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">BAT</a> &raquo;</li>
+        
+          <li><a href="index.html">BAT for Drupal</a> &raquo;</li>
+        
+      <li>Manage Units</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="manage-units">
+<span id="bat-manage-units"></span><h1>Manage Units<a class="headerlink" href="#manage-units" title="Permalink to this headline">¶</a></h1>
+<p>Once you have:</p>
+<ol class="arabic simple">
+<li>Created Type Bundles - <a class="reference internal" href="type_bundles.html"><span class="doc">Type Bundles</span></a></li>
+<li>Create Event Types - <a class="reference internal" href="events.html"><span class="doc">Events</span></a></li>
+<li>Connected Events to Type Bundles - <a class="reference internal" href="events_types.html"><span class="doc">Connect Types to Events</span></a></li>
+<li>Created at least one Type - <a class="reference internal" href="types.html"><span class="doc">Types</span></a></li>
+</ol>
+<p>you can now go ahead and actually manage your units!</p>
+<p>Visit <cite>admin/bat/unit-management</cite>.</p>
+<img alt="../../_images/unitmanagement.png" src="../../_images/unitmanagement.png" />
+<div class="section" id="add-or-remove-units">
+<h2>Add or Remove Units<a class="headerlink" href="#add-or-remove-units" title="Permalink to this headline">¶</a></h2>
+<p>To add the type of units you are interested in, click on “Units” and then “Add Units.”</p>
+<img alt="../../_images/add_units.png" src="../../_images/add_units.png" />
+<p>BAT will automatically assign names, based on the unit type, which you can then go in and edit.</p>
+<p>You can also delete units by selecting them and using the <strong>Views Bulk Operation</strong> action to delete them.</p>
+</div>
+<div class="section" id="manage-unit-events">
+<h2>Manage Unit Events<a class="headerlink" href="#manage-unit-events" title="Permalink to this headline">¶</a></h2>
+<p>The links to manage events under the <strong>Calendars</strong> section will only appear if type bundles and event types are connected. Clicking on them will take you to a default <strong>Event Unit Management</strong> view which allows you to manage your events.</p>
+<img alt="../../_images/view_event_data.png" src="../../_images/view_event_data.png" />
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="displaying_availability.html" class="btn btn-neutral float-right" title="Displaying Availability" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="types.html" class="btn btn-neutral float-left" title="Types" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, roomify.us
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+      <script type="text/javascript" src="../../_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

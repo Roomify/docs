@@ -1,0 +1,388 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Installation &mdash; Roomify  documentation - Booking Systems with Drupal</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/segment.min.css" type="text/css" />
+  
+    <link rel="stylesheet" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/menu.min.css" type="text/css" />
+  
+    <link rel="stylesheet" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/tab.min.css" type="text/css" />
+  
+    <link rel="stylesheet" href="../../_static/sphinx_tabs/tabs.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="Roomify  documentation" href="../../index.html"/>
+        <link rel="up" title="BAT for Drupal" href="index.html"/>
+        <link rel="next" title="Type Bundles" href="type_bundles.html"/>
+        <link rel="prev" title="Requirements" href="requirements.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://roomify.us"> back to roomify.us </a><br/>
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Roomify
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Roomify Platform</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../roomify/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../roomify_accommodations/index.html">Roomify for Accommodations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../accommodations_selfhost/index.html">Roomify for Accommodations - Self-Hosted</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Booking &amp; Availability tools</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">BAT - Booking and Availability Management Framework</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction to BAT</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">BAT for Drupal</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="requirements.html">Requirements</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Installation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#activate-modules">Activate Modules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#install-bat-php-library">Install BAT PHP Library</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#install-fullcalendar-libraries">Install FullCalendar Libraries</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#verify-setup">Verify Setup</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="type_bundles.html">Create Type Bundles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="events.html">Create Events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="events_types.html">Connect Type Bundles to Events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="types.html">Create Types</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manage_units.html">Manage Units</a></li>
+<li class="toctree-l3"><a class="reference internal" href="displaying_availability.html">Display Availability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_availability.html">Search for Availability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="take_bookings.html">Taking Bookings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Rooms</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms/index.html">Rooms (1.11)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms-extensions/index.html">Roomify Extensions for Rooms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">Roomify</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">BAT</a> &raquo;</li>
+        
+          <li><a href="index.html">BAT for Drupal</a> &raquo;</li>
+        
+      <li>Installation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="installation">
+<span id="bat-drupal-installation"></span><h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
+<p>Assuming you have all the dependencies in place, as described in <a class="reference internal" href="requirements.html"><span class="doc">Requirements</span></a>, you can now proceed to activate the BAT modules and get set up.</p>
+<div class="section" id="activate-modules">
+<h2>Activate Modules<a class="headerlink" href="#activate-modules" title="Permalink to this headline">¶</a></h2>
+<p>Visit <code class="docutils literal notranslate"><span class="pre">/admin/modules/</span></code> and activate the following modules:</p>
+<ul class="simple">
+<li>BAT - Booking and Availability Management Tools</li>
+<li>BAT Event</li>
+<li>BAT Event UI</li>
+<li>BAT Fullcalendar</li>
+<li>BAT Unit</li>
+<li>Booking and Availability Tools API</li>
+<li>Composer Manager (Drupal 7 only, this needs to activated explicitly as it is not strictly a BAT dependency)</li>
+</ul>
+<p>Once you confirm installation, Drupal will request all the dependencies to these modules. Provided that they are all already downloaded, you may simply continue. If something is missing, cancel the process, download the missing modules, and then continue.</p>
+</div>
+<div class="section" id="install-bat-php-library">
+<h2>Install BAT PHP Library<a class="headerlink" href="#install-bat-php-library" title="Permalink to this headline">¶</a></h2>
+<div class="sphinx-tabs docutils container">
+<div class="ui top attached tabular menu sphinx-menu docutils container">
+<div class="active item sphinx-data-tab-OC54 docutils container">
+<div class="docutils container">
+8.x</div>
+</div>
+<div class="item sphinx-data-tab-Ny54 docutils container">
+<div class="docutils container">
+7.x</div>
+</div>
+</div>
+<div class="ui bottom attached sphinx-tab tab segment sphinx-data-tab-OC54 active docutils container">
+When BAT is installed with Composer, the BAT PHP library will automatically be installed in the <code class="docutils literal notranslate"><span class="pre">/vendor/roomify/bat</span></code> directory. See <a class="reference external" href="https://www.drupal.org/docs/develop/using-composer/using-composer-with-drupal">Using Composer with Drupal</a> for more information.</div>
+<div class="ui bottom attached sphinx-tab tab segment sphinx-data-tab-Ny54 docutils container">
+<p>Provided that you are using Composer Manager, X Autoload, and have Composer, you should now have a composer.json file written in <code class="docutils literal notranslate"><span class="pre">/sites/default/files/composer</span></code>. You can change this location and where the PHP Library will be downloaded by visiting <code class="docutils literal notranslate"><span class="pre">admin/config/system/composer-manager/settings</span></code> and setting the Vendor Directory to a location of your choosing.</p>
+<p>Now, visit <code class="docutils literal notranslate"><span class="pre">/sites/default/files/composer</span></code> on the command line and run <code class="docutils literal notranslate"><span class="pre">composer</span> <span class="pre">install</span></code> (this assumes that you have already set up Composer for your development environment - if not follow the <a class="reference external" href="https://www.drupal.org/project/composer_manager">information here</a>)</p>
+</div>
+</div>
+</div>
+<div class="section" id="install-fullcalendar-libraries">
+<h2>Install FullCalendar Libraries<a class="headerlink" href="#install-fullcalendar-libraries" title="Permalink to this headline">¶</a></h2>
+<div class="sphinx-tabs docutils container">
+<div class="ui top attached tabular menu sphinx-menu docutils container">
+<div class="active item sphinx-data-tab-OC54 docutils container">
+<div class="docutils container">
+8.x</div>
+</div>
+<div class="item sphinx-data-tab-Ny54 docutils container">
+<div class="docutils container">
+7.x</div>
+</div>
+</div>
+<div class="ui bottom attached sphinx-tab tab segment sphinx-data-tab-OC54 active docutils container">
+<p>The Drupal 8 version of BAT loads the fullcalendar libraries via a CDN. To use site-local copies, do the following:</p>
+<ol class="arabic simple">
+<li>Download the correct FullCalendar version (<a class="reference external" href="http://cgit.drupalcode.org/bat/tree/test/project.make?h=8.x-1.x#n27">Check here for the current D8-compatible version of FullCalendar</a> and unpack in <code class="docutils literal notranslate"><span class="pre">/libraries/</span></code>. You should have a structure similar to <code class="docutils literal notranslate"><span class="pre">/libraries/fullcalendar/</span></code>.</li>
+<li>Download the correct Fullcalendar Scheduler version (<a class="reference external" href="http://cgit.drupalcode.org/bat/tree/test/project.make?h=8.x-1.x#n34">Check here for the current D8-compatible version of FullCalendar Scheduler</a> and unpack in <code class="docutils literal notranslate"><span class="pre">/libraries/</span></code>. You should have a structure similar to <code class="docutils literal notranslate"><span class="pre">/libraries/fullcalendar-scheduler/</span></code>.</li>
+</ol>
+</div>
+<div class="ui bottom attached sphinx-tab tab segment sphinx-data-tab-Ny54 docutils container">
+<ol class="arabic simple">
+<li>Download the correct FullCalendar version (<a class="reference external" href="https://git.drupalcode.org/project/bat/blob/7.x-1.x/bat.make#L28">Check here for the current compatible version of FullCalendar</a> and unpack in <code class="docutils literal notranslate"><span class="pre">sites/all/libraries/</span></code>. You should have a structure similar to <code class="docutils literal notranslate"><span class="pre">libraries/fullcalendar/</span></code>.</li>
+<li>Download the correct Fullcalendar Scheduler version (<a class="reference external" href="https://git.drupalcode.org/project/bat/blob/7.x-1.x/bat.make#L36">Check here for the current compatible version of FullCalendar Scheduler</a> and unpack in <code class="docutils literal notranslate"><span class="pre">sites/all/libraries/</span></code>. You should have a structure similar to <code class="docutils literal notranslate"><span class="pre">libraries/fullcalendar-scheduler/</span></code>.</li>
+<li>Visit <code class="docutils literal notranslate"><span class="pre">admin/config/development/jquery_update</span></code> and ensure that the default jQuery version for your admin theme, as well as the site overall, is at least 1.10.</li>
+</ol>
+</div>
+</div>
+</div>
+<div class="section" id="verify-setup">
+<h2>Verify Setup<a class="headerlink" href="#verify-setup" title="Permalink to this headline">¶</a></h2>
+<p>Once setup is completed you should see the following in <code class="docutils literal notranslate"><span class="pre">admin/report/status</span></code></p>
+<div class="sphinx-tabs docutils container">
+<div class="ui top attached tabular menu sphinx-menu docutils container">
+<div class="active item sphinx-data-tab-OC54 docutils container">
+<div class="docutils container">
+8.x</div>
+</div>
+<div class="item sphinx-data-tab-Ny54 docutils container">
+<div class="docutils container">
+7.x</div>
+</div>
+</div>
+<div class="ui bottom attached sphinx-tab tab segment sphinx-data-tab-OC54 active docutils container">
+<ul class="simple">
+<li>BAT PHP Library</li>
+</ul>
+<img alt="../../_images/batphp_d8.png" src="../../_images/batphp_d8.png" />
+<ul class="simple">
+<li>FullCalendar</li>
+</ul>
+<img alt="../../_images/fullcalendarok_d8.png" src="../../_images/fullcalendarok_d8.png" />
+<ul class="simple">
+<li>Finally, in <code class="docutils literal notranslate"><span class="pre">admin/bat</span></code> you should have:</li>
+</ul>
+<img alt="../../_images/batok_d8.png" src="../../_images/batok_d8.png" />
+</div>
+<div class="ui bottom attached sphinx-tab tab segment sphinx-data-tab-Ny54 docutils container">
+<ul class="simple">
+<li>Composer Manager</li>
+</ul>
+<img alt="../../_images/composermanager.png" src="../../_images/composermanager.png" />
+<ul class="simple">
+<li>FullCalendar</li>
+</ul>
+<img alt="../../_images/fullcalendarok.png" src="../../_images/fullcalendarok.png" />
+<ul class="simple">
+<li>Finally, in <code class="docutils literal notranslate"><span class="pre">admin/bat</span></code> you should have:</li>
+</ul>
+<img alt="../../_images/batok.png" src="../../_images/batok.png" />
+</div>
+</div>
+<p>We are now ready to get set up!</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="type_bundles.html" class="btn btn-neutral float-right" title="Type Bundles" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="requirements.html" class="btn btn-neutral float-left" title="Requirements" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, roomify.us
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+      <script type="text/javascript" src="../../_static/language_data.js"></script>
+      <script type="text/javascript" src="../../_static/sphinx_tabs/semantic-ui-2.4.1/tab.min.js"></script>
+      <script type="text/javascript" src="../../_static/sphinx_tabs/tabs.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

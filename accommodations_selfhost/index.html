@@ -1,0 +1,314 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Roomify for Accommodations - Self-Hosted &mdash; Roomify  documentation - Booking Systems with Drupal</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Roomify  documentation" href="../index.html"/>
+        <link rel="next" title="BAT" href="../bat/index.html"/>
+        <link rel="prev" title="Logout" href="../roomify_accommodations/my_account/logout.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://roomify.us"> back to roomify.us </a><br/>
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Roomify
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Roomify Platform</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../roomify/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../roomify_accommodations/index.html">Roomify for Accommodations</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Roomify for Accommodations - Self-Hosted</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#using-alternative-payment-gateways">Using alternative payment gateways</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#updating">Updating</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#customizing-roomify-for-accommodations">Customizing Roomify for Accommodations</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Booking &amp; Availability tools</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../bat/index.html">BAT - Booking and Availability Management Framework</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Rooms</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../rooms/index.html">Rooms (1.11)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rooms-extensions/index.html">Roomify Extensions for Rooms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Roomify</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Roomify for Accommodations - Self-Hosted</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="roomify-for-accommodations-self-hosted">
+<h1>Roomify for Accommodations - Self-Hosted<a class="headerlink" href="#roomify-for-accommodations-self-hosted" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>Installing a self-hosted Roomify for Accommodations site is very simple.</p>
+<p>Keep in mind that Roomify for Accommodations is a pre-configured Drupal site. You may download a packaged zip file from <a class="reference external" href="https://github.com/Roomify/RfA/releases">the releases page</a>.</p>
+<p>Within that file you will find a MySQL database dump and the <em>entire</em> Drupal site including all source code, Javascript libraries and PHP libraries that are used.</p>
+<p>Here is what you need to do.</p>
+<ol class="arabic simple">
+<li>Unzip the file provided.</li>
+<li>Place that file in the appropriate location in either your local development environment or your webserver.</li>
+<li>Configure your web server to point to that location.</li>
+<li>Import the included .sql file to your MySQL or MariaDB installation.</li>
+<li>Edit the <em>existing</em> sites/default/settings.php file and adjust database settings to point to the database you imported in Step 4.</li>
+</ol>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Subdirectory Installations
+If your RfA installation will be placed in a subfolder of your server, (i.e. <a class="reference external" href="http://your.server/folder/RfA/">http://your.server/folder/RfA/</a>) you must set the <a class="reference external" href="https://api.drupal.org/api/drupal/developer!globals.php/global/base_url/7.x">$base_url</a> variable to your site’s URL (without a trailing “/”) in settings.php.</p>
+</div>
+<ol class="arabic simple" start="6">
+<li>Set the appropriate permissions for the files directory (<a class="reference external" href="https://www.drupal.org/node/244924/">Here</a> is an excellent guide.)</li>
+<li>Ensure that the PHP memory limit (the memory_limit setting in your web server’s php.ini file) is at least 160M.</li>
+<li>Ensure you are using at least PHP5.4 although PHP7.0 is preferred.</li>
+</ol>
+<p>In order to login to the Drupal site you can reset the password using Drush or login with:</p>
+<div class="line-block">
+<div class="line">user: admin</div>
+<div class="line">pass: admin</div>
+</div>
+<p><em>Please change your password immediately!</em></p>
+<p>Keep in mind this is just like setting up any Drupal site. The only difference that you don’t need to go through the installation process of Drupal itself. The database we provide is preconfigured. Our packaging tool makes a clean installation of Roomify for Accommodations and adds the exported database to the package.</p>
+</div>
+<div class="section" id="using-alternative-payment-gateways">
+<h2>Using alternative payment gateways<a class="headerlink" href="#using-alternative-payment-gateways" title="Permalink to this headline">¶</a></h2>
+<p>Any payment module that works with <a class="reference external" href="https://www.drupal.org/project/commerce">Commerce 1 for Drupal 7</a> will work with RfA. Install, enable and configure it according to the module maintainer’s instructions. Be sure to enable the Commerce Payment UI module to allow configuration of additional payment gateways.</p>
+</div>
+<div class="section" id="updating">
+<h2>Updating<a class="headerlink" href="#updating" title="Permalink to this headline">¶</a></h2>
+<p>We provide updates to Roomify for Accommodations on a regular basis - just go to <a class="reference external" href="https://github.com/Roomify/RfA/releases">the releases page</a> to download the latest release.</p>
+<p>Instructions given here are generalized, and <em>must</em> be adapted to your particular situation and deployment process.</p>
+<p><em>Always make a full backup of your entire codebase, files and database before installing updated code!!!</em></p>
+<p>If you have not customized any code or functionality (e.g. modifying views or other functionality exported to the roomify features) and your files directory and settings.php file are in the default location (sites/default), the process is simple:</p>
+<ol class="arabic simple">
+<li>Move your entire codebase to a backup location outside the web server’s document root.</li>
+<li>Do <em>not</em> import the included .sql file.</li>
+<li>Unzip the new file you have updated into your web server’s document root.</li>
+<li>Remove the new sites/default directory and copy the sites/default directory from the older installation.</li>
+<li>Run <a class="reference external" href="https://www.drupal.org/upgrade/running-update-php">database updates</a>.</li>
+<li>Revert all features - the quickest way to do this is to use <a class="reference external" href="http://drush.ws">drush</a> and use the command features-revert-all. You may find more information on reverting features <a class="reference external" href="https://www.drupal.org/node/582680">here</a>.</li>
+<li><a class="reference external" href="https://www.drupal.org/documentation/clearing-rebuilding-cache">Clear all caches</a> - it’s possible that all features may not fully revert until you have cleared caches and reverted features twice or three times. This is known behavior with Drupal and not particular to Roomify for Accommodations.</li>
+<li>If any settings that you have modified are reverted by following this process, you should restore your database backup and manually revert features, only reverting functionality that you have not modified. Please see the section on customization for more information.</li>
+</ol>
+<p>NB: It is best not to skip versions of Roomify for Accommodations; for example, by updating directly from version 1.0.6 to 1.0.9. It may work, but we only test updating one version at a time and therefore recommend that you follow this practice.</p>
+</div>
+<div class="section" id="customizing-roomify-for-accommodations">
+<h2>Customizing Roomify for Accommodations<a class="headerlink" href="#customizing-roomify-for-accommodations" title="Permalink to this headline">¶</a></h2>
+<p>When making customizations, your goal should be to avoid directly modifying source code and settings/configurations provided by Roomify for Accommodations. This will make the process of installing updates far easier and avoid having to manually re-integrate any changes you make. Here are a few specific recommendations:</p>
+<ol class="arabic simple">
+<li>Place any custom modules you create or download under sites/default/modules - This will allow you to follow the update process provided above without any additions or modifications.</li>
+<li>Use <a class="reference external" href="https://www.drupal.org/node/292">hooks</a> in a custom module wherever possible to modify functionality.</li>
+<li>The <a class="reference external" href="https://www.drupal.org/project/features_override">Features Override</a> module may be useful to customize functionality provided by Roomify features.</li>
+<li>If you wish to customize the Roomify-provided permissions for roles on the site, you will need to disable the Roomify Rights module. This module enforces correct permissions for Roomify functionality, so as a result, you will need to track permission changes manually. The simplest way to do this is to keep your site in version control and look for changes to invocations of hook_roomify_rights after installing an update.</li>
+</ol>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../bat/index.html" class="btn btn-neutral float-right" title="BAT" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../roomify_accommodations/my_account/logout.html" class="btn btn-neutral float-left" title="Logout" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, roomify.us
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

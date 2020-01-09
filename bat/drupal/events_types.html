@@ -1,0 +1,344 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Connect Types to Events &mdash; Roomify  documentation - Booking Systems with Drupal</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/segment.min.css" type="text/css" />
+  
+    <link rel="stylesheet" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/menu.min.css" type="text/css" />
+  
+    <link rel="stylesheet" href="../../_static/sphinx_tabs/semantic-ui-2.4.1/tab.min.css" type="text/css" />
+  
+    <link rel="stylesheet" href="../../_static/sphinx_tabs/tabs.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="Roomify  documentation" href="../../index.html"/>
+        <link rel="up" title="BAT for Drupal" href="index.html"/>
+        <link rel="next" title="Types" href="types.html"/>
+        <link rel="prev" title="Events" href="events.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://roomify.us"> back to roomify.us </a><br/>
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Roomify
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Roomify Platform</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../roomify/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../roomify_accommodations/index.html">Roomify for Accommodations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../accommodations_selfhost/index.html">Roomify for Accommodations - Self-Hosted</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Booking &amp; Availability tools</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">BAT - Booking and Availability Management Framework</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction to BAT</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">BAT for Drupal</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="requirements.html">Requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="type_bundles.html">Create Type Bundles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="events.html">Create Events</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Connect Type Bundles to Events</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#default-event-value-fields">Default event value fields</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="types.html">Create Types</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manage_units.html">Manage Units</a></li>
+<li class="toctree-l3"><a class="reference internal" href="displaying_availability.html">Display Availability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_availability.html">Search for Availability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="take_bookings.html">Taking Bookings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Rooms</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms/index.html">Rooms (1.11)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms-extensions/index.html">Roomify Extensions for Rooms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">Roomify</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">BAT</a> &raquo;</li>
+        
+          <li><a href="index.html">BAT for Drupal</a> &raquo;</li>
+        
+      <li>Connect Types to Events</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="connect-types-to-events">
+<span id="bat-drupal-event-types"></span><h1>Connect Types to Events<a class="headerlink" href="#connect-types-to-events" title="Permalink to this headline">¶</a></h1>
+<p>In BAT we try to have the least possible amount of things hard-coded. This allows us to create truly flexible booking systems. However, it also means that we need to <em>explain</em> all these connections to the framework.</p>
+<p>In <a class="reference internal" href="type_bundles.html"><span class="doc">Type Bundles</span></a> we created a Meeting Room Type and in <a class="reference internal" href="events.html"><span class="doc">Events</span></a> we created two types of events for availability and pricing. We now have to connect the two. In other words, we need to let BAT know that our meeting rooms types will have events of the type <strong>Meeting Room Available</strong> and <strong>Pricing</strong> associated with them.</p>
+<div class="section" id="default-event-value-fields">
+<h2>Default event value fields<a class="headerlink" href="#default-event-value-fields" title="Permalink to this headline">¶</a></h2>
+<p>You connect Type Bundles to event types through a <strong>default event value field</strong>.</p>
+<p>A default value event field holds the value for a given type of event <em>before</em> any actual events are created. For the meeting room example, these will hold the default values for Availability and Pricing. Events associated with the meeting rooms will modify and overwrite these default values.</p>
+<p>In order to understand the need for default value event fields, consider what would happen if we did not have them: We would have to create events for every single point in time so as to have an availability and price value associated with the meeting rooms. Default value event fields simply indicate that if there is not an explicit event for a given period in time, use the default value.</p>
+<p>To create default value event fields visit <code class="docutils literal notranslate"><span class="pre">admin/bat/config/type-bundles</span></code> and click on the <strong>manage fields</strong> operation of the type you are interested in and add fields to hold default event values.</p>
+<div class="section" id="fixed-state-events">
+<h3>Fixed State Events<a class="headerlink" href="#fixed-state-events" title="Permalink to this headline">¶</a></h3>
+<div class="sphinx-tabs docutils container">
+<div class="ui top attached tabular menu sphinx-menu docutils container">
+<div class="active item sphinx-data-tab-OC54 docutils container">
+<div class="docutils container">
+8.x</div>
+</div>
+<div class="item sphinx-data-tab-Ny54 docutils container">
+<div class="docutils container">
+7.x</div>
+</div>
+</div>
+<div class="ui bottom attached sphinx-tab tab segment sphinx-data-tab-OC54 active docutils container">
+<p>For fixed state events, add an entity reference field to your Type Bundle. It will reference an event state.</p>
+<img alt="../../_images/add_default_event_value_field_d8.png" src="../../_images/add_default_event_value_field_d8.png" />
+<p>When creating the entity reference field, choose the “State” entity type.</p>
+<img alt="../../_images/select_entity_type_d8.png" src="../../_images/select_entity_type_d8.png" />
+<p>In the field settings, mark the field as required.</p>
+<img alt="../../_images/select_event_type_d8.png" src="../../_images/select_event_type_d8.png" />
+<p>Now, with the field in place you can visit <code class="docutils literal notranslate"><span class="pre">bat/config/type-bundles</span></code> and click on the <strong>edit</strong> operation of the type bundle you are interested in. For every type of event, you will see a drop-down that allows you to connect a field of this type bundle to an event type.</p>
+<img alt="../../_images/connect.png" src="../../_images/connect.png" />
+<p>This may seem like an extra step but you should keep in mind that BAT makes no assumptions. You may have multiple Fixed State event fields pointing to multiple event types. As a result, there is a bit of extra setup to define everything.</p>
+</div>
+<div class="ui bottom attached sphinx-tab tab segment sphinx-data-tab-Ny54 docutils container">
+<p>For fixed state events, the type of field to hold the default value is always going to be BAT Event State Reference field.</p>
+<img alt="../../_images/add_default_event_value_field.png" src="../../_images/add_default_event_value_field.png" />
+<p>In the field settings you need to select the event type that this field will point to (it will only show event types that have fixed states).</p>
+<img alt="../../_images/select_event_type.png" src="../../_images/select_event_type.png" />
+<p>Now, with the field in place you can visit <code class="docutils literal notranslate"><span class="pre">bat/config/type-bundles</span></code> and click on the <strong>edit</strong> operation of the type bundle you are interested in. For every type of event, you will see a drop-down that allows you to connect a field of this type bundle to an event type.</p>
+<img alt="../../_images/connect.png" src="../../_images/connect.png" />
+<p>This may seem like an extra step but you should keep in mind that BAT makes no assumptions. You may have multiple Fixed State event fields pointing to multiple event types. As a result, there is a bit of extra setup to define everything.</p>
+</div>
+</div>
+</div>
+<div class="section" id="arbitrary-state-events">
+<h3>Arbitrary state events<a class="headerlink" href="#arbitrary-state-events" title="Permalink to this headline">¶</a></h3>
+<p>Similarly to fixed state events, arbitrary state events require a default value event field. The difference is, in this case it does not have to be in the BAT Event State Reference field. It has to be in a field, however, that holds an integer value or that we transform to an integer value. As a result, we only support a specific subset of fields.</p>
+<p>Currently those are:</p>
+<ul class="simple">
+<li>Integer</li>
+<li>Commerce Price</li>
+<li>Text</li>
+</ul>
+<ol class="arabic simple">
+<li>The first step is to create the field - in our example we will create an Integer field that will hold the cost.</li>
+</ol>
+<img alt="../../_images/integer-field.png" src="../../_images/integer-field.png" />
+<ol class="arabic simple">
+<li>We can now (under the Edit tab) link the <strong>Cost</strong> field to the <strong>Meeting Room Cost</strong> event type.</li>
+</ol>
+<img alt="../../_images/link-cost-to-type.png" src="../../_images/link-cost-to-type.png" />
+<p>As we mentioned before, we can only handle a certain amount of fields for arbitrary values.</p>
+<p>Now, at this point, all that has happened is that BAT can:</p>
+<ul class="simple">
+<li>Connect unit types to event types</li>
+<li>Store the right information regarding availability and cost (because these are the event types we defined)</li>
+</ul>
+<p>You need to create types (see <a class="reference internal" href="types.html"><span class="doc">Types</span></a>) and then in <a class="reference internal" href="manage_units.html"><span class="doc">Manage Units</span></a> we explain how these types can be manipulated and values changed over time.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="types.html" class="btn btn-neutral float-right" title="Types" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="events.html" class="btn btn-neutral float-left" title="Events" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, roomify.us
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+      <script type="text/javascript" src="../../_static/language_data.js"></script>
+      <script type="text/javascript" src="../../_static/sphinx_tabs/semantic-ui-2.4.1/tab.min.js"></script>
+      <script type="text/javascript" src="../../_static/sphinx_tabs/tabs.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

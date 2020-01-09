@@ -1,0 +1,289 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Booking Settings &mdash; Roomify  documentation - Booking Systems with Drupal</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Roomify  documentation" href="../index.html"/>
+        <link rel="up" title="Rooms Documentation" href="index.html"/>
+        <link rel="next" title="Bookings" href="bookings.html"/>
+        <link rel="prev" title="Bookable Units and Unit Types" href="units_types.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://roomify.us"> back to roomify.us </a><br/>
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Roomify
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Roomify Platform</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../roomify/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../roomify_accommodations/index.html">Roomify for Accommodations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accommodations_selfhost/index.html">Roomify for Accommodations - Self-Hosted</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Booking &amp; Availability tools</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../bat/index.html">BAT - Booking and Availability Management Framework</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Rooms</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Rooms (1.11)</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="requirements.html">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="setup_quickstart.html">Setup Quickstart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_types.html">Units and Unit Types</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Booking Settings</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#rooms-booking-settings">Rooms Booking Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#calendar-codes-and-labels">Calendar Codes and Labels</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#administrative-settings">Administrative settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rooms-checkout-settings">Rooms Checkout Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#rooms-availability-search-settings">Rooms availability search settings</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="bookings.html">Bookings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="children_discounts.html">Children Discounts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rooms_terminology.html">Rooms Terminology</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../rooms-extensions/index.html">Roomify Extensions for Rooms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Roomify</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Rooms Documentation</a> &raquo;</li>
+        
+      <li>Booking Settings</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="booking-settings">
+<span id="id1"></span><h1>Booking Settings<a class="headerlink" href="#booking-settings" title="Permalink to this headline">¶</a></h1>
+<p>Rooms has a rich set of configuration options under admin/rooms/config/bookings</p>
+<div class="section" id="rooms-booking-settings">
+<h2>Rooms Booking Settings<a class="headerlink" href="#rooms-booking-settings" title="Permalink to this headline">¶</a></h2>
+<p><strong>How soon can a booking start:</strong> You can define whether users can book a booking on the same time they visit your site or whether there should be some lag time (e.g. bookings can only be done for two days from today).</p>
+<p><strong>Active Booking Type:</strong> Most people will not need to change this but this option allows you to define what type of Booking entity should be created. By default there is only the standard booking entity, but using Drupal’s Entity functionality you can also create you own booking types that carry richer information through fields that extend it.</p>
+<p><strong>Valid availability states:</strong> What states should be available for immediate booking.</p>
+</div>
+<div class="section" id="calendar-codes-and-labels">
+<h2>Calendar Codes and Labels<a class="headerlink" href="#calendar-codes-and-labels" title="Permalink to this headline">¶</a></h2>
+<p>This section allows you to customize the colours used in calendars.</p>
+</div>
+<div class="section" id="administrative-settings">
+<h2>Administrative settings<a class="headerlink" href="#administrative-settings" title="Permalink to this headline">¶</a></h2>
+<p><strong>Cart Expiration Time:</strong> When a booking is placed in the cart that room is made unavailable to anyone else searching at the same time. This allows you to define how long should the room be unavailable before it is removed from the cart and its availability released.</p>
+</div>
+<div class="section" id="rooms-checkout-settings">
+<h2>Rooms Checkout Settings<a class="headerlink" href="#rooms-checkout-settings" title="Permalink to this headline">¶</a></h2>
+<p><strong>Checkout Presentation Style:</strong> Here you can choose whether after a user views the results of an availability search and choose a unit to book they are taken to an enquiry form or they use the Commerce cart to checkout. An enquiry form means that the booking will not have actual effect on the availability while a Commerce cart checkout will update the availability state of units.</p>
+<p><strong>Price Calculation:</strong> You can choose whether cost of a room is calculated based on the number of people per night or simple per unit per night.</p>
+<p><strong>Create orders for manually generated bookings:</strong> If you do not want to create orders for manually generated bookings you can uncheck this option.</p>
+</div>
+<div class="section" id="rooms-availability-search-settings">
+<h2>Rooms availability search settings<a class="headerlink" href="#rooms-availability-search-settings" title="Permalink to this headline">¶</a></h2>
+<p><strong>Results Presentation Mode:</strong> By default results are shown per-type, i.e. we will list that there are ‘Standard’ or ‘Deluxe’ units available. For certain use cases though it may make sense to least the individual units available (e.g. if you are renting our individual apartments or villas).</p>
+<p><strong>Number of units to display:</strong> When showing results per-type we can decide how many units we should show as available.</p>
+<p><strong>Display children choice in availability search:</strong> This will allow users to define how many children will make up the group. As a result the availability search will look for rooms that can accommodate the number of children defined.</p>
+<p>Display unit type selector in availability search: The unit type selector allows users to choose what types of Units they are interested in (e.g. only Standard Rooms or only Deluxe Rooms).</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="bookings.html" class="btn btn-neutral float-right" title="Bookings" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="units_types.html" class="btn btn-neutral float-left" title="Bookable Units and Unit Types" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, roomify.us
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

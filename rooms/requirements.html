@@ -1,0 +1,274 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Requirements &mdash; Roomify  documentation - Booking Systems with Drupal</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Roomify  documentation" href="../index.html"/>
+        <link rel="up" title="Rooms Documentation" href="index.html"/>
+        <link rel="next" title="Installation" href="installation.html"/>
+        <link rel="prev" title="Rooms Documentation" href="index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://roomify.us"> back to roomify.us </a><br/>
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Roomify
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Roomify Platform</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../roomify/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../roomify_accommodations/index.html">Roomify for Accommodations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accommodations_selfhost/index.html">Roomify for Accommodations - Self-Hosted</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Booking &amp; Availability tools</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../bat/index.html">BAT - Booking and Availability Management Framework</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Rooms</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Rooms (1.11)</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="setup_quickstart.html">Setup Quickstart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_types.html">Units and Unit Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="booking_settings.html">Booking Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bookings.html">Bookings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="children_discounts.html">Children Discounts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rooms_terminology.html">Rooms Terminology</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../rooms-extensions/index.html">Roomify Extensions for Rooms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Roomify</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Rooms Documentation</a> &raquo;</li>
+        
+      <li>Requirements</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="requirements">
+<span id="rooms-requirements"></span><h1>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h1>
+<p>To install Rooms you need Drupal 7, with the following modules:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://drupal.org/project/ctools">Ctools</a></li>
+<li><a class="reference external" href="http://drupal.org/project/views">Views</a></li>
+<li><a class="reference external" href="http://drupal.org/project/commerce">Commerce</a></li>
+<li><a class="reference external" href="http://drupal.org/project/commerce_cart_expiration">Commerce Cart Expiration</a></li>
+<li><a class="reference external" href="http://drupal.org/project/addressfield">Address Field</a></li>
+<li><a class="reference external" href="http://drupal.org/project/entity">Entity</a></li>
+<li><a class="reference external" href="http://drupal.org/project/entityreference">Entity Reference</a></li>
+<li><a class="reference external" href="http://drupal.org/project/date">Date</a></li>
+<li><a class="reference external" href="http://drupal.org/project/jquery_update">JQuery Update</a></li>
+<li><a class="reference external" href="http://drupal.org/project/libraries">Libraries</a></li>
+<li><a class="reference external" href="http://drupal.org/project/variable">Variable</a></li>
+<li><a class="reference external" href="http://drupal.org/project/token">Token</a></li>
+<li><a class="reference external" href="http://drupal.org/project/rules">Rules</a></li>
+<li><a class="reference external" href="http://drupal.org/project/services">Services</a> (a dependency of BAT API)</li>
+<li><a class="reference external" href="https://www.drupal.org/project/bat_api">BAT API Version 1.0</a> (BAT API provides json api access to calendar date which is what is used to display events on FullCalendar. BAT API 1.0 is specific to Rooms 1.x and it is <em>just</em> an API module)</li>
+</ul>
+<p>If you are using Rooms 1.8 and newer you will need the standard FullCalendar library (we currently use <a class="reference external" href="https://github.com/arshaw/fullcalendar/releases/download/v3.1.0/fullcalendar-3.1.0.zip">version 3.1.0</a>)</p>
+<p>If you are using Rooms 1.7 and earlier you will need our custom fork of the FullCalendar JavaScript library from <a class="reference external" href="https://github.com/Roomify/fullcalendar/archive/master.zip">Github</a>.</p>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="installation.html" class="btn btn-neutral float-right" title="Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Rooms Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, roomify.us
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

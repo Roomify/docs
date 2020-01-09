@@ -1,0 +1,301 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>BAT Introduction &mdash; Roomify  documentation - Booking Systems with Drupal</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Roomify  documentation" href="../index.html"/>
+        <link rel="up" title="BAT" href="index.html"/>
+        <link rel="next" title="BAT for Drupal" href="drupal/index.html"/>
+        <link rel="prev" title="BAT" href="index.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://roomify.us"> back to roomify.us </a><br/>
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Roomify
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Roomify Platform</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../roomify/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../roomify_accommodations/index.html">Roomify for Accommodations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accommodations_selfhost/index.html">Roomify for Accommodations - Self-Hosted</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Booking &amp; Availability tools</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">BAT - Booking and Availability Management Framework</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Introduction to BAT</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#basic-concepts">Basic Concepts</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#units">Units</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#events">Events</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#calendar">Calendar</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#calendarresponse">CalendarResponse</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#constraints">Constraints</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#valuator">Valuator</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#store">Store</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="drupal/index.html">BAT for Drupal</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Rooms</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../rooms/index.html">Rooms (1.11)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rooms-extensions/index.html">Roomify Extensions for Rooms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Roomify</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">BAT</a> &raquo;</li>
+        
+      <li>BAT Introduction</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="bat-introduction">
+<span id="id1"></span><h1>BAT Introduction<a class="headerlink" href="#bat-introduction" title="Permalink to this headline">¶</a></h1>
+<p>BAT stands for Booking and Availability Management Tools.</p>
+<p>It is a set of tools created by the <a class="reference external" href="https://roomify.us">Roomify</a> team to provide a foundation through which a wide range of availability management, reservation and booking use cases can be addressed. BAT will work with a variety of CMSs and PHP Frameworks, the first of which is Drupal.</p>
+<p>BAT builds on our experience with Rooms, which handles the problem of bookings specifically for the accommodation for rental use case (vacation rentals, hotels, B&amp;B, etc). With BAT we took everything we learned and built a system that will let you create an application like Rooms for: table booking at a restaurant, conference room bookings, sharing power tools with friends, or other miscellaneous booking activities.</p>
+<p>BAT on its own is a booking and availability management framework - much in the same way that Drupal is a content management framework or Drupal Commerce is an e-commerce framework. Our aim is to build specific solutions on top of BAT to tackle specific application domains.</p>
+<div class="section" id="basic-concepts">
+<h2>Basic Concepts<a class="headerlink" href="#basic-concepts" title="Permalink to this headline">¶</a></h2>
+<img alt="../_images/bat-high-level.png" src="../_images/bat-high-level.png" />
+<div class="section" id="units">
+<h3>Units<a class="headerlink" href="#units" title="Permalink to this headline">¶</a></h3>
+<p>Units are the things that can be booked. For BAT they simply have an ID, a default state (for a given event type - we will get to this later) and can define Constraints. Constraints are like extra rules about whether a specific unit is available (we get back to these as well).</p>
+<p>For each application, units will represent something concrete like hotel rooms, cars, tables, etc.</p>
+</div>
+<div class="section" id="events">
+<h3>Events<a class="headerlink" href="#events" title="Permalink to this headline">¶</a></h3>
+<p>Events define what value a unit has for a given time period. There can be multiple types of events and the value of the event together with the type of event will provide some meaning within an application.</p>
+<p>For example, one set of events can denote “Availability,” while another, “Price.” The value of the event type “Availability” will indicate whether a unit is available (1), unavailable (0) or booked (2) - i.e. they indicate the state of a unit. The value of the event type “Price” could denote, instead of the cost per night, a change in the state of a unit for a given time period. So to make a unit change states from available to booked, for a given set of days, you can retrieve all pricing events for that set of days and multiply the number of nights by the value associated with that event.</p>
+</div>
+<div class="section" id="calendar">
+<h3>Calendar<a class="headerlink" href="#calendar" title="Permalink to this headline">¶</a></h3>
+<p>A Calendar allows us to retrieve events of a given type for a given set of units as well as search over units to see the ones that match specific event values.</p>
+<p>You can, for example, use a calendar to find all units that from Jan 1, 2016 to Jan 15, 2016 have Availability events that only hold a value of 2. Given our definition above, this would indicate booked units.</p>
+</div>
+<div class="section" id="calendarresponse">
+<h3>CalendarResponse<a class="headerlink" href="#calendarresponse" title="Permalink to this headline">¶</a></h3>
+<p>A search using the Calendar will return a CalendarResponse - this will indicate for each unit that was involved in the search whether it is part of the included units or the excluded units together with the reason it ended up in one or the other set. This allows our applications to reason about why something didn’t make the cut and display it to the end user.</p>
+</div>
+<div class="section" id="constraints">
+<h3>Constraints<a class="headerlink" href="#constraints" title="Permalink to this headline">¶</a></h3>
+<p>When a calendar does a search, it does it for a given time range and a valid set of values. We can identify further constrainers either at the global level or at the unit level. For example, a specific unit may indicate that it will only make itself available if the range search starts on a Monday, or it is of at least seven days, etc.</p>
+<p>The Calendar Response will hold information about which constraint moved a unit from the included set to the excluded set.</p>
+</div>
+<div class="section" id="valuator">
+<h3>Valuator<a class="headerlink" href="#valuator" title="Permalink to this headline">¶</a></h3>
+<p>A Valuator performs an operation on event values to determine the value of a unit for a given period given a specific valuation strategy. The simplest case for hotels would be to sum up the cost per night. Our applications can define multiple valuators and refer to different EventTypes to cater for a range of valuation strategies.</p>
+</div>
+<div class="section" id="store">
+<h3>Store<a class="headerlink" href="#store" title="Permalink to this headline">¶</a></h3>
+<p>Store records the value of a unit for a given moment in time. The Store goes down to minute granularity which means our units can have a different value for each minute in time. The Store data structure is designed to quickly allows us to determine the value of a unit for a given time range and quickly change it.</p>
+<p>Currently we support a SQLite store (used in our tests) and a DrupalStore. Additional Store support is on its way.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="drupal/index.html" class="btn btn-neutral float-right" title="BAT for Drupal" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="BAT" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, roomify.us
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

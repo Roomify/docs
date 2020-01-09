@@ -1,0 +1,289 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Rooms Documentation &mdash; Roomify  documentation - Booking Systems with Drupal</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Roomify  documentation" href="../index.html"/>
+        <link rel="next" title="Requirements" href="requirements.html"/>
+        <link rel="prev" title="Taking Bookings" href="../bat/drupal/take_bookings.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://roomify.us"> back to roomify.us </a><br/>
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Roomify
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Roomify Platform</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../roomify/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../roomify_accommodations/index.html">Roomify for Accommodations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accommodations_selfhost/index.html">Roomify for Accommodations - Self-Hosted</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Booking &amp; Availability tools</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../bat/index.html">BAT - Booking and Availability Management Framework</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Rooms</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Rooms (1.11)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="requirements.html">Requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="setup_quickstart.html">Setup Quickstart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_types.html">Units and Unit Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="booking_settings.html">Booking Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bookings.html">Bookings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="children_discounts.html">Children Discounts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rooms_terminology.html">Rooms Terminology</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../rooms-extensions/index.html">Roomify Extensions for Rooms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">Roomify</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Rooms Documentation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rooms-documentation">
+<h1>Rooms Documentation<a class="headerlink" href="#rooms-documentation" title="Permalink to this headline">¶</a></h1>
+<p>This documentation refers to the <a class="reference external" href="https://drupal.org/project/rooms">Rooms 1.11 module</a> .</p>
+<p>Rooms is a set of Drupal modules designed to enable individual holiday homes, B&amp;Bs and hotels to define what is available for booking (whether it is the entire building or rooms within a building), manage the availability and pricing and integrate with Drupal Commerce to handle payment.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="requirements.html">Requirements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#install-drupal">Install Drupal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#download-modules">Download Modules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#download-necessary-js-libraries">Download necessary JS libraries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#enable-rooms-modules">Enable Rooms modules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#check-if-everything-went-well">Check if everything went well</a></li>
+<li class="toctree-l2"><a class="reference internal" href="installation.html#start-your-roomified-site">Start your Roomified site!</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="setup_quickstart.html">Setup Quickstart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="units_types.html">Units and Unit Types</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="units_types.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_types.html#bookable-unit-types">Bookable Unit Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_types.html#settings-for-bookable-unit-types">Settings for Bookable Unit Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_types.html#configuring-bookable-units-for-a-hotel">Configuring Bookable Units for a Hotel</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_types.html#configuring-bookable-units-for-a-b-b">Configuring Bookable Units for a B&amp;B</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_types.html#configuring-bookable-units-for-a-holiday-home">Configuring Bookable Units for a holiday home</a></li>
+<li class="toctree-l2"><a class="reference internal" href="units_types.html#bookable-units">Bookable Units</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="booking_settings.html">Booking Settings</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="booking_settings.html#rooms-booking-settings">Rooms Booking Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="booking_settings.html#calendar-codes-and-labels">Calendar Codes and Labels</a></li>
+<li class="toctree-l2"><a class="reference internal" href="booking_settings.html#administrative-settings">Administrative settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="booking_settings.html#rooms-checkout-settings">Rooms Checkout Settings</a></li>
+<li class="toctree-l2"><a class="reference internal" href="booking_settings.html#rooms-availability-search-settings">Rooms availability search settings</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="bookings.html">Bookings</a></li>
+<li class="toctree-l1"><a class="reference internal" href="children_discounts.html">Children Discounts</a></li>
+<li class="toctree-l1"><a class="reference internal" href="rooms_terminology.html">Rooms Terminology</a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="requirements.html" class="btn btn-neutral float-right" title="Requirements" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="../bat/drupal/take_bookings.html" class="btn btn-neutral float-left" title="Taking Bookings" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, roomify.us
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

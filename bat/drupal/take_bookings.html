@@ -1,0 +1,304 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Taking Bookings &mdash; Roomify  documentation - Booking Systems with Drupal</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="Roomify  documentation" href="../../index.html"/>
+        <link rel="up" title="BAT for Drupal" href="index.html"/>
+        <link rel="next" title="Rooms Documentation" href="../../rooms/index.html"/>
+        <link rel="prev" title="Searching for Availability" href="search_availability.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://roomify.us"> back to roomify.us </a><br/>
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Roomify
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Roomify Platform</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../roomify/index.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../roomify_accommodations/index.html">Roomify for Accommodations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../accommodations_selfhost/index.html">Roomify for Accommodations - Self-Hosted</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Booking &amp; Availability tools</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">BAT - Booking and Availability Management Framework</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction.html">Introduction to BAT</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">BAT for Drupal</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="requirements.html">Requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="installation.html">Installation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="type_bundles.html">Create Type Bundles</a></li>
+<li class="toctree-l3"><a class="reference internal" href="events.html">Create Events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="events_types.html">Connect Type Bundles to Events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="types.html">Create Types</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manage_units.html">Manage Units</a></li>
+<li class="toctree-l3"><a class="reference internal" href="displaying_availability.html">Display Availability</a></li>
+<li class="toctree-l3"><a class="reference internal" href="search_availability.html">Search for Availability</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Taking Bookings</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#booking-entity">Booking Entity</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#add-booking-link">Add Booking Link</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#booking-form">Booking Form</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#bookings">Bookings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">Rooms</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms/index.html">Rooms (1.11)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms-extensions/index.html">Roomify Extensions for Rooms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">Roomify</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">BAT</a> &raquo;</li>
+        
+          <li><a href="index.html">BAT for Drupal</a> &raquo;</li>
+        
+      <li>Taking Bookings</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="taking-bookings">
+<span id="bat-drupal-bookings"></span><h1>Taking Bookings<a class="headerlink" href="#taking-bookings" title="Permalink to this headline">¶</a></h1>
+<p>Now that we can search for availability (<a class="reference internal" href="search_availability.html"><span class="doc">Searching for Availability</span></a>) the next logical step is to provide support for taking bookings.</p>
+<p>The simplest way to create a booking is to change the state of an event to the appropriate state as described in <a class="reference internal" href="manage_units.html"><span class="doc">Manage Units</span></a>. This can either be achieved through the <strong>Event Management interface</strong> or programmatically; more sophisticated applications, however, may require different interaction modes. For example, we may need to connect a booking to an order/payment or collect additional user information and place it in the context of a checkout flow. While we could collect all that information within an event, we would be overcomplicating the event entity and not separating concerns appropriately. Instead, we can opt to create a booking entity that connects an event to, for example, an order or specific customer data.</p>
+<p>This is the method we are using for our own BAT-based products and it is described here to help others consider the possibilities when using BAT Drupal.</p>
+<p>The code for this is specific to an application (it depends on your Event Types, Event States and general application logic) so it is not included in the BAT Drupal module. Please <a class="reference external" href="https://roomify.us/get-started">get in touch</a> if you are interested in commercial services in this direction.</p>
+<div class="section" id="booking-entity">
+<h2>Booking Entity<a class="headerlink" href="#booking-entity" title="Permalink to this headline">¶</a></h2>
+<p>The first step is to create a Booking Entity. The purpose of this entity is to connect an event to a booking and any information that may be associated with that booking (customer profile, order, etc).</p>
+<p>As with everything else in BAT, we can have different booking types for different scenarios.</p>
+<img alt="../../_images/bat-booking.png" src="../../_images/bat-booking.png" />
+<p>The booking entity has an entity reference field for an event. It is the state change to the event that will actually modify the availability of a unit. The booking simply joins an event to the other information our application needs.</p>
+</div>
+<div class="section" id="add-booking-link">
+<h2>Add Booking Link<a class="headerlink" href="#add-booking-link" title="Permalink to this headline">¶</a></h2>
+<p>On our <strong>Meeting Room View</strong> we will add a <strong>Book Now</strong> link. The Book Now link will only appear following a search and takes into account the values entered in the facet filter. The link passes those on to a basic booking form.</p>
+<img alt="../../_images/book-now.png" src="../../_images/book-now.png" />
+</div>
+<div class="section" id="booking-form">
+<h2>Booking Form<a class="headerlink" href="#booking-form" title="Permalink to this headline">¶</a></h2>
+<p>The Booking Form can have any fields our use case requires - in this case we just add a “Confirm Booking” button that will:</p>
+<ol class="arabic simple">
+<li>Re-check availability</li>
+<li>Create an event that sets the availability of a meeting room to booked</li>
+<li>Create a booking entity</li>
+</ol>
+<img alt="../../_images/booking-form.png" src="../../_images/booking-form.png" />
+<p>Depending on the use case, one could delay the creation of the event until after a checkout process.</p>
+</div>
+<div class="section" id="bookings">
+<h2>Bookings<a class="headerlink" href="#bookings" title="Permalink to this headline">¶</a></h2>
+<p>We now have a booking that is connected with the relevant event. We can use this entity to add any other type of information that is required with the booking and we need to take care to update the relevant event when the booking is changed.</p>
+<img alt="../../_images/example-booking.png" src="../../_images/example-booking.png" />
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">We have not, as yet, dealt with calculating the price of the booking. Costs would be determined by referring to pricing events for the period of the Booking and using the Valuator class of the BAT PHP library to determine the cost over that period.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../rooms/index.html" class="btn btn-neutral float-right" title="Rooms Documentation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="search_availability.html" class="btn btn-neutral float-left" title="Searching for Availability" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, roomify.us
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+      <script type="text/javascript" src="../../_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

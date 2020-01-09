@@ -1,0 +1,348 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Payment Methods &mdash; Roomify  documentation - Booking Systems with Drupal</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="Roomify  documentation" href="../../index.html"/>
+        <link rel="up" title="Manage Configuration" href="index.html"/>
+        <link rel="next" title="Configure Terms and Conditions" href="configure_terms.html"/>
+        <link rel="prev" title="Change Footer" href="change_footer.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://roomify.us"> back to roomify.us </a><br/>
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Roomify
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Roomify Platform</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../roomify/index.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Roomify for Accommodations</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction_roomify_accommodations.html">Introduction to Roomify for Accommodations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../start/index.html">Quickstart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../properties/index.html">Manage Properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content/index.html">Manage Content</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Manage Configuration</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="quicksetup.html">Quick Setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manage_users.html">Manage Users</a></li>
+<li class="toctree-l3"><a class="reference internal" href="configure_social.html">Configure Social Sharing Platforms</a></li>
+<li class="toctree-l3"><a class="reference internal" href="change_footer.html">Change Footer Text</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Payment Methods</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#stripe">Stripe</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#paypal">Paypal</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#authorize">Authorize</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#custom-offline-payments">Custom Offline Payments</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="configure_terms.html">Configure Terms and Conditions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="global_booking.html">Global Booking Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manage_offers.html">Manage Offers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="booking_notifications.html">Booking Notifications</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commerce_settings.html">Commerce Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="global_site.html">Global Site Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="google_captcha.html">Google Captcha</a></li>
+<li class="toctree-l3"><a class="reference internal" href="translations.html">Translations</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../my_account/index.html">Manage Accounts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../accommodations_selfhost/index.html">Roomify for Accommodations - Self-Hosted</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Booking &amp; Availability tools</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../bat/index.html">BAT - Booking and Availability Management Framework</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Rooms</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms/index.html">Rooms (1.11)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms-extensions/index.html">Roomify Extensions for Rooms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">Roomify</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Roomify for Accommodations</a> &raquo;</li>
+        
+          <li><a href="index.html">Manage Configuration</a> &raquo;</li>
+        
+      <li>Payment Methods</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="payment-methods">
+<span id="roomify-accommodations-payment-methods"></span><h1>Payment Methods<a class="headerlink" href="#payment-methods" title="Permalink to this headline">¶</a></h1>
+<p>Working on the Quickstart?  Get back to Step 4 here: <a class="reference internal" href="../start/setup_commerce.html#roomify-accommodations-setup-commerce"><span class="std std-ref">Commerce Settings</span></a>.</p>
+<p>Roomify for Accommodations currently supports three payment gateways and offline payments. To configure your payment method, click on <strong>Payment Methods</strong> in the <strong>Manage Configuration</strong> tab of your dashboard.</p>
+<a class="reference internal image-reference" href="../../_images/payment_methods.png"><img alt="../../_images/payment_methods.png" class="align-center" src="../../_images/payment_methods.png" style="width: 700px;" /></a>
+<p>There are four options:</p>
+<ol class="arabic simple">
+<li><a class="reference internal" href="#stripe">Stripe</a></li>
+<li><a class="reference internal" href="#paypal">Paypal</a></li>
+<li><a class="reference internal" href="#authorize">Authorize</a></li>
+<li><a class="reference internal" href="#custom-offline-payments">Custom Offline Payments</a></li>
+</ol>
+<div class="section" id="stripe">
+<h2>Stripe<a class="headerlink" href="#stripe" title="Permalink to this headline">¶</a></h2>
+<p>To enable Stripe as your payment processor, first you will need a Stripe account.  If you do not already have one, you can sign up here:  <a class="reference external" href="https://dashboard.stripe.com/register">https://dashboard.stripe.com/register</a>.  Go through the registration process and then come back to your site. We will point you to everything you need to see in Stripe. Complete the setup using the following steps:</p>
+<ol class="arabic simple">
+<li>Check <strong>Enabled</strong> in the Stripe tab.</li>
+<li>Select your currency - Current options are CAD - EUR - GBP - USD - AUD - CHF.</li>
+<li>In Stripe, ensure that your account switch is set to <strong>Live</strong> (See screenshot below).</li>
+<li>Enter your Secret Key from Stripe: <a class="reference external" href="https://support.stripe.com/questions/where-do-i-find-my-api-keys">https://support.stripe.com/questions/where-do-i-find-my-api-keys</a>.</li>
+<li>Enter your Publishable Key from Stripe: Ensure that both the Secret Key and the publishable key have no spaces before or after.</li>
+<li>Click <strong>Save configuration</strong>.</li>
+</ol>
+<p>Done!</p>
+<p>Stripe also offers the ability to test payments on your site.  To set up your site to test payments, follow these steps:</p>
+<ol class="arabic simple">
+<li>Check <strong>Enabled</strong> in the Stripe tab.</li>
+<li>Select your currency - Current options are CAD - EUR - GBP - USD - AUD - CHF.</li>
+<li>Enter your TEST Secret Key from Stripe: <a class="reference external" href="https://support.stripe.com/questions/where-do-i-find-my-api-keys">https://support.stripe.com/questions/where-do-i-find-my-api-keys</a>.</li>
+<li>Enter your TEST Publishable Key from Stripe: Ensure that both the Secret Key and the publishable key have no spaces before or after.</li>
+<li>Click <strong>Save configuration</strong>.</li>
+</ol>
+<p>You can now make test bookings on your site without having to use a real card, or refund payments.  While using Stripe with the test keys, any billing address and expiration date will work with this number: 4111 1111 1111 1111</p>
+<a class="reference internal image-reference" href="../../_images/stripe_live.png"><img alt="../../_images/stripe_live.png" class="align-center" src="../../_images/stripe_live.png" style="width: 700px;" /></a>
+<p>To view your test payments, log into your Stripe account and change the toggle in the top left corner from LIVE to TEST. Stripe can accept live or test payments from your site at any time. The keys you use control whether Stripe attempts to process a payment or not.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you use Stripe with the test keys, ensure that you switch to the live keys before you start taking bookings!</p>
+</div>
+</div>
+<div class="section" id="paypal">
+<h2>Paypal<a class="headerlink" href="#paypal" title="Permalink to this headline">¶</a></h2>
+<p>To enable Paypal as your payment processor, first you will need a Paypal account.  If you do not already have one, you can sign up here:  <a class="reference external" href="https://www.paypal.com/home">https://www.paypal.com/home</a>.  Go through the registration process and then come back to your site.</p>
+<a class="reference internal image-reference" href="../../_images/paypal.png"><img alt="../../_images/paypal.png" class="align-center" src="../../_images/paypal.png" style="width: 700px;" /></a>
+<p>We will point you to everything you need to see in Paypal. Complete the setup using the following steps:</p>
+<ol class="arabic simple">
+<li>Check <strong>Enabled</strong> in the Paypal tab.</li>
+<li>Enter the email address associated with your Paypal account.</li>
+<li>Select your currency - Current options are CAD - EUR - GBP - USD - AUD - CHF.</li>
+<li>Check the <strong>Allow transactions</strong> box.</li>
+<li>Make sure you set the country from which your Paypal login originates.</li>
+<li>Enter any additional email addresses that you wish to receive the Paypal email notifications.</li>
+<li>Click <strong>Save configuration</strong>.</li>
+</ol>
+</div>
+<div class="section" id="authorize">
+<h2>Authorize<a class="headerlink" href="#authorize" title="Permalink to this headline">¶</a></h2>
+<p>The first step to using Authorize.net as your payment method is setting up an account here: <a class="reference external" href="https://commerceguys.com/authorize-net-reseller">https://commerceguys.com/authorize-net-reseller</a>. Once your account has been set up, access your download here: <a class="reference external" href="https://www.drupal.org/project/commerce_authnet">https://www.drupal.org/project/commerce_authnet</a> and unzip the Commerce Authorize.Net module on your machine.</p>
+<p>Once you have Authorize.net downloaded, go to the <strong>Configure Payment Methods</strong> tab on the Manage Configuration tab of your dashboard and click on the <strong>Authorize.net settings</strong>:</p>
+<ol class="arabic simple">
+<li>To begin, click the <strong>Enabled</strong> check box on the Authorized.net tab.</li>
+<li>Enter the API Login ID and Transaction Key obtained after you created your Authorize.net account.</li>
+<li>During the initial setup process, check the <strong>Test transactions in a live account</strong> box. This will enable you to run tests before making live transactions. Once your account is ready to go live, check the <strong>Live transactions in live account</strong> box.</li>
+<li>Two transaction types are available, one is <strong>Authorization and capture</strong> the other is <strong>Authorization only</strong>. The first option is the one you will likely desire to use. The second one would be used in instances where the card would not be charged until the product shipped, or similar circumstances where the charge was delayed after checkout.</li>
+<li>The check boxes allow you to select which cards are supported with your merchant account. If no boxes are checked, any credit card type will be accepted.</li>
+<li>The final check box allows an automatic receipt email to be sent based on your account settings.</li>
+<li>Don’t forget to click <strong>Save configuration</strong> at the bottom of the page.</li>
+</ol>
+</div>
+<div class="section" id="custom-offline-payments">
+<h2>Custom Offline Payments<a class="headerlink" href="#custom-offline-payments" title="Permalink to this headline">¶</a></h2>
+<p>When you enable custom offline payments, this means that no amount will be billed to the customer through your site.</p>
+<a class="reference internal image-reference" href="../../_images/offline_payments.png"><img alt="../../_images/offline_payments.png" class="align-center" src="../../_images/offline_payments.png" style="width: 700px;" /></a>
+<p>If you are desiring to go with the offline payment method, first check the <strong>Enabled</strong> box. This will make Offline Payment the default method. Enter the title and information into their respective fields and click <strong>Save Configuration</strong>. This method allows you to accept cash, checks, or other forms of offline payment. Keep in mind when using this method, however, that the full responsibility for collecting payment now resides with you. The customer will not be billed any amount during the booking process.</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="configure_terms.html" class="btn btn-neutral float-right" title="Configure Terms and Conditions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="change_footer.html" class="btn btn-neutral float-left" title="Change Footer" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, roomify.us
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+      <script type="text/javascript" src="../../_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

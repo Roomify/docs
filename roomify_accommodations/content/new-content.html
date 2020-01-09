@@ -1,0 +1,402 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Create New Content &mdash; Roomify  documentation - Booking Systems with Drupal</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="Roomify  documentation" href="../../index.html"/>
+        <link rel="up" title="Manage Content" href="index.html"/>
+        <link rel="next" title="Manage Main Menu" href="main-menu.html"/>
+        <link rel="prev" title="Manage Site Content" href="pages.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://roomify.us"> back to roomify.us </a><br/>
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Roomify
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Roomify Platform</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../roomify/index.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Roomify for Accommodations</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction_roomify_accommodations.html">Introduction to Roomify for Accommodations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../start/index.html">Quickstart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../properties/index.html">Manage Properties</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Manage Content</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pages.html">Manage Site Pages</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Add New Content</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#blog-post">Blog Post</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#landing-page">Landing Page</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#location">Location</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#page">Page</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#things-to-do">Things to do</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="main-menu.html">Manage Main Menu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="email.html">Manage Email Templates</a></li>
+<li class="toctree-l3"><a class="reference internal" href="contact.html">Manage Contact Forms</a></li>
+<li class="toctree-l3"><a class="reference internal" href="taxonomy.html">Manage Taxonomy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../configuration/index.html">Manage Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../my_account/index.html">Manage Accounts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../accommodations_selfhost/index.html">Roomify for Accommodations - Self-Hosted</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Booking &amp; Availability tools</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../bat/index.html">BAT - Booking and Availability Management Framework</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Rooms</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms/index.html">Rooms (1.11)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms-extensions/index.html">Roomify Extensions for Rooms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">Roomify</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Roomify for Accommodations</a> &raquo;</li>
+        
+          <li><a href="index.html">Manage Content</a> &raquo;</li>
+        
+      <li>Create New Content</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="create-new-content">
+<span id="roomify-accommodations-content-new"></span><h1>Create New Content<a class="headerlink" href="#create-new-content" title="Permalink to this headline">¶</a></h1>
+<p>Your Roomify site is built on top of a powerful CMS called Drupal.  This means that in addition to being able to list properties and take bookings, you also have the ability to create an extensive blog, add local attractions (activities), create Locations, and create Landing Pages to feature components of your site. To add new content, open the <strong>Manage Content</strong> tab of your dashboard, click on <strong>Add new content</strong>, and select one of the following types of content to add:</p>
+<ol class="arabic simple">
+<li><a class="reference internal" href="#blog-post">Blog Post</a></li>
+<li><a class="reference internal" href="#landing-page">Landing Page</a></li>
+<li><a class="reference internal" href="#location">Location</a></li>
+<li><a class="reference internal" href="#page">Page</a></li>
+<li><a class="reference internal" href="#things-to-do">Things to do</a></li>
+</ol>
+<div class="section" id="blog-post">
+<h2>Blog Post<a class="headerlink" href="#blog-post" title="Permalink to this headline">¶</a></h2>
+<p>The <strong>Blog</strong> link in the main menu leads to a view of all of your blog posts.  They are displayed by most recent to oldest, but you can use the <strong>sticky at top of lists</strong> (See <strong>Categories and Placement</strong>) control to keep a post or posts at the top of the results.</p>
+<a class="reference internal image-reference" href="../../_images/blog.png"><img alt="../../_images/blog.png" class="align-center" src="../../_images/blog.png" style="width: 700px;" /></a>
+<ul class="simple">
+<li><a class="reference internal" href="#image-tab">Image Tab</a></li>
+<li><a class="reference internal" href="#body-tab">Body Tab</a></li>
+<li><a class="reference internal" href="#categories-and-placement-tab">Categories and Placement Tab</a></li>
+<li><a class="reference internal" href="#menu-settings">Menu Settings</a></li>
+</ul>
+<div class="section" id="image-tab">
+<h3>Image Tab<a class="headerlink" href="#image-tab" title="Permalink to this headline">¶</a></h3>
+<p>The blog image is displayed on the main Blog view, and on the individual blog post.  Be sure you crop the image!</p>
+<a class="reference internal image-reference" href="../../_images/blog_image.png"><img alt="../../_images/blog_image.png" class="align-center" src="../../_images/blog_image.png" style="width: 700px;" /></a>
+</div>
+<div class="section" id="body-tab">
+<h3>Body Tab<a class="headerlink" href="#body-tab" title="Permalink to this headline">¶</a></h3>
+<p>Write your blog post here!</p>
+</div>
+<div class="section" id="categories-and-placement-tab">
+<h3>Categories and Placement Tab<a class="headerlink" href="#categories-and-placement-tab" title="Permalink to this headline">¶</a></h3>
+<dl class="docutils">
+<dt><em>Tags</em></dt>
+<dd>Add tags by clicking in the field and selecting a tag. You can select additional tags by clicking again, next to the previously selected item.  If the tag you are looking for is not in the list, type the name (such as <strong>Orange</strong>). A box will appear with the text: “The term <strong>Orange</strong> will be added”, click on the box to create the tag and add it to your blog post.</dd>
+<dt><em>Sticky at top of lists</em></dt>
+<dd>This setting will keep a post or posts at the top of the results, above newer posts, and will cause the post to appear in the <strong>Featured Posts</strong> view in the sidebar of your blog posts.</dd>
+<dt><em>Featured Blog Post</em></dt>
+<dd>This setting will make the blog post featured at the top of the blog page.  Only one post can be featured at a time, so be sure to unfeature the old post when you are featuring a new one, or you will not see any changes!</dd>
+</dl>
+</div>
+<div class="section" id="menu-settings">
+<h3>Menu Settings<a class="headerlink" href="#menu-settings" title="Permalink to this headline">¶</a></h3>
+<p>To add a blog post to your site menu, click on <strong>Provide a menu link</strong>.  Edit the Menu link title, if you wish to, and select either the main menu or a parent item to determine where the post will appear.</p>
+</div>
+</div>
+<div class="section" id="landing-page">
+<h2>Landing Page<a class="headerlink" href="#landing-page" title="Permalink to this headline">¶</a></h2>
+<p>Landing pages are an extremely flexible way to highlight content on your site. They allow you to populate a single webpage (most commonly a homepage) with a wide selection of your content and with certain widgets. Because they are so flexible, they can be a bit daunting at first glance, so we will step through an example. Begin by creating a new landing page: Dashboard &gt; Manage Content &gt; Add new content &gt; Landing Page</p>
+<p>Give your landing page a title to identify its application. The <strong>Is edge to edge</strong> option determines whether the content is padded on the sides or not.  Experiment with this to see which way you like it better!</p>
+<a class="reference internal image-reference" href="../../_images/landing_page.png"><img alt="../../_images/landing_page.png" class="align-center" src="../../_images/landing_page.png" style="width: 700px;" /></a>
+<p>Now we will add some content to our page.  You will have the option to add a 1, 2, 3, or 4 column Row, or the <strong>Latest Blog Posts</strong> widget. A row is a horizontal section of the page.  The number of columns in the row determines how many elements can be added to the row. The number of rows you add will depend on how many elements you want to include on your Landing page. You will see examples of this as we add content to our page.</p>
+<p>In this example, we will feature two properties on our site. One called “Locanda Vivaldi,” and one called “Casa Azzurra.” Because we will have two properties, we will select a 2-column row and one property will go in each column:</p>
+<ol class="arabic simple">
+<li>Click on <strong>Add 2-Column Row</strong></li>
+<li>Click on <strong>Edit 2-Column Row</strong></li>
+<li>Row Title - If you want this row to have a title, add one, otherwise you can leave it blank. For our example, this row is titled <strong>Featured Properties</strong></li>
+<li>Row View - Again, you can decide if you want the content to be edge to edge.  If you are using a background, you will probably want edge to edge.</li>
+<li>Row Background - You can select a color, or add an image.  For this row, the background has been left blank.</li>
+<li>First Element - Each column will contain an element. To feature a property, select <strong>Property</strong> from the drop down list, and click <strong>Add new element</strong></li>
+<li>Start typing the name of the property you wish to feature, and select it from the autocomplete - the first property in our example is “Casa Azzurra”</li>
+<li>Second Element - click on the <strong>second element</strong> tab, and repeat the steps - select <strong>Property</strong>, click <strong>Add new element</strong>, and type in the name of the second property you wish to feature (in this case, ‘Locanda Vivaldi’)</li>
+<li>The last setting to pay attention to is whether or not you want to link your new landing page to the menu. You will also be able to select where on the menu your page will appear.</li>
+<li>Click <strong>Save and Close</strong> - the modal window will close</li>
+<li>IMPORTANT! - Click on the green <strong>Save</strong> button at the bottom of the page, you should now see your new landing page, with two featured properties!</li>
+</ol>
+<p>Because the purpose of landing pages is to give you the ability to customize as much as desired, there are many different types of content that can be added to the columns in each row you choose to add. In the example above, you now have a row with two properties on display. If you want further elements, you can add another row and select a different element type. We encourage experimenting with the landing pages until you find a combination of elements that suits your needs.</p>
+</div>
+<div class="section" id="location">
+<h2>Location<a class="headerlink" href="#location" title="Permalink to this headline">¶</a></h2>
+<p>Adding a location to your site is an easy process and will allow you to highlight some of the points of interest in a specific area and mark the closest points of departure.</p>
+<a class="reference internal image-reference" href="../../_images/add_location.png"><img alt="../../_images/add_location.png" class="align-center" src="../../_images/add_location.png" style="width: 700px;" /></a>
+<p>You will also notice in the above image, the check-box <strong>Property</strong>. Adding your property locations to the map will allow guests to see which activities are close to each of your properties. To add a location, use the following steps:</p>
+<ol class="arabic simple">
+<li>Add the title of the location.</li>
+<li>If the location you are adding is one of the site properties, check the <strong>Property</strong> box.</li>
+<li>Fill out the description field to identify the location.</li>
+<li>In the second tab, add the location point to the map. This can be done by either inputting the address and selecting <strong>Get location</strong> or manually locating the point on the map.</li>
+<li>The last tab allows you to provide a link from the main menu directly to your location. For most locations, no menu link will be necessary. Your location will still show up on the <strong>Locations</strong> map. Choosing to add a link from the menu could be used when the location you added is very well known and deserves extra attention.</li>
+<li>Don’t forget to save!</li>
+</ol>
+</div>
+<div class="section" id="page">
+<h2>Page<a class="headerlink" href="#page" title="Permalink to this headline">¶</a></h2>
+<p>Basic pages allow you to add static content that can then be displayed on your site menu. A great example would be an <strong>About Us</strong> page. To add a basic page, go to <strong>Add new content</strong> under the Manage Content tab of your dashboard. From this menu, select <strong>Page</strong>. This will take you to the content form.</p>
+<a class="reference internal image-reference" href="../../_images/add_page.png"><img alt="../../_images/add_page.png" class="align-center" src="../../_images/add_page.png" style="width: 700px;" /></a>
+<p>Add the title of your page, then fill out the body field with your content. At the bottom of the window you can enable the menu link. This will give your users access to this page from your site’s main menu. Remember to save your page!</p>
+</div>
+<div class="section" id="things-to-do">
+<h2>Things to do<a class="headerlink" href="#things-to-do" title="Permalink to this headline">¶</a></h2>
+<p>Create activities to describe to guests what they can do in and around your property. Activities can also show up on the map if you give them an address and coordinates. This is a great way to help guests imagine how great a stay at your property could be.</p>
+<p>All of your activities will be displayed on a page that is accessed by the <strong>Activities</strong> link in your menu.  If you will not be using this feature, and wish to disable the link, do this by updating the menu (<a class="reference internal" href="main-menu.html#roomify-accommodations-content-menu"><span class="std std-ref">Manage Main Menu</span></a>).  Activities can be filtered by type, and clicked on to view more information.</p>
+<a class="reference internal image-reference" href="../../_images/activities.png"><img alt="../../_images/activities.png" class="align-center" src="../../_images/activities.png" style="width: 700px;" /></a>
+<div class="section" id="adding-activities">
+<h3>Adding Activities<a class="headerlink" href="#adding-activities" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><a class="reference internal" href="#sticky-at-top-of-lists">Sticky at top of lists</a></li>
+<li><a class="reference internal" href="#description-tab">Description Tab</a></li>
+<li><a class="reference internal" href="#slideshow-tab">Slideshow Tab</a></li>
+<li><a class="reference internal" href="#location-tab">Location Tab</a></li>
+<li><a class="reference internal" href="#menu-settings-tab">Menu Settings Tab</a></li>
+</ul>
+<div class="section" id="sticky-at-top-of-lists">
+<h4>Sticky at top of lists<a class="headerlink" href="#sticky-at-top-of-lists" title="Permalink to this headline">¶</a></h4>
+<p>Checking this box when creating an activity will keep it at the top of the /activities page, regardless of how many activities you add to your site.</p>
+</div>
+<div class="section" id="description-tab">
+<h4>Description Tab<a class="headerlink" href="#description-tab" title="Permalink to this headline">¶</a></h4>
+<dl class="docutils">
+<dt><em>Activity Type</em></dt>
+<dd>This describes the type of activity you are creating. Types can be added by clicking in the field and selecting a type. You can select additional types by clicking again, next to the previously selected item.  If the type you are looking for is not in the list, type the name (such as “Day at the Beach”). A box will appear with the text: “The term <strong>Day at the Beach</strong> will be added,” click on the box to create the type and add it to your activity.</dd>
+<dt><em>Body</em></dt>
+<dd>Use this field to describe your activity!</dd>
+</dl>
+</div>
+<div class="section" id="slideshow-tab">
+<h4>Slideshow Tab<a class="headerlink" href="#slideshow-tab" title="Permalink to this headline">¶</a></h4>
+<p>Add an image or images to your activity.  The first image will be used on the /activities page, and all others will be shown in the slideshow on the activity itself. Ensure that you crop your images, or you may see unexpected results!  The link to crop an image is found here:</p>
+<a class="reference internal image-reference" href="../../_images/image_crops.png"><img alt="../../_images/image_crops.png" class="align-center" src="../../_images/image_crops.png" style="width: 700px;" /></a>
+</div>
+<div class="section" id="location-tab">
+<h4>Location Tab<a class="headerlink" href="#location-tab" title="Permalink to this headline">¶</a></h4>
+<p>You can display a map on the activity by setting the location. The address is optional.  If you fill this in, it will be shown in a tooltip when the marker is clicked on.  To set the marker location, use the Map Coordinates.  The coordinates can be set in two ways:</p>
+<ol class="arabic simple">
+<li>Enter an address in the <strong>Geocode Address</strong> field.  Click on <strong>Find marker</strong> (under the map). Once the marker position has been moved, click on <strong>Place marker here</strong> and confirm.</li>
+<li>Drag the marker to the correct location on the map. Click on <strong>Find marker</strong> (under the map). Once the marker position has been moved, click on <strong>Place marker here</strong> and confirm.</li>
+</ol>
+<p>Here is an example of an activity with the geo location set and an address filled out.</p>
+<a class="reference internal image-reference" href="../../_images/location_activity.png"><img alt="../../_images/location_activity.png" class="align-center" src="../../_images/location_activity.png" style="width: 700px;" /></a>
+</div>
+<div class="section" id="menu-settings-tab">
+<h4>Menu Settings Tab<a class="headerlink" href="#menu-settings-tab" title="Permalink to this headline">¶</a></h4>
+<p>To add an activity to your site menu, click on <strong>Provide a menu link</strong>.  Edit the Menu link title, if you wish to, and select the parent item.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="main-menu.html" class="btn btn-neutral float-right" title="Manage Main Menu" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="pages.html" class="btn btn-neutral float-left" title="Manage Site Content" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, roomify.us
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+      <script type="text/javascript" src="../../_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

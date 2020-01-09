@@ -1,0 +1,307 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Global Booking Settings &mdash; Roomify  documentation - Booking Systems with Drupal</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="Roomify  documentation" href="../../index.html"/>
+        <link rel="up" title="Manage Configuration" href="index.html"/>
+        <link rel="next" title="Manage Offers" href="manage_offers.html"/>
+        <link rel="prev" title="Configure Terms and Conditions" href="configure_terms.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://roomify.us"> back to roomify.us </a><br/>
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Roomify
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Roomify Platform</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../roomify/index.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Roomify for Accommodations</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction_roomify_accommodations.html">Introduction to Roomify for Accommodations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../start/index.html">Quickstart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../properties/index.html">Manage Properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../content/index.html">Manage Content</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Manage Configuration</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="quicksetup.html">Quick Setup</a></li>
+<li class="toctree-l3"><a class="reference internal" href="manage_users.html">Manage Users</a></li>
+<li class="toctree-l3"><a class="reference internal" href="configure_social.html">Configure Social Sharing Platforms</a></li>
+<li class="toctree-l3"><a class="reference internal" href="change_footer.html">Change Footer Text</a></li>
+<li class="toctree-l3"><a class="reference internal" href="payment_methods.html">Payment Methods</a></li>
+<li class="toctree-l3"><a class="reference internal" href="configure_terms.html">Configure Terms and Conditions</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Global Booking Settings</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#booking-settings">Booking Settings</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#booking-page-settings">Booking Page Settings</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="manage_offers.html">Manage Offers</a></li>
+<li class="toctree-l3"><a class="reference internal" href="booking_notifications.html">Booking Notifications</a></li>
+<li class="toctree-l3"><a class="reference internal" href="commerce_settings.html">Commerce Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="global_site.html">Global Site Settings</a></li>
+<li class="toctree-l3"><a class="reference internal" href="google_captcha.html">Google Captcha</a></li>
+<li class="toctree-l3"><a class="reference internal" href="translations.html">Translations</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../my_account/index.html">Manage Accounts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../accommodations_selfhost/index.html">Roomify for Accommodations - Self-Hosted</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Booking &amp; Availability tools</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../bat/index.html">BAT - Booking and Availability Management Framework</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Rooms</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms/index.html">Rooms (1.11)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms-extensions/index.html">Roomify Extensions for Rooms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">Roomify</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Roomify for Accommodations</a> &raquo;</li>
+        
+          <li><a href="index.html">Manage Configuration</a> &raquo;</li>
+        
+      <li>Global Booking Settings</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="global-booking-settings">
+<span id="roomify-accommodations-global-booking"></span><h1>Global Booking Settings<a class="headerlink" href="#global-booking-settings" title="Permalink to this headline">¶</a></h1>
+<p>Working on the Quickstart?  Get back to Step 3 here: <a class="reference internal" href="../start/setup_bookings.html#roomify-accommodations-setup-bookings"><span class="std std-ref">Booking Settings</span></a>.</p>
+<p>Your Roomify for Accommodations site offers several ways to customize how you take bookings.  The Global Booking Settings, accessed via the Manage Configuration tab of your dashboard, will apply to all properties, site-wide.</p>
+<ol class="arabic simple">
+<li><a class="reference internal" href="#booking-settings">Booking Settings</a></li>
+<li><a class="reference internal" href="#booking-page-settings">Booking Page settings</a></li>
+</ol>
+<div class="section" id="booking-settings">
+<h2>Booking Settings<a class="headerlink" href="#booking-settings" title="Permalink to this headline">¶</a></h2>
+<p>These settings control how a booking can be made on the site, as well as some configuration around how taxes are calculated, and whether or not a deposit is taken as payment for the booking.</p>
+<blockquote>
+<div><p>How soon a booking may start - This will determine how close to the start date a booking can be made.  The options are <strong>Same day</strong> up through <strong>7 days</strong> in advance.  This means that if the site is configured to allow bookings starting 2 days in advance, a user will only see availability that is 2+ days from the current date.</p>
+<p>Advance Bookings - This will limit how far in the future bookings can be made.  The options for this are not limited, you can allow bookings 50 years from now, if you like (although we don’t recommend it!).  The default setting is one year.</p>
+<p>Allow instant bookings - Enabling instant bookings means that users will be able to book and pay immediately. Make sure to setup a suitable payment method!  If this is disabled, users will only be able to book via a conversation. (For more information, see - <a class="reference internal" href="../properties/enquiries.html#roomify-accommodations-properties-enquiries"><span class="std std-ref">Enquiries</span></a>) Instant bookings can still be turned off for individual room types/houses of a property, but an owner cannot make a property available for instant bookings if the site manager has turned them off Globally.</p>
+<p>Apply property taxes to property add-ons - This option will apply any taxes that are configured for a property to any add-ons that are configured for the House or Rooms of that property. (See the Manage Rooms - Add-Ons section for more information - <a class="reference internal" href="../properties/properties.html#roomify-accommodation-properties-properties"><span class="std std-ref">Properties</span></a>)</p>
+<p>Allow bookings based on a deposit - Allow guests to make bookings by paying a deposit (percentage or fixed amount) instead of the full booking price of their stay.</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If deposit is used, the remaining balance will be captured in person, and cannot be charged via the website.</p>
+</div>
+</div>
+<div class="section" id="booking-page-settings">
+<h2>Booking Page Settings<a class="headerlink" href="#booking-page-settings" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">These settings only apply to sites that have <strong>deposit based</strong> payments enabled. You can use them to choose what labels you show to your guests during checkout.</p>
+</div>
+<ul class="simple">
+<li>Deposit label - If you use %deposit% in this label, it will be replaced with the value set in the <strong>Payment deposit Settings</strong>.  This labels the percentage of the booking that will be charged to the guest on checkout.</li>
+<li>Payable now label - This labels the amount that is due on checkout.</li>
+<li>Remainder label - This labels the amount that will be due when the guest checks in at their destination.</li>
+<li>Total cost label - This labels the full amount a guest will pay for the stay.</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="manage_offers.html" class="btn btn-neutral float-right" title="Manage Offers" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="configure_terms.html" class="btn btn-neutral float-left" title="Configure Terms and Conditions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, roomify.us
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+      <script type="text/javascript" src="../../_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

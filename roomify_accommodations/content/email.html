@@ -1,0 +1,303 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Manage Email Templates &mdash; Roomify  documentation - Booking Systems with Drupal</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+        <link rel="index" title="Index"
+              href="../../genindex.html"/>
+        <link rel="search" title="Search" href="../../search.html"/>
+    <link rel="top" title="Roomify  documentation" href="../../index.html"/>
+        <link rel="up" title="Manage Content" href="index.html"/>
+        <link rel="next" title="Manage Contact Form Submissions" href="contact.html"/>
+        <link rel="prev" title="Manage Main Menu" href="main-menu.html"/> 
+
+  
+  <script src="../../_static/js/modernizr.min.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-54881384-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          <a href="https://roomify.us"> back to roomify.us </a><br/>
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> Roomify
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">Roomify Platform</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../roomify/index.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Roomify for Accommodations</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../introduction_roomify_accommodations.html">Introduction to Roomify for Accommodations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../start/index.html">Quickstart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../properties/index.html">Manage Properties</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Manage Content</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="pages.html">Manage Site Pages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="new-content.html">Add New Content</a></li>
+<li class="toctree-l3"><a class="reference internal" href="main-menu.html">Manage Main Menu</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Manage Email Templates</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#title">Title</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#subject">Subject</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#body">Body</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#additional-options">Additional Options</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="contact.html">Manage Contact Forms</a></li>
+<li class="toctree-l3"><a class="reference internal" href="taxonomy.html">Manage Taxonomy</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../configuration/index.html">Manage Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../my_account/index.html">Manage Accounts</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../accommodations_selfhost/index.html">Roomify for Accommodations - Self-Hosted</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Booking &amp; Availability tools</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../bat/index.html">BAT - Booking and Availability Management Framework</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Rooms</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms/index.html">Rooms (1.11)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../rooms-extensions/index.html">Roomify Extensions for Rooms</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">Roomify</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="../index.html">Roomify for Accommodations</a> &raquo;</li>
+        
+          <li><a href="index.html">Manage Content</a> &raquo;</li>
+        
+      <li>Manage Email Templates</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="manage-email-templates">
+<span id="roomify-accommodations-content-email"></span><h1>Manage Email Templates<a class="headerlink" href="#manage-email-templates" title="Permalink to this headline">¶</a></h1>
+<p>The text of the emails sent by your site can be customized by Roomify Managers.  In the <strong>Manage Content</strong> tab of your dashboard, click on <strong>Manage Email Templates</strong>.  Find the template you wish to update, and click <strong>Edit</strong>.</p>
+<a class="reference internal image-reference" href="../../_images/email_templates.png"><img alt="../../_images/email_templates.png" class="align-center" src="../../_images/email_templates.png" style="width: 600px;" /></a>
+<ol class="arabic simple">
+<li><a class="reference internal" href="#title">Title</a></li>
+<li><a class="reference internal" href="#subject">Subject</a></li>
+<li><a class="reference internal" href="#body">Body</a></li>
+<li><a class="reference internal" href="#additional-options">Additional Options</a></li>
+</ol>
+<div class="section" id="title">
+<h2>Title<a class="headerlink" href="#title" title="Permalink to this headline">¶</a></h2>
+<p>The title is only used within the site, on administrative pages.</p>
+</div>
+<div class="section" id="subject">
+<h2>Subject<a class="headerlink" href="#subject" title="Permalink to this headline">¶</a></h2>
+<p>See: <a class="reference internal" href="#body">Body</a></p>
+</div>
+<div class="section" id="body">
+<h2>Body<a class="headerlink" href="#body" title="Permalink to this headline">¶</a></h2>
+<p>You can use certain tokens in the Subject and the Body of your emails, that will be replaced with the information relevant to the action that triggered the email. The tokens available are listed beneath the Body field. There are a few tokens that are available to all emails - site name, site URL, and the site login URL.</p>
+<p>An example of how a token works:</p>
+<p>Your sites’ URL is “mysite.roomify.me”.  You would like the subject line of the order confirmation email to read “Thank you for making a booking at mysite.roomify.me”</p>
+<p>The Subject field in the template should be: Thank you for making a booking at [site:url]</p>
+</div>
+<div class="section" id="additional-options">
+<h2>Additional Options<a class="headerlink" href="#additional-options" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>From Override:</dt>
+<dd>The <strong>From Override</strong> allows you to customize the email address that is used as the Sender email.  By default, all email templates will use the site e-mail address. If you would like a particular template to use something different, you can specify that here.</dd>
+<dt>CC Default:</dt>
+<dd>If you would like to cc an email address or addresses when a system email is sent, enter them here.</dd>
+<dt>BCC Default:</dt>
+<dd>As with the cc default, If you would like to bcc an email address or addresses when a system email is sent, enter them here.</dd>
+</dl>
+<p>Be sure you click <strong>Save</strong>!</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="contact.html" class="btn btn-neutral float-right" title="Manage Contact Form Submissions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="main-menu.html" class="btn btn-neutral float-left" title="Manage Main Menu" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, roomify.us
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../../_static/jquery.js"></script>
+      <script type="text/javascript" src="../../_static/underscore.js"></script>
+      <script type="text/javascript" src="../../_static/doctools.js"></script>
+      <script type="text/javascript" src="../../_static/language_data.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
