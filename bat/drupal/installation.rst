@@ -47,8 +47,8 @@ Install FullCalendar Libraries
 
     .. group-tab:: 7.x
 
-        #. Download the correct FullCalendar version (`Check here for the current compatible version of FullCalendar <http://cgit.drupalcode.org/bat/tree/bat.make#n28>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar/``.
-        #. Download the correct Fullcalendar Scheduler version (`Check here for the current compatible version of FullCalendar Scheduler <http://cgit.drupalcode.org/bat/tree/bat.make#n36>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar-scheduler/``.
+        #. Download the correct FullCalendar version (`Check here for the current compatible version of FullCalendar <https://git.drupalcode.org/project/bat/blob/7.x-1.x/bat.make#L28>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar/``.
+        #. Download the correct Fullcalendar Scheduler version (`Check here for the current compatible version of FullCalendar Scheduler <https://git.drupalcode.org/project/bat/blob/7.x-1.x/bat.make#L36>`_ and unpack in ``sites/all/libraries/``. You should have a structure similar to ``libraries/fullcalendar-scheduler/``.
         #. Visit ``admin/config/development/jquery_update`` and ensure that the default jQuery version for your admin theme, as well as the site overall, is at least 1.10.
 
 Verify Setup
