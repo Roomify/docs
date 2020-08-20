@@ -5,9 +5,6 @@ To build locally
 * Run the command ```sphinx-build -n . _build``` in this directory.
 * Open the file _build/index.html in your browser to view.
 
-To deploy:
-
-
 To deploy
 =========
 
